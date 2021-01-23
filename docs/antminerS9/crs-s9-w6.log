@@ -1,0 +1,420 @@
+System
+Miner Type	Antminer S9
+Hostname	crs-s9-w6-02:50:74:F1:73:8C
+Model	GNU/Linux
+Hardware Version	16.8.1.3
+Kernel Version	Linux 3.14.0-xilinx-gb190cb0-dirty #57 SMP PREEMPT Fri Dec 9 14:49:22 CST 2016
+File System Version	Wed May 3 19:18:52 CST 2017
+BMminer Version	2.0.0
+Uptime	8
+Load Average	0.74, 0.50, 0.23
+Memory
+Total Available	
+23120 kB / 1015424 kB (2%)
+Free	
+992304 kB / 1015424 kB (98%)
+Cached	
+0 kB / 1015424 kB (0%)
+Buffered	
+0 kB / 1015424 kB (0%)
+Network
+IP Status	
+
+eth0	Type: DHCP
+Address: 192.168.2.126
+Netmask: 255.255.255.0
+
+==== Monitor
+
+Mem: 24368K used, 991056K free, 0K shrd, 837544K buff, 837592K cached
+CPU:  0.0% usr  5.2% sys  0.0% nic 94.7% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 0.76 0.58 0.30 1/67 2504
+PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+28649     1 root     S <   141m 14.2   0  1.7 /usr/bin/bmminer --fixed-freq --no-pre-heat --version-file /usr/bin/compile_time --api-listen --default-config /config/bmminer.conf
+2408  2403 root     R     2836  0.2   1  1.7 top -b -n 1
+7     2 root     SW       0  0.0   1  1.7 [rcu_preempt]
+1403     1 root     S     4408  0.4   1  0.0 /usr/bin/monitor-recobtn /usr/bin/factory_config_reset.sh
+1495     1 root     S     3084  0.3   1  0.0 /usr/bin/ntpd -p /var/run/ntp.pid -g
+1419     1 root     S     2840  0.2   0  0.0 /sbin/getty 115200 ttyPS0
+1420     1 root     S     2840  0.2   0  0.0 /sbin/getty 38400 tty1
+1421     1 root     S     2836  0.2   0  0.0 {monitorcg} /bin/sh /sbin/monitorcg
+2403  1373 root     S     2836  0.2   1  0.0 /bin/sh /www/pages/cgi-bin/monitor.cgi
+2410  2403 root     S     2836  0.2   1  0.0 /bin/sh /www/pages/cgi-bin/monitor.cgi
+6721     1 root     S     2836  0.2   0  0.0 udhcpc -b -t 10 -A 10 -x hostname crs-s9-w6-02:50:74:F1:73:8C -i eth0
+1373     1 root     S     2776  0.2   1  0.0 /usr/sbin/lighttpd -f /etc/lighttpd.conf
+1508  1421 root     S     2704  0.2   0  0.0 sleep 20m
+7560     1 avahi    S     2612  0.2   0  0.0 avahi-daemon: running [crs-s9-w6-025074F1738C.local]
+7567  7560 avahi    S     2612  0.2   1  0.0 avahi-daemon: chroot helper
+1354     1 root     S     2092  0.2   0  0.0 /usr/sbin/dropbear -r /config/dropbear_rsa_host_key -p 22
+1     0 root     S     1688  0.1   0  0.0 init [5]
+1110     1 root     S     1676  0.1   0  0.0 /usr/bin/monitor-ipsig
+1080     2 root     SW       0  0.0   0  0.0 [ubi_bgt0d]
+19     2 root     SW       0  0.0   1  0.0 [kworker/u4:1]
+16891     2 root     SW       0  0.0   0  0.0 [kworker/u4:0]
+14     2 root     SW       0  0.0   1  0.0 [ksoftirqd/1]
+3     2 root     SW       0  0.0   0  0.0 [ksoftirqd/0]
+345     2 root     SW       0  0.0   0  0.0 [kworker/0:1]
+7159     2 root     SW       0  0.0   0  0.0 [kworker/u4:2]
+13     2 root     SW       0  0.0   1  0.0 [migration/1]
+10     2 root     SW       0  0.0   0  0.0 [migration/0]
+904     2 root     SW       0  0.0   1  0.0 [kworker/1:1]
+18     2 root     SW       0  0.0   1  0.0 [kdevtmpfs]
+2     0 root     SW       0  0.0   1  0.0 [kthreadd]
+5     2 root     SW<      0  0.0   0  0.0 [kworker/0:0H]
+8     2 root     SW       0  0.0   0  0.0 [rcu_sched]
+9     2 root     SW       0  0.0   0  0.0 [rcu_bh]
+11     2 root     SW       0  0.0   0  0.0 [watchdog/0]
+12     2 root     SW       0  0.0   1  0.0 [watchdog/1]
+16     2 root     SW<      0  0.0   1  0.0 [kworker/1:0H]
+17     2 root     SW<      0  0.0   1  0.0 [khelper]
+218     2 root     SW<      0  0.0   0  0.0 [writeback]
+220     2 root     SW<      0  0.0   1  0.0 [bioset]
+222     2 root     SW<      0  0.0   1  0.0 [kblockd]
+238     2 root     SW       0  0.0   0  0.0 [khubd]
+253     2 root     SW<      0  0.0   0  0.0 [edac-poller]
+344     2 root     SW<      0  0.0   0  0.0 [rpciod]
+355     2 root     SW       0  0.0   0  0.0 [khungtaskd]
+360     2 root     SW       0  0.0   0  0.0 [kswapd0]
+361     2 root     SW       0  0.0   1  0.0 [fsnotify_mark]
+362     2 root     SW<      0  0.0   1  0.0 [nfsiod]
+1004     2 root     SW<      0  0.0   1  0.0 [xemacps]
+1019     2 root     SW<      0  0.0   1  0.0 [kpsmoused]
+1075     2 root     SW<      0  0.0   1  0.0 [deferwq]
+1082     2 root     SW       0  0.0   0  0.0 [ubifs_bgt0_0]
+1318     2 root     SW       0  0.0   0  0.0 [kworker/0:2]
+1431     2 root     SW       0  0.0   1  0.0 [kworker/1:2]
+
+==== Kernel Log
+
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 3.14.0-xilinx-gb190cb0-dirty (lzq@armdev2) (gcc version 4.8.3 20140320 (prerelease) (Sourcery CodeBench Lite 2014.05-23) ) #57 SMP PREEMPT Fri Dec 9 14:49:22 CST 2016
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=18c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine model: Xilinx Zynq
+[    0.000000] cma: CMA: reserved 128 MiB at 27800000
+[    0.000000] Memory policy: Data cache writealloc
+[    0.000000] On node 0 totalpages: 258048
+[    0.000000] free_area_init_node: node 0, pgdat c0740a40, node_mem_map e6fd8000
+[    0.000000]   Normal zone: 1520 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 194560 pages, LIFO batch:31
+[    0.000000]   HighMem zone: 496 pages used for memmap
+[    0.000000]   HighMem zone: 63488 pages, LIFO batch:15
+[    0.000000] PERCPU: Embedded 8 pages/cpu @e6fc0000 s9088 r8192 d15488 u32768
+[    0.000000] pcpu-alloc: s9088 r8192 d15488 u32768 alloc=8*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 256528
+[    0.000000] Kernel command line: noinitrd mem=1008M console=ttyPS0,115200 root=ubi0:rootfs ubi.mtd=1 rootfstype=ubifs rw rootwait
+[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Memory: 884148K/1032192K available (5032K kernel code, 283K rwdata, 1916K rodata, 204K init, 258K bss, 148044K reserved, 253952K highmem)
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     vmalloc : 0xf0000000 - 0xff000000   ( 240 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xef800000   ( 760 MB)
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc06d1374   (6949 kB)
+[    0.000000]       .init : 0xc06d2000 - 0xc0705380   ( 205 kB)
+[    0.000000]       .data : 0xc0706000 - 0xc074cf78   ( 284 kB)
+[    0.000000]        .bss : 0xc074cf84 - 0xc078d9fc   ( 259 kB)
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000] 	Dump stacks of tasks blocking RCU-preempt GP.
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=2.
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] ps7-slcr mapped to f0004000
+[    0.000000] zynq_clock_init: clkc starts at f0004100
+[    0.000000] Zynq clock init
+[    0.000015] sched_clock: 64 bits at 333MHz, resolution 3ns, wraps every 3298534883328ns
+[    0.000306] ps7-ttc #0 at f0006000, irq=43
+[    0.000613] Console: colour dummy device 80x30
+[    0.000652] Calibrating delay loop... 1325.46 BogoMIPS (lpj=6627328)
+[    0.040205] pid_max: default: 32768 minimum: 301
+[    0.040428] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.040449] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.042597] CPU: Testing write buffer coherency: ok
+[    0.042942] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.043002] Setting up static identity map for 0x4c4af8 - 0x4c4b50
+[    0.043222] L310 cache controller enabled
+[    0.043242] l2x0: 8 ways, CACHE_ID 0x410000c8, AUX_CTRL 0x72760000, Cache size: 512 kB
+[    0.121033] CPU1: Booted secondary processor
+[    0.210226] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.210355] Brought up 2 CPUs
+[    0.210373] SMP: Total of 2 processors activated.
+[    0.210381] CPU: All CPU(s) started in SVC mode.
+[    0.211030] devtmpfs: initialized
+[    0.213444] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+[    0.214643] regulator-dummy: no parameters
+[    0.222341] NET: Registered protocol family 16
+[    0.224584] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.226862] cpuidle: using governor ladder
+[    0.226876] cpuidle: using governor menu
+[    0.234280] syscon f8000000.ps7-slcr: regmap [mem 0xf8000000-0xf8000fff] registered
+[    0.235781] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.
+[    0.235795] hw-breakpoint: maximum watchpoint size is 4 bytes.
+[    0.235909] zynq-ocm f800c000.ps7-ocmc: ZYNQ OCM pool: 256 KiB @ 0xf0080000
+[    0.257552] bio: create slab <bio-0> at 0
+[    0.258971] vgaarb: loaded
+[    0.259685] SCSI subsystem initialized
+[    0.261389] usbcore: registered new interface driver usbfs
+[    0.261568] usbcore: registered new interface driver hub
+[    0.261789] usbcore: registered new device driver usb
+[    0.262312] media: Linux media interface: v0.10
+[    0.262475] Linux video capture interface: v2.00
+[    0.262710] pps_core: LinuxPPS API ver. 1 registered
+[    0.262722] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.262842] PTP clock support registered
+[    0.263188] EDAC MC: Ver: 3.0.0
+[    0.264219] Advanced Linux Sound Architecture Driver Initialized.
+[    0.267040] DMA-API: preallocated 4096 debug entries
+[    0.267054] DMA-API: debugging enabled by kernel config
+[    0.267129] Switched to clocksource arm_global_timer
+[    0.287276] NET: Registered protocol family 2
+[    0.287946] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.288042] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.288201] TCP: Hash tables configured (established 8192 bind 8192)
+[    0.288266] TCP: reno registered
+[    0.288284] UDP hash table entries: 512 (order: 2, 16384 bytes)
+[    0.288332] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+[    0.288601] NET: Registered protocol family 1
+[    0.288921] RPC: Registered named UNIX socket transport module.
+[    0.288933] RPC: Registered udp transport module.
+[    0.288942] RPC: Registered tcp transport module.
+[    0.288950] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.288963] PCI: CLS 0 bytes, default 64
+[    0.289402] hw perfevents: enabled with ARMv7 Cortex-A9 PMU driver, 7 counters available
+[    0.291424] futex hash table entries: 512 (order: 3, 32768 bytes)
+[    0.292813] bounce pool size: 64 pages
+[    0.293726] jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+[    0.293915] msgmni has been set to 1486
+[    0.294700] io scheduler noop registered
+[    0.294714] io scheduler deadline registered
+[    0.294751] io scheduler cfq registered (default)
+[    0.309149] dma-pl330 f8003000.ps7-dma: Loaded driver for PL330 DMAC-2364208
+[    0.309169] dma-pl330 f8003000.ps7-dma: 	DBUFF-128x8bytes Num_Chans-8 Num_Peri-4 Num_Events-16
+[    0.431534] e0001000.serial: ttyPS0 at MMIO 0xe0001000 (irq = 82, base_baud = 3124999) is a xuartps
+[    1.004058] console [ttyPS0] enabled
+[    1.008354] xdevcfg f8007000.ps7-dev-cfg: ioremap 0xf8007000 to f0068000
+[    1.015984] [drm] Initialized drm 1.1.0 20060810
+[    1.033053] brd: module loaded
+[    1.042426] loop: module loaded
+[    1.051842] e1000e: Intel(R) PRO/1000 Network Driver - 2.3.2-k
+[    1.057679] e1000e: Copyright(c) 1999 - 2013 Intel Corporation.
+[    1.065445] libphy: XEMACPS mii bus: probed
+[    1.069993] ------------- phy_id = 0x3625e62
+[    1.074728] xemacps e000b000.ps7-ethernet: pdev->id -1, baseaddr 0xe000b000, irq 54
+[    1.083434] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.090089] ehci-pci: EHCI PCI platform driver
+[    1.097315] zynq-dr e0002000.ps7-usb: Unable to init USB phy, missing?
+[    1.104118] usbcore: registered new interface driver usb-storage
+[    1.110986] mousedev: PS/2 mouse device common for all mice
+[    1.117076] i2c /dev entries driver
+[    1.123971] zynq-edac f8006000.ps7-ddrc: ecc not enabled
+[    1.129561] cpufreq_cpu0: failed to get cpu0 regulator: -19
+[    1.135443] Xilinx Zynq CpuIdle Driver started
+[    1.140304] sdhci: Secure Digital Host Controller Interface driver
+[    1.146401] sdhci: Copyright(c) Pierre Ossman
+[    1.150809] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.157567] mmc0: no vqmmc regulator found
+[    1.161577] mmc0: no vmmc regulator found
+[    1.197167] mmc0: SDHCI controller on e0100000.ps7-sdio [e0100000.ps7-sdio] using ADMA
+[    1.205852] usbcore: registered new interface driver usbhid
+[    1.211365] usbhid: USB HID core driver
+[    1.216058] nand: device found, Manufacturer ID: 0x2c, Chip ID: 0xda
+[    1.222350] nand: Micron MT29F2G08ABAEAWP
+[    1.226321] nand: 256MiB, SLC, page size: 2048, OOB size: 64
+[    1.232283] Bad block table found at page 131008, version 0x01
+[    1.238519] Bad block table found at page 130944, version 0x01
+[    1.244567] 3 ofpart partitions found on MTD device pl353-nand
+[    1.250337] Creating 3 MTD partitions on "pl353-nand":
+[    1.255439] 0x000000000000-0x000002000000 : "BOOT.bin-env-dts-kernel"
+[    1.263534] 0x000002000000-0x00000b000000 : "angstram-rootfs"
+[    1.270853] 0x00000b000000-0x000010000000 : "upgrade-rootfs"
+[    1.279817] TCP: cubic registered
+[    1.283055] NET: Registered protocol family 17
+[    1.287775] Registering SWP/SWPB emulation handler
+[    1.293672] regulator-dummy: disabling
+[    1.298081] UBI: attaching mtd1 to ubi0
+[    1.608805] UBI: scanning is finished
+[    1.629532] UBI: volume 0 ("rootfs") re-sized from 192 to 1108 LEBs
+[    1.636597] UBI: attached mtd1 (name "angstram-rootfs", size 144 MiB) to ubi0
+[    1.643672] UBI: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[    1.650436] UBI: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+[    1.657100] UBI: VID header offset: 2048 (aligned 2048), data offset: 4096
+[    1.663978] UBI: good PEBs: 1152, bad PEBs: 0, corrupted PEBs: 0
+[    1.669958] UBI: user volume: 1, internal volumes: 1, max. volumes count: 128
+[    1.677066] UBI: max/mean erase counter: 1/0, WL threshold: 4096, image sequence number: 767909345
+[    1.686022] UBI: available PEBs: 0, total reserved PEBs: 1152, PEBs reserved for bad PEB handling: 40
+[    1.695237] UBI: background thread "ubi_bgt0d" started, PID 1080
+[    1.695243] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+[    1.699197] ALSA device list:
+[    1.699201]   No soundcards found.
+[    1.717882] UBIFS: background thread "ubifs_bgt0_0" started, PID 1082
+[    1.791107] UBIFS: mounted UBI device 0, volume 0, name "rootfs"
+[    1.797040] UBIFS: LEB size: 126976 bytes (124 KiB), min./max. I/O unit sizes: 2048 bytes/2048 bytes
+[    1.806186] UBIFS: FS size: 128626688 bytes (122 MiB, 1013 LEBs), journal size 9023488 bytes (8 MiB, 72 LEBs)
+[    1.816063] UBIFS: reserved for root: 0 bytes (0 KiB)
+[    1.821101] UBIFS: media format: w4/r0 (latest is w4/r0), UUID F4300A22-CCD3-41F9-98C8-CD0E0F28FD62, small LPT model
+[    1.841326] VFS: Mounted root (ubifs filesystem) on device 0:11.
+[    1.878094] devtmpfs: mounted
+[    1.881206] Freeing unused kernel memory: 204K (c06d2000 - c0705000)
+[    2.956628] random: dd urandom read with 0 bits of entropy available
+[    3.587167] 
+[    3.587167] bcm54xx_config_init
+[    4.377178] 
+[    4.377178] bcm54xx_config_init
+[    9.377980] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[    9.384086] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+[   26.759237] In axi fpga driver!
+[   26.762308] request_mem_region OK!
+[   26.765698] AXI fpga dev virtual address is 0xf01fe000
+[   26.770833] *base_vir_addr = 0x8c510
+[   26.785829] In fpga mem driver!
+[   26.789368] request_mem_region OK!
+[   26.792878] fpga mem virtual address is 0xf3000000
+[   27.537180] 
+[   27.537180] bcm54xx_config_init
+[   28.167142] 
+[   28.167142] bcm54xx_config_init
+[   32.167985] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[   32.174091] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+[  204.372812] 
+[  204.372812] bcm54xx_config_init
+[  212.373662] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[  212.379771] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+[  581.667462] random: nonblocking pool is initialized
+Detect 1GB control board of XILINX
+Miner Type = S9
+set_reset_allhashboard = 0x0000ffff
+set_reset_allhashboard = 0x00000000
+set_reset_allhashboard = 0x0000ffff
+set_reset_allhashboard = 0x0000ffff
+Check chain[5] PIC fw version=0x03
+Check chain[6] PIC fw version=0x03
+Check chain[7] PIC fw version=0x03
+Fix freq=550 Chain[5] voltage_pic=6 value=940
+Fix freq=550 Chain[6] voltage_pic=6 value=940
+Fix freq=550 Chain[7] voltage_pic=6 value=940
+set_reset_allhashboard = 0x0000ffff
+set_reset_allhashboard = 0x00000000
+Chain[J6] has 0 asic
+set_reset_hashboard = 0x00000020
+set_reset_hashboard = 0x00000000
+retry Chain[J6] has 0 asic
+set_reset_hashboard = 0x00000020
+set_reset_hashboard = 0x00000000
+retry Chain[J6] has 0 asic
+set_reset_hashboard = 0x00000020
+set_reset_hashboard = 0x00000000
+retry Chain[J6] has 0 asic
+set_reset_hashboard = 0x00000020
+set_reset_hashboard = 0x00000000
+retry Chain[J6] has 0 asic
+set_reset_hashboard = 0x00000020
+set_reset_hashboard = 0x00000000
+retry Chain[J6] has 0 asic
+set_reset_hashboard = 0x00000020
+set_reset_hashboard = 0x00000000
+retry Chain[J6] has 0 asic
+Chain[J7] has 63 asic
+Chain[J8] has 63 asic
+Chain[J7] has no freq in PIC, set default freq=550M
+Chain[J7] has no core num in PIC
+Chain[J8] has no freq in PIC, set default freq=550M
+Chain[J8] has no core num in PIC
+
+Miner fix freq ...
+read PIC voltage=940 on chain[6]
+Chain:6 chipnum=63
+Asic[ 0]:550 
+Asic[ 1]:550 Asic[ 2]:550 Asic[ 3]:550 Asic[ 4]:550 Asic[ 5]:550 Asic[ 6]:550 Asic[ 7]:550 Asic[ 8]:550 
+Asic[ 9]:550 Asic[10]:550 Asic[11]:550 Asic[12]:550 Asic[13]:550 Asic[14]:550 Asic[15]:550 Asic[16]:550 
+Asic[17]:550 Asic[18]:550 Asic[19]:550 Asic[20]:550 Asic[21]:550 Asic[22]:550 Asic[23]:550 Asic[24]:550 
+Asic[25]:550 Asic[26]:550 Asic[27]:550 Asic[28]:550 Asic[29]:550 Asic[30]:550 Asic[31]:550 Asic[32]:550 
+Asic[33]:550 Asic[34]:550 Asic[35]:550 Asic[36]:550 Asic[37]:550 Asic[38]:550 Asic[39]:550 Asic[40]:550 
+Asic[41]:550 Asic[42]:550 Asic[43]:550 Asic[44]:550 Asic[45]:550 Asic[46]:550 Asic[47]:550 Asic[48]:550 
+Asic[49]:550 Asic[50]:550 Asic[51]:550 Asic[52]:550 Asic[53]:550 Asic[54]:550 Asic[55]:550 Asic[56]:550 
+Asic[57]:550 Asic[58]:550 Asic[59]:550 Asic[60]:550 Asic[61]:550 Asic[62]:550 
+Chain:6 max freq=550
+Chain:6 min freq=550
+
+read PIC voltage=940 on chain[7]
+Chain:7 chipnum=63
+Asic[ 0]:550 
+Asic[ 1]:550 Asic[ 2]:550 Asic[ 3]:550 Asic[ 4]:550 Asic[ 5]:550 Asic[ 6]:550 Asic[ 7]:550 Asic[ 8]:550 
+Asic[ 9]:550 Asic[10]:550 Asic[11]:550 Asic[12]:550 Asic[13]:550 Asic[14]:550 Asic[15]:550 Asic[16]:550 
+Asic[17]:550 Asic[18]:550 Asic[19]:550 Asic[20]:550 Asic[21]:550 Asic[22]:550 Asic[23]:550 Asic[24]:550 
+Asic[25]:550 Asic[26]:550 Asic[27]:550 Asic[28]:550 Asic[29]:550 Asic[30]:550 Asic[31]:550 Asic[32]:550 
+Asic[33]:550 Asic[34]:550 Asic[35]:550 Asic[36]:550 Asic[37]:550 Asic[38]:550 Asic[39]:550 Asic[40]:550 
+Asic[41]:550 Asic[42]:550 Asic[43]:550 Asic[44]:550 Asic[45]:550 Asic[46]:550 Asic[47]:550 Asic[48]:550 
+Asic[49]:550 Asic[50]:550 Asic[51]:550 Asic[52]:550 Asic[53]:550 Asic[54]:550 Asic[55]:550 Asic[56]:550 
+Asic[57]:550 Asic[58]:550 Asic[59]:550 Asic[60]:550 Asic[61]:550 Asic[62]:550 
+Chain:7 max freq=550
+Chain:7 min freq=550
+
+max freq = 550
+set baud=2
+Chain[J7] PIC temp offset=62,0,0,0,0,0,35,28
+Chain[J7] chip[244] use PIC middle temp offset=0 typeID=1a
+New offset Chain[6] chip[244] local:22 remote:-99 offset:-106 
+Chain[J7] chip[244] get middle temp offset=-106 typeID=1a
+Chain[J7] chip[136] use PIC middle temp offset=28 typeID=1f
+Warning: Chain[J7] has no temp offset in PIC! will fix it
+New offset Chain[6] chip[244] local:20 remote:-99 offset:-108 
+Chain[J7] chip[244] get middle temp offset=-108 typeID=1a
+Chain[J8] PIC temp offset=62,0,0,0,0,0,37,28
+Chain[J8] chip[244] use PIC middle temp offset=0 typeID=55
+New offset Chain[7] chip[244] local:21 remote:23 offset:27 
+Chain[J8] chip[244] get middle temp offset=27 typeID=55
+Chain[J8] chip[144] use PIC middle temp offset=28 typeID=1f
+Warning: Chain[J8] has no temp offset in PIC! will fix it
+New offset Chain[7] chip[244] local:20 remote:22 offset:27 
+Chain[J8] chip[244] get middle temp offset=27 typeID=55
+Chain[J7] set working voltage=940 [6]
+Chain[J8] set working voltage=940 [6]
+restartNum = 2 , auto-reinit enabled...
+setStartTimePoint total_tv_start_sys=203 total_tv_end_sys=204
+do read_temp_func once...
+do check_asic_reg 0x08
+
+get RT hashrate from Chain[6]: (asic index start from 1-63)
+Asic[01]=65.2800 Asic[02]=63.4840 Asic[03]=60.2970 Asic[04]=61.4380 Asic[05]=63.4840 Asic[06]=62.1090 Asic[07]=59.8440 Asic[08]=62.8810 
+Asic[09]=64.7090 Asic[10]=60.4980 Asic[11]=64.0380 Asic[12]=60.4650 Asic[13]=59.6430 Asic[14]=62.1760 Asic[15]=65.2460 Asic[16]=66.1020 
+Asic[17]=55.9850 Asic[18]=66.0510 Asic[19]=66.5880 Asic[20]=58.4680 Asic[21]=61.1690 Asic[22]=66.2190 Asic[23]=61.7900 Asic[24]=62.8810 
+Asic[25]=60.5480 Asic[26]=62.4110 Asic[27]=65.6490 Asic[28]=65.1450 Asic[29]=62.6290 Asic[30]=61.4710 Asic[31]=59.9950 Asic[32]=61.7400 
+Asic[33]=65.8500 Asic[34]=66.6890 Asic[35]=63.4170 Asic[36]=66.7560 Asic[37]=63.2660 Asic[38]=61.3200 Asic[39]=69.1720 Asic[40]=67.7120 
+Asic[41]=61.5220 Asic[42]=62.4110 Asic[43]=60.3810 Asic[44]=64.8430 Asic[45]=63.7700 Asic[46]=61.7400 Asic[47]=56.0860 Asic[48]=62.1590 
+Asic[49]=62.5950 Asic[50]=61.3870 Asic[51]=65.1450 Asic[52]=64.6920 Asic[53]=63.8030 Asic[54]=64.1050 Asic[55]=62.7460 Asic[56]=62.2260 
+Asic[57]=61.2530 Asic[58]=62.0580 Asic[59]=59.7430 Asic[60]=66.7560 Asic[61]=61.5050 Asic[62]=62.7800 Asic[63]=64.0050 
+
+get RT hashrate from Chain[7]: (asic index start from 1-63)
+Asic[01]=64.4240 Asic[02]=58.6190 Asic[03]=64.6420 Asic[04]=57.9820 Asic[05]=62.1760 Asic[06]=63.8200 Asic[07]=58.5180 Asic[08]=61.4040 
+Asic[09]=62.5450 Asic[10]=57.0250 Asic[11]=60.8000 Asic[12]=61.5220 Asic[13]=61.7230 Asic[14]=65.1120 Asic[15]=61.1520 Asic[16]=60.1790 
+Asic[17]=60.2970 Asic[18]=65.1620 Asic[19]=60.9180 Asic[20]=67.3100 Asic[21]=61.7730 Asic[22]=62.6120 Asic[23]=67.6960 Asic[24]=64.8940 
+Asic[25]=61.3370 Asic[26]=58.2330 Asic[27]=60.8500 Asic[28]=68.0810 Asic[29]=66.7060 Asic[30]=60.1290 Asic[31]=59.9950 Asic[32]=61.7560 
+Asic[33]=62.0580 Asic[34]=64.5250 Asic[35]=64.2900 Asic[36]=63.1150 Asic[37]=61.8740 Asic[38]=62.6460 Asic[39]=64.0880 Asic[40]=64.7760 
+Asic[41]=64.3570 Asic[42]=62.0250 Asic[43]=57.7130 Asic[44]=60.3470 Asic[45]=61.0690 Asic[46]=61.7060 Asic[47]=61.4040 Asic[48]=62.4440 
+Asic[49]=63.0820 Asic[50]=60.5820 Asic[51]=62.4440 Asic[52]=64.2230 Asic[53]=61.2030 Asic[54]=64.8430 Asic[55]=61.6890 Asic[56]=64.1050 
+Asic[57]=62.8970 Asic[58]=63.0480 Asic[59]=61.7900 Asic[60]=68.4340 Asic[61]=63.4680 Asic[62]=59.1560 Asic[63]=63.0990 
+Check Chain[J7] ASIC RT error: (asic index start from 1-63)
+Check Chain[J8] ASIC RT error: (asic index start from 1-63)
+Done check_asic_reg
+do read temp on Chain[6]
+Chain[6] Chip[62] TempTypeID=1a middle offset=-108
+Chain[6] Chip[62] local Temp=49
+Chain[6] Chip[62] middle Temp=2
+218 fix Chain[6] Chip[62] middle Temp = 74
+Done read temp on Chain[6]
+do read temp on Chain[7]
+Chain[7] Chip[62] TempTypeID=55 middle offset=27
+Chain[7] Chip[62] local Temp=50
+Chain[7] Chip[62] middle Temp=61
+218 fix Chain[7] Chip[62] middle Temp = 75
+Done read temp on Chain[7]
+set FAN speed according to: temp_highest=50 temp_top1[PWM_T]=75 temp_top1[TEMP_POS_LOCAL]=50 temp_change=0 fix_fan_steps=0
+FAN PWM: 50
+read_temp_func Done!
+CRC error counter=0
