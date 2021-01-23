@@ -1,0 +1,958 @@
+Miner Type	Antminer S9
+Hostname	crs-s9-w7-4C:0E:A9:77:31:22
+Model	GNU/Linux
+Hardware Version	16.8.1.3
+Kernel Version	Linux 3.14.0-xilinx-ge8a2f71-dirty #82 SMP PREEMPT Tue May 16 19:49:53 CST 2017
+File System Version	Fri Nov 17 17:57:49 CST 2017
+Logic Version	S9_V2.55
+BMminer Version	2.0.0
+Uptime	13
+Load Average	0.14, 0.15, 0.07
+Memory
+Total Available	
+52008 kB / 495632 kB (10%)
+Free	
+443624 kB / 495632 kB (90%)
+Cached	
+0 kB / 495632 kB (0%)
+Buffered	
+0 kB / 495632 kB (0%)
+Network
+IP Status	
+
+eth0	Type: DHCP
+Address: 192.168.2.180
+Netmask: 255.255.255.0
+
+==== Monitor
+
+Mem: 53388K used, 442244K free, 0K shrd, 837544K buff, 837592K cached
+CPU: 16.6% usr  8.3% sys  0.0% nic 75.0% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 0.28 0.23 0.12 1/70 23741
+PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+1605     1 root     S <   181m 37.4   1  4.1 /usr/bin/bmminer --version-file /usr/bin/compile_time --api-listen --default-config /config/bmminer.conf
+23643 23637 root     R     2836  0.5   0  4.1 top -b -n 1
+1275     1 root     S    62184 12.5   0  0.0 single-board-test
+1279     1 root     S     5744  1.1   1  0.0 /usr/bin/monitor-recobtn /usr/bin/factory_config_reset.sh
+1341     1 root     S     3084  0.6   0  0.0 /usr/bin/ntpd -p /var/run/ntp.pid -g
+1290     1 root     S     2840  0.5   1  0.0 /sbin/getty 115200 ttyPS0
+1291     1 root     S     2840  0.5   1  0.0 /sbin/getty 38400 tty1
+1292     1 root     S     2836  0.5   0  0.0 {monitorcg} /bin/sh /sbin/monitorcg
+1333     1 root     S     2836  0.5   0  0.0 udhcpc -b -t 10 -A 10 -x hostname crs-s9-w7-4C:0E:A9:77:31:22 -i eth0
+23637  1251 root     S     2836  0.5   1  0.0 /bin/sh /www/pages/cgi-bin/monitor.cgi
+23644 23637 root     S     2836  0.5   1  0.0 /bin/sh /www/pages/cgi-bin/monitor.cgi
+1251     1 root     S     2776  0.5   1  0.0 /usr/sbin/lighttpd -f /etc/lighttpd.conf
+1406  1292 root     S     2704  0.5   0  0.0 sleep 20m
+1243     1 avahi    S     2612  0.5   0  0.0 avahi-daemon: running [crs-s9-w7-4C0EA9773122.local]
+1244  1243 avahi    S     2612  0.5   1  0.0 avahi-daemon: chroot helper
+1232     1 root     S     2092  0.4   1  0.0 /usr/sbin/dropbear -r /config/dropbear_rsa_host_key -p 22
+1     0 root     S     1688  0.3   0  0.0 init [5]
+1110     1 root     S     1676  0.3   0  0.0 /usr/bin/monitor-ipsig
+7     2 root     SW       0  0.0   1  0.0 [rcu_preempt]
+345     2 root     SW       0  0.0   0  0.0 [kworker/0:1]
+14     2 root     SW       0  0.0   1  0.0 [ksoftirqd/1]
+3     2 root     SW       0  0.0   0  0.0 [ksoftirqd/0]
+1197     2 root     SW       0  0.0   1  0.0 [kworker/1:2]
+19     2 root     SW       0  0.0   0  0.0 [kworker/u4:1]
+1079     2 root     SW       0  0.0   0  0.0 [ubi_bgt0d]
+1081     2 root     SW       0  0.0   0  0.0 [ubifs_bgt0_0]
+10     2 root     SW       0  0.0   0  0.0 [migration/0]
+13     2 root     SW       0  0.0   1  0.0 [migration/1]
+18     2 root     SW       0  0.0   1  0.0 [kdevtmpfs]
+2     0 root     SW       0  0.0   0  0.0 [kthreadd]
+4     2 root     SW       0  0.0   0  0.0 [kworker/0:0]
+5     2 root     SW<      0  0.0   0  0.0 [kworker/0:0H]
+8     2 root     SW       0  0.0   0  0.0 [rcu_sched]
+9     2 root     SW       0  0.0   0  0.0 [rcu_bh]
+11     2 root     SW       0  0.0   0  0.0 [watchdog/0]
+12     2 root     SW       0  0.0   1  0.0 [watchdog/1]
+16     2 root     SW<      0  0.0   1  0.0 [kworker/1:0H]
+17     2 root     SW<      0  0.0   1  0.0 [khelper]
+218     2 root     SW<      0  0.0   0  0.0 [writeback]
+220     2 root     SW<      0  0.0   1  0.0 [bioset]
+222     2 root     SW<      0  0.0   1  0.0 [kblockd]
+238     2 root     SW       0  0.0   0  0.0 [khubd]
+253     2 root     SW<      0  0.0   0  0.0 [edac-poller]
+344     2 root     SW<      0  0.0   0  0.0 [rpciod]
+355     2 root     SW       0  0.0   0  0.0 [khungtaskd]
+360     2 root     SW       0  0.0   1  0.0 [kswapd0]
+361     2 root     SW       0  0.0   0  0.0 [fsnotify_mark]
+362     2 root     SW<      0  0.0   1  0.0 [nfsiod]
+1003     2 root     SW<      0  0.0   1  0.0 [xemacps]
+1018     2 root     SW<      0  0.0   0  0.0 [kpsmoused]
+1074     2 root     SW<      0  0.0   0  0.0 [deferwq]
+1082     2 root     SW       0  0.0   1  0.0 [kworker/1:1]
+1730     2 root     SW       0  0.0   1  0.0 [kworker/u4:0]
+
+==== Kernel Log
+
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 3.14.0-xilinx-ge8a2f71-dirty (lzq@armdev2) (gcc version 4.8.3 20140320 (prerelease) (Sourcery CodeBench Lite 2014.05-23) ) #82 SMP PREEMPT Tue May 16 19:49:53 CST 2017
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=18c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine model: Xilinx Zynq
+[    0.000000] cma: CMA: reserved 128 MiB at 16800000
+[    0.000000] Memory policy: Data cache writealloc
+[    0.000000] On node 0 totalpages: 126976
+[    0.000000] free_area_init_node: node 0, pgdat c0740a40, node_mem_map debd8000
+[    0.000000]   Normal zone: 992 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 126976 pages, LIFO batch:31
+[    0.000000] PERCPU: Embedded 8 pages/cpu @debc1000 s9088 r8192 d15488 u32768
+[    0.000000] pcpu-alloc: s9088 r8192 d15488 u32768 alloc=8*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 125984
+[    0.000000] Kernel command line: noinitrd mem=496M console=ttyPS0,115200 root=ubi0:rootfs ubi.mtd=1 rootfstype=ubifs rw rootwait
+[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 364356K/507904K available (5032K kernel code, 283K rwdata, 1916K rodata, 204K init, 258K bss, 143548K reserved, 0K highmem)
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     vmalloc : 0xdf800000 - 0xff000000   ( 504 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xdf000000   ( 496 MB)
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc06d1374   (6949 kB)
+[    0.000000]       .init : 0xc06d2000 - 0xc0705380   ( 205 kB)
+[    0.000000]       .data : 0xc0706000 - 0xc074cf78   ( 284 kB)
+[    0.000000]        .bss : 0xc074cf84 - 0xc078d9fc   ( 259 kB)
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000] 	Dump stacks of tasks blocking RCU-preempt GP.
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=2.
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] ps7-slcr mapped to df802000
+[    0.000000] zynq_clock_init: clkc starts at df802100
+[    0.000000] Zynq clock init
+[    0.000014] sched_clock: 64 bits at 333MHz, resolution 3ns, wraps every 3298534883328ns
+[    0.000312] ps7-ttc #0 at df804000, irq=43
+[    0.000623] Console: colour dummy device 80x30
+[    0.000655] Calibrating delay loop... 1332.01 BogoMIPS (lpj=6660096)
+[    0.090254] pid_max: default: 32768 minimum: 301
+[    0.090476] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.090496] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.092609] CPU: Testing write buffer coherency: ok
+[    0.092941] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.093000] Setting up static identity map for 0x4c4b00 - 0x4c4b58
+[    0.093226] L310 cache controller enabled
+[    0.093245] l2x0: 8 ways, CACHE_ID 0x410000c8, AUX_CTRL 0x72760000, Cache size: 512 kB
+[    0.171037] CPU1: Booted secondary processor
+[    0.260230] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.260361] Brought up 2 CPUs
+[    0.260380] SMP: Total of 2 processors activated.
+[    0.260388] CPU: All CPU(s) started in SVC mode.
+[    0.261063] devtmpfs: initialized
+[    0.263483] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+[    0.264695] regulator-dummy: no parameters
+[    0.272355] NET: Registered protocol family 16
+[    0.274639] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.276938] cpuidle: using governor ladder
+[    0.276951] cpuidle: using governor menu
+[    0.284398] syscon f8000000.ps7-slcr: regmap [mem 0xf8000000-0xf8000fff] registered
+[    0.285920] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.
+[    0.285934] hw-breakpoint: maximum watchpoint size is 4 bytes.
+[    0.286048] zynq-ocm f800c000.ps7-ocmc: ZYNQ OCM pool: 256 KiB @ 0xdf880000
+[    0.307601] bio: create slab <bio-0> at 0
+[    0.309036] vgaarb: loaded
+[    0.309756] SCSI subsystem initialized
+[    0.310803] usbcore: registered new interface driver usbfs
+[    0.310975] usbcore: registered new interface driver hub
+[    0.311325] usbcore: registered new device driver usb
+[    0.311849] media: Linux media interface: v0.10
+[    0.312006] Linux video capture interface: v2.00
+[    0.312245] pps_core: LinuxPPS API ver. 1 registered
+[    0.312256] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.312388] PTP clock support registered
+[    0.312748] EDAC MC: Ver: 3.0.0
+[    0.313794] Advanced Linux Sound Architecture Driver Initialized.
+[    0.316652] DMA-API: preallocated 4096 debug entries
+[    0.316666] DMA-API: debugging enabled by kernel config
+[    0.316742] Switched to clocksource arm_global_timer
+[    0.337678] NET: Registered protocol family 2
+[    0.338320] TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.338379] TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.338464] TCP: Hash tables configured (established 4096 bind 4096)
+[    0.338506] TCP: reno registered
+[    0.338524] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    0.338554] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    0.338801] NET: Registered protocol family 1
+[    0.339095] RPC: Registered named UNIX socket transport module.
+[    0.339107] RPC: Registered udp transport module.
+[    0.339115] RPC: Registered tcp transport module.
+[    0.339123] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.339136] PCI: CLS 0 bytes, default 64
+[    0.339568] hw perfevents: enabled with ARMv7 Cortex-A9 PMU driver, 7 counters available
+[    0.341583] futex hash table entries: 512 (order: 3, 32768 bytes)
+[    0.343717] jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+[    0.343895] msgmni has been set to 967
+[    0.344668] io scheduler noop registered
+[    0.344681] io scheduler deadline registered
+[    0.344728] io scheduler cfq registered (default)
+[    0.353772] dma-pl330 f8003000.ps7-dma: Loaded driver for PL330 DMAC-2364208
+[    0.353792] dma-pl330 f8003000.ps7-dma: 	DBUFF-128x8bytes Num_Chans-8 Num_Peri-4 Num_Events-16
+[    0.478401] e0001000.serial: ttyPS0 at MMIO 0xe0001000 (irq = 82, base_baud = 3124999) is a xuartps
+[    1.046463] console [ttyPS0] enabled
+[    1.050763] xdevcfg f8007000.ps7-dev-cfg: ioremap 0xf8007000 to df866000
+[    1.058420] [drm] Initialized drm 1.1.0 20060810
+[    1.075310] brd: module loaded
+[    1.084702] loop: module loaded
+[    1.094141] e1000e: Intel(R) PRO/1000 Network Driver - 2.3.2-k
+[    1.099973] e1000e: Copyright(c) 1999 - 2013 Intel Corporation.
+[    1.107757] libphy: XEMACPS mii bus: probed
+[    1.112130] ------------- phy_id = 0x3625e62
+[    1.117046] xemacps e000b000.ps7-ethernet: pdev->id -1, baseaddr 0xe000b000, irq 54
+[    1.125637] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.132451] ehci-pci: EHCI PCI platform driver
+[    1.139694] zynq-dr e0002000.ps7-usb: Unable to init USB phy, missing?
+[    1.146507] usbcore: registered new interface driver usb-storage
+[    1.153407] mousedev: PS/2 mouse device common for all mice
+[    1.159562] i2c /dev entries driver
+[    1.166486] zynq-edac f8006000.ps7-ddrc: ecc not enabled
+[    1.172079] cpufreq_cpu0: failed to get cpu0 regulator: -19
+[    1.177999] Xilinx Zynq CpuIdle Driver started
+[    1.182835] sdhci: Secure Digital Host Controller Interface driver
+[    1.189012] sdhci: Copyright(c) Pierre Ossman
+[    1.193287] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.200113] mmc0: no vqmmc regulator found
+[    1.204132] mmc0: no vmmc regulator found
+[    1.246767] mmc0: SDHCI controller on e0100000.ps7-sdio [e0100000.ps7-sdio] using ADMA
+[    1.255437] usbcore: registered new interface driver usbhid
+[    1.260956] usbhid: USB HID core driver
+[    1.265659] nand: device found, Manufacturer ID: 0x2c, Chip ID: 0xda
+[    1.271953] nand: Micron MT29F2G08ABAEAWP
+[    1.275923] nand: 256MiB, SLC, page size: 2048, OOB size: 64
+[    1.281871] Bad block table found at page 131008, version 0x01
+[    1.288123] Bad block table found at page 130944, version 0x01
+[    1.294176] 3 ofpart partitions found on MTD device pl353-nand
+[    1.299947] Creating 3 MTD partitions on "pl353-nand":
+[    1.305054] 0x000000000000-0x000002000000 : "BOOT.bin-env-dts-kernel"
+[    1.313087] 0x000002000000-0x00000b000000 : "angstram-rootfs"
+[    1.320453] 0x00000b000000-0x000010000000 : "upgrade-rootfs"
+[    1.329419] TCP: cubic registered
+[    1.332657] NET: Registered protocol family 17
+[    1.337381] Registering SWP/SWPB emulation handler
+[    1.343276] regulator-dummy: disabling
+[    1.347690] UBI: attaching mtd1 to ubi0
+[    1.874598] UBI: scanning is finished
+[    1.886236] UBI: attached mtd1 (name "angstram-rootfs", size 144 MiB) to ubi0
+[    1.893315] UBI: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[    1.900077] UBI: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+[    1.906762] UBI: VID header offset: 2048 (aligned 2048), data offset: 4096
+[    1.913598] UBI: good PEBs: 1152, bad PEBs: 0, corrupted PEBs: 0
+[    1.919599] UBI: user volume: 1, internal volumes: 1, max. volumes count: 128
+[    1.926707] UBI: max/mean erase counter: 2/0, WL threshold: 4096, image sequence number: 1134783803
+[    1.935750] UBI: available PEBs: 0, total reserved PEBs: 1152, PEBs reserved for bad PEB handling: 40
+[    1.944965] UBI: background thread "ubi_bgt0d" started, PID 1079
+[    1.944970] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+[    1.948916] ALSA device list:
+[    1.948920]   No soundcards found.
+[    1.965337] UBIFS: background thread "ubifs_bgt0_0" started, PID 1081
+[    1.994484] UBIFS: recovery needed
+[    2.077006] UBIFS: recovery completed
+[    2.080678] UBIFS: mounted UBI device 0, volume 0, name "rootfs"
+[    2.086600] UBIFS: LEB size: 126976 bytes (124 KiB), min./max. I/O unit sizes: 2048 bytes/2048 bytes
+[    2.095736] UBIFS: FS size: 128626688 bytes (122 MiB, 1013 LEBs), journal size 9023488 bytes (8 MiB, 72 LEBs)
+[    2.105619] UBIFS: reserved for root: 0 bytes (0 KiB)
+[    2.110659] UBIFS: media format: w4/r0 (latest is w4/r0), UUID B079DD56-06BB-4E31-8F5E-A6604F480DB2, small LPT model
+[    2.122171] VFS: Mounted root (ubifs filesystem) on device 0:11.
+[    2.129594] devtmpfs: mounted
+[    2.132702] Freeing unused kernel memory: 204K (c06d2000 - c0705000)
+[    2.975832] random: dd urandom read with 0 bits of entropy available
+[    3.366781] 
+[    3.366781] bcm54xx_config_init
+[    3.976786] 
+[    3.976786] bcm54xx_config_init
+[    7.977611] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[    7.983714] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+[   22.563350] In axi fpga driver!
+[   22.566419] request_mem_region OK!
+[   22.569850] AXI fpga dev virtual address is 0xdf9fc000
+[   22.574916] *base_vir_addr = 0x8c510
+[   22.590417] In fpga mem driver!
+[   22.593482] request_mem_region OK!
+[   22.597101] fpga mem virtual address is 0xe2000000
+[   23.386797] 
+[   23.386797] bcm54xx_config_init
+[   24.016781] 
+[   24.016781] bcm54xx_config_init
+[   28.017608] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[   28.023715] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+This is XILINX board. Totalram:       507527168
+Detect 512MB control board of XILINX
+DETECT HW version=0008c510
+miner ID : 8032352c6880881c
+Miner Type = S9
+AsicType = 1387
+real AsicNum = 63
+use critical mode to search freq...
+get PLUG ON=0x000000e0
+Find hashboard on Chain[5]
+Find hashboard on Chain[6]
+Find hashboard on Chain[7]
+set_reset_allhashboard = 0x0000ffff
+Check chain[5] PIC fw version=0x03
+Check chain[6] PIC fw version=0x03
+Check chain[7] PIC fw version=0x03
+chain[5]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+has freq in PIC, will disable freq setting.
+chain[5] has freq in PIC and will jump over...
+Chain[5] has core num in PIC
+Chain[5] ASIC[28] has core num=1
+Chain[5] ASIC[44] has core num=2
+Chain[5] ASIC[48] has core num=4
+Chain[5] ASIC[53] has core num=11
+Check chain[5] PIC fw version=0x03
+chain[6]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+has freq in PIC, will disable freq setting.
+chain[6] has freq in PIC and will jump over...
+Chain[6] has core num in PIC
+Chain[6] ASIC[9] has core num=15
+Chain[6] ASIC[48] has core num=15
+Check chain[6] PIC fw version=0x03
+chain[7]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+has freq in PIC, will disable freq setting.
+chain[7] has freq in PIC and will jump over...
+Chain[7] has core num in PIC
+Chain[7] ASIC[43] has core num=1
+Check chain[7] PIC fw version=0x03
+get PIC voltage=125 on chain[5], value=870
+get PIC voltage=91 on chain[6], value=890
+get PIC voltage=6 on chain[7], value=940
+set_reset_allhashboard = 0x00000000
+chain[5] temp offset record: 62,-4,0,0,0,0,33,0
+chain[5] temp chip I2C addr=0x98
+chain[6] temp offset record: 62,0,0,0,0,0,37,28
+chain[6] temp chip I2C addr=0x98
+chain[6] has no middle temp, use special fix mode.
+chain[7] temp offset record: 62,0,0,0,0,0,35,28
+chain[7] temp chip I2C addr=0x98
+chain[7] has no middle temp, use special fix mode.
+set_reset_allhashboard = 0x0000ffff
+set_reset_allhashboard = 0x00000000
+CRC error counter=0
+set command mode to VIL
+
+--- check asic number
+After Get ASIC NUM CRC error counter=0
+set_baud=0
+The min freq=700
+set real timeout 52, need sleep=379392
+After TEST CRC error counter=0
+set_reset_allhashboard = 0x0000ffff
+set_reset_allhashboard = 0x00000000
+search freq for 1 times, completed chain = 3, total chain num = 3 
+set_reset_allhashboard = 0x0000ffff
+set_reset_allhashboard = 0x00000000
+restart Miner chance num=2
+waiting for receive_func to exit!
+waiting for pic heart to exit!
+bmminer not found= 1376 root       0:00 grep bmminer
+
+bmminer not found, restart bmminer ...
+bmminer not found= 1601 root       0:00 grep bmminer
+
+bmminer not found, restart bmminer ...
+This is user mode for mining
+Detect 512MB control board of XILINX
+Miner Type = S9
+Miner compile time: Fri Nov 17 17:57:49 CST 2017 type: Antminer S9set_reset_allhashboard = 0x0000ffff
+set_reset_allhashboard = 0x00000000
+set_reset_allhashboard = 0x0000ffff
+miner ID : 8032352c6880881c
+set_reset_allhashboard = 0x0000ffff
+Checking fans!get fan[2] speed=6000
+get fan[2] speed=6000
+get fan[2] speed=6000
+get fan[2] speed=6000
+get fan[2] speed=6000
+get fan[2] speed=6000
+get fan[5] speed=6120
+get fan[2] speed=6000
+get fan[5] speed=6120
+get fan[2] speed=6000
+get fan[5] speed=6120
+chain[5]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+Detect: use voltage limit rules on single board!
+Detect: S9_63 use voltage level=1 : 1
+Chain[J6] has backup chain_voltage=870
+Check chain[5] PIC fw version=0x03
+chain[6]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+Detect: use voltage limit rules on single board!
+Detect: S9_63 use voltage level=1 : 1
+Chain[J7] has backup chain_voltage=890
+Check chain[6] PIC fw version=0x03
+chain[7]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+Detect: use voltage limit rules on single board!
+Detect: S9_63 use voltage level=1 : 1
+Chain[J8] has backup chain_voltage=890
+Check chain[7] PIC fw version=0x03
+Chain[J6] orignal chain_voltage_pic=125 value=870
+Chain[J7] orignal chain_voltage_pic=91 value=890
+Chain[J8] orignal chain_voltage_pic=91 value=890
+set_reset_allhashboard = 0x0000ffff
+set_reset_allhashboard = 0x00000000
+Chain[J6] has 63 asic
+Chain[J7] has 63 asic
+Chain[J8] has 63 asic
+Chain[J6] has core num in PIC
+Chain[J6] ASIC[28] has core num=1
+Chain[J6] ASIC[44] has core num=2
+Chain[J6] ASIC[48] has core num=4
+Chain[J6] ASIC[53] has core num=11
+Chain[J7] has core num in PIC
+Chain[J7] ASIC[9] has core num=15
+Chain[J7] ASIC[48] has core num=15
+Chain[J8] has core num in PIC
+Chain[J8] ASIC[43] has core num=1
+miner total rate=13750GH/s fixed rate=13500GH/s
+read PIC voltage=940 on chain[5]
+Chain:5 chipnum=63
+Chain[J6] voltage added=0.0V
+Chain:5 temp offset=-4
+Chain:5 base freq=656
+Asic[ 0]:656 
+Asic[ 1]:656 Asic[ 2]:656 Asic[ 3]:656 Asic[ 4]:656 Asic[ 5]:656 Asic[ 6]:656 Asic[ 7]:656 Asic[ 8]:656 
+Asic[ 9]:656 Asic[10]:656 Asic[11]:656 Asic[12]:656 Asic[13]:656 Asic[14]:656 Asic[15]:656 Asic[16]:656 
+Asic[17]:656 Asic[18]:656 Asic[19]:656 Asic[20]:656 Asic[21]:656 Asic[22]:656 Asic[23]:656 Asic[24]:656 
+Asic[25]:656 Asic[26]:656 Asic[27]:656 Asic[28]:656 Asic[29]:656 Asic[30]:656 Asic[31]:656 Asic[32]:656 
+Asic[33]:656 Asic[34]:656 Asic[35]:656 Asic[36]:656 Asic[37]:656 Asic[38]:656 Asic[39]:656 Asic[40]:656 
+Asic[41]:656 Asic[42]:656 Asic[43]:656 Asic[44]:656 Asic[45]:656 Asic[46]:656 Asic[47]:656 Asic[48]:656 
+Asic[49]:656 Asic[50]:656 Asic[51]:656 Asic[52]:656 Asic[53]:656 Asic[54]:656 Asic[55]:656 Asic[56]:656 
+Asic[57]:656 Asic[58]:656 Asic[59]:656 Asic[60]:656 Asic[61]:656 Asic[62]:656 
+Chain:5 max freq=656
+Chain:5 min freq=656
+
+read PIC voltage=940 on chain[6]
+Chain:6 chipnum=63
+Chain[J7] voltage added=0.0V
+Chain:6 temp offset=0
+Chain:6 base freq=650
+Asic[ 0]:650 
+Asic[ 1]:650 Asic[ 2]:650 Asic[ 3]:650 Asic[ 4]:650 Asic[ 5]:650 Asic[ 6]:650 Asic[ 7]:650 Asic[ 8]:650 
+Asic[ 9]:650 Asic[10]:650 Asic[11]:650 Asic[12]:650 Asic[13]:650 Asic[14]:650 Asic[15]:650 Asic[16]:650 
+Asic[17]:650 Asic[18]:650 Asic[19]:650 Asic[20]:650 Asic[21]:650 Asic[22]:650 Asic[23]:650 Asic[24]:650 
+Asic[25]:650 Asic[26]:650 Asic[27]:650 Asic[28]:650 Asic[29]:650 Asic[30]:650 Asic[31]:650 Asic[32]:650 
+Asic[33]:650 Asic[34]:650 Asic[35]:650 Asic[36]:650 Asic[37]:650 Asic[38]:650 Asic[39]:650 Asic[40]:650 
+Asic[41]:650 Asic[42]:650 Asic[43]:650 Asic[44]:650 Asic[45]:650 Asic[46]:650 Asic[47]:650 Asic[48]:650 
+Asic[49]:650 Asic[50]:650 Asic[51]:650 Asic[52]:650 Asic[53]:650 Asic[54]:650 Asic[55]:650 Asic[56]:650 
+Asic[57]:650 Asic[58]:650 Asic[59]:650 Asic[60]:650 Asic[61]:650 Asic[62]:650 
+Chain:6 max freq=650
+Chain:6 min freq=650
+
+read PIC voltage=940 on chain[7]
+Chain:7 chipnum=63
+Chain[J8] voltage added=0.0V
+Chain:7 temp offset=0
+Chain:7 base freq=631
+Asic[ 0]:631 
+Asic[ 1]:631 Asic[ 2]:631 Asic[ 3]:631 Asic[ 4]:631 Asic[ 5]:631 Asic[ 6]:631 Asic[ 7]:631 Asic[ 8]:631 
+Asic[ 9]:631 Asic[10]:631 Asic[11]:631 Asic[12]:631 Asic[13]:631 Asic[14]:631 Asic[15]:631 Asic[16]:631 
+Asic[17]:631 Asic[18]:631 Asic[19]:631 Asic[20]:631 Asic[21]:631 Asic[22]:631 Asic[23]:631 Asic[24]:631 
+Asic[25]:631 Asic[26]:631 Asic[27]:631 Asic[28]:631 Asic[29]:631 Asic[30]:631 Asic[31]:631 Asic[32]:631 
+Asic[33]:631 Asic[34]:631 Asic[35]:631 Asic[36]:631 Asic[37]:631 Asic[38]:631 Asic[39]:631 Asic[40]:631 
+Asic[41]:631 Asic[42]:631 Asic[43]:631 Asic[44]:631 Asic[45]:631 Asic[46]:631 Asic[47]:631 Asic[48]:631 
+Asic[49]:631 Asic[50]:631 Asic[51]:631 Asic[52]:631 Asic[53]:631 Asic[54]:631 Asic[55]:631 Asic[56]:631 
+Asic[57]:631 Asic[58]:631 Asic[59]:631 Asic[60]:631 Asic[61]:631 Asic[62]:631 
+Chain:7 max freq=631
+Chain:7 min freq=631
+
+
+Miner fix freq ...
+read PIC voltage=940 on chain[5]
+Chain:5 chipnum=63
+Chain[J6] voltage added=0.0V
+Chain:5 temp offset=-4
+Chain:5 base freq=656
+Asic[ 0]:637 
+Asic[ 1]:637 Asic[ 2]:637 Asic[ 3]:637 Asic[ 4]:637 Asic[ 5]:637 Asic[ 6]:637 Asic[ 7]:637 Asic[ 8]:637 
+Asic[ 9]:637 Asic[10]:637 Asic[11]:637 Asic[12]:637 Asic[13]:637 Asic[14]:637 Asic[15]:637 Asic[16]:637 
+Asic[17]:637 Asic[18]:637 Asic[19]:637 Asic[20]:637 Asic[21]:637 Asic[22]:637 Asic[23]:637 Asic[24]:637 
+Asic[25]:637 Asic[26]:637 Asic[27]:637 Asic[28]:637 Asic[29]:637 Asic[30]:637 Asic[31]:643 Asic[32]:643 
+Asic[33]:643 Asic[34]:643 Asic[35]:643 Asic[36]:643 Asic[37]:643 Asic[38]:643 Asic[39]:643 Asic[40]:643 
+Asic[41]:643 Asic[42]:643 Asic[43]:643 Asic[44]:643 Asic[45]:643 Asic[46]:643 Asic[47]:643 Asic[48]:643 
+Asic[49]:643 Asic[50]:643 Asic[51]:643 Asic[52]:643 Asic[53]:643 Asic[54]:643 Asic[55]:643 Asic[56]:643 
+Asic[57]:643 Asic[58]:643 Asic[59]:643 Asic[60]:643 Asic[61]:643 Asic[62]:643 
+Chain:5 max freq=643
+Chain:5 min freq=637
+
+read PIC voltage=940 on chain[6]
+Chain:6 chipnum=63
+Chain[J7] voltage added=0.0V
+Chain:6 temp offset=0
+Chain:6 base freq=650
+Asic[ 0]:650 
+Asic[ 1]:650 Asic[ 2]:650 Asic[ 3]:650 Asic[ 4]:650 Asic[ 5]:650 Asic[ 6]:650 Asic[ 7]:650 Asic[ 8]:650 
+Detect a bad chip=9 on chain[6], fixed to 400M
+Asic[ 9]:650 Asic[10]:650 Asic[11]:650 Asic[12]:650 Asic[13]:650 Asic[14]:650 Asic[15]:650 Asic[16]:650 
+Asic[17]:650 Asic[18]:650 Asic[19]:650 Asic[20]:650 Asic[21]:650 Asic[22]:650 Asic[23]:650 Asic[24]:650 
+Asic[25]:650 Asic[26]:650 Asic[27]:650 Asic[28]:650 Asic[29]:650 Asic[30]:650 Asic[31]:650 Asic[32]:650 
+Asic[33]:650 Asic[34]:650 Asic[35]:650 Asic[36]:650 Asic[37]:650 Asic[38]:650 Asic[39]:650 Asic[40]:650 
+Asic[41]:650 Asic[42]:650 Asic[43]:650 Asic[44]:650 Asic[45]:650 Asic[46]:650 Asic[47]:650 Detect a bad chip=48 on chain[6], fixed to 400M
+Asic[48]:650 
+Asic[49]:650 Asic[50]:650 Asic[51]:650 Asic[52]:650 Asic[53]:650 Asic[54]:650 Asic[55]:650 Asic[56]:650 
+Asic[57]:650 Asic[58]:650 Asic[59]:650 Asic[60]:650 Asic[61]:650 Asic[62]:650 
+Chain:6 max freq=650
+Chain:6 min freq=650
+
+read PIC voltage=940 on chain[7]
+Chain:7 chipnum=63
+Chain[J8] voltage added=0.0V
+Chain:7 temp offset=0
+Chain:7 base freq=631
+Asic[ 0]:631 
+Asic[ 1]:631 Asic[ 2]:631 Asic[ 3]:631 Asic[ 4]:631 Asic[ 5]:631 Asic[ 6]:631 Asic[ 7]:631 Asic[ 8]:631 
+Asic[ 9]:631 Asic[10]:631 Asic[11]:631 Asic[12]:631 Asic[13]:631 Asic[14]:631 Asic[15]:631 Asic[16]:631 
+Asic[17]:631 Asic[18]:631 Asic[19]:631 Asic[20]:631 Asic[21]:631 Asic[22]:631 Asic[23]:631 Asic[24]:631 
+Asic[25]:631 Asic[26]:631 Asic[27]:631 Asic[28]:631 Asic[29]:631 Asic[30]:631 Asic[31]:631 Asic[32]:631 
+Asic[33]:631 Asic[34]:631 Asic[35]:631 Asic[36]:631 Asic[37]:631 Asic[38]:631 Asic[39]:631 Asic[40]:631 
+Asic[41]:631 Asic[42]:631 Asic[43]:631 Asic[44]:631 Asic[45]:631 Asic[46]:631 Asic[47]:631 Asic[48]:631 
+Asic[49]:631 Asic[50]:631 Asic[51]:631 Asic[52]:631 Asic[53]:631 Asic[54]:631 Asic[55]:631 Asic[56]:631 
+Asic[57]:631 Asic[58]:631 Asic[59]:631 Asic[60]:631 Asic[61]:631 Asic[62]:631 
+Chain:7 max freq=631
+Chain:7 min freq=631
+
+max freq = 650
+set baud=1
+Chain[J6] PIC temp offset=62,-4,0,0,0,0,33,0
+chain[5] temp chip I2C addr=0x98
+Chain[J6] chip[244] use PIC middle temp offset=-4 typeID=55
+New offset Chain[5] chip[244] local:27 remote:29 offset:28 
+Chain[J6] chip[244] get middle temp offset=28 typeID=55
+Chain[J7] PIC temp offset=62,0,0,0,0,0,37,28
+chain[6] temp chip I2C addr=0x98
+chain[6] has no middle temp, use special fix mode.
+Chain[J7] chip[244] use PIC middle temp offset=0 typeID=55
+New offset Chain[6] chip[244] local:30 remote:31 offset:29 
+Chain[J7] chip[244] get middle temp offset=29 typeID=55
+Chain[J8] PIC temp offset=62,0,0,0,0,0,35,28
+chain[7] temp chip I2C addr=0x98
+chain[7] has no middle temp, use special fix mode.
+Chain[J8] chip[244] use PIC middle temp offset=0 typeID=1a
+Warning: Chain[7] chip[244] local:25 remote:-90 offset:-111, will fixed offset=27
+New offset Chain[7] chip[244] local:25 remote:-90 offset:27 
+Chain[J8] chip[244] get middle temp offset=27 typeID=1a
+single board rate=4585 voltage limit=890 on chain[5]
+last_testpatten_highest_pcb_temp=56 too low, fix voltage=900 on chain[5]
+get PIC voltage=870 on chain[5], check: must be < 900
+retryFlag=1 will set the voltage limited on chain[5], change voltage=900
+now set pic voltage=74 on chain[5]
+single board rate=4520 voltage limit=890 on chain[6]
+last_testpatten_highest_pcb_temp=56 too low, fix voltage=900 on chain[6]
+get PIC voltage=890 on chain[6], check: must be < 900
+retryFlag=1 will set the voltage limited on chain[6], change voltage=900
+now set pic voltage=74 on chain[6]
+single board rate=4531 voltage limit=890 on chain[7]
+last_testpatten_highest_pcb_temp=56 too low, fix voltage=900 on chain[7]
+get PIC voltage=890 on chain[7], check: must be < 900
+retryFlag=1 will set the voltage limited on chain[7], change voltage=900
+now set pic voltage=74 on chain[7]
+Chain[J6] set working voltage=900 [74]
+Chain[J7] set working voltage=900 [74]
+Chain[J8] set working voltage=900 [74]
+do heat board 8xPatten for 1 times
+start send works on chain[5]
+start send works on chain[6]
+start send works on chain[7]
+get send work num :57456 on Chain[5]
+get send work num :57456 on Chain[6]
+get send work num :57456 on Chain[7]
+wait recv nonce on chain[5]
+wait recv nonce on chain[6]
+wait recv nonce on chain[7]
+get nonces on chain[5]
+require nonce number:912
+require validnonce number:57456
+asic[00]=912	asic[01]=912	asic[02]=912	asic[03]=912	asic[04]=912	asic[05]=912	asic[06]=912	asic[07]=912	
+asic[08]=912	asic[09]=912	asic[10]=912	asic[11]=912	asic[12]=912	asic[13]=912	asic[14]=912	asic[15]=912	
+asic[16]=912	asic[17]=912	asic[18]=912	asic[19]=912	asic[20]=912	asic[21]=912	asic[22]=912	asic[23]=912	
+asic[24]=912	asic[25]=912	asic[26]=912	asic[27]=912	asic[28]=912	asic[29]=912	asic[30]=912	asic[31]=912	
+asic[32]=912	asic[33]=912	asic[34]=912	asic[35]=912	asic[36]=912	asic[37]=912	asic[38]=912	asic[39]=912	
+asic[40]=912	asic[41]=912	asic[42]=912	asic[43]=912	asic[44]=912	asic[45]=912	asic[46]=912	asic[47]=912	
+asic[48]=912	asic[49]=912	asic[50]=912	asic[51]=912	asic[52]=912	asic[53]=912	asic[54]=912	asic[55]=912	
+asic[56]=912	asic[57]=912	asic[58]=912	asic[59]=912	asic[60]=912	asic[61]=912	asic[62]=912	
+
+
+Below ASIC's core didn't receive all the nonce, they should receive 8 nonce each!
+
+
+
+freq[00]=637	freq[01]=637	freq[02]=637	freq[03]=637	freq[04]=637	freq[05]=637	freq[06]=637	freq[07]=637	
+freq[08]=637	freq[09]=637	freq[10]=637	freq[11]=637	freq[12]=637	freq[13]=637	freq[14]=637	freq[15]=637	
+freq[16]=637	freq[17]=637	freq[18]=637	freq[19]=637	freq[20]=637	freq[21]=637	freq[22]=637	freq[23]=637	
+freq[24]=637	freq[25]=637	freq[26]=637	freq[27]=637	freq[28]=637	freq[29]=637	freq[30]=637	freq[31]=643	
+freq[32]=643	freq[33]=643	freq[34]=643	freq[35]=643	freq[36]=643	freq[37]=643	freq[38]=643	freq[39]=643	
+freq[40]=643	freq[41]=643	freq[42]=643	freq[43]=643	freq[44]=643	freq[45]=643	freq[46]=643	freq[47]=643	
+freq[48]=643	freq[49]=643	freq[50]=643	freq[51]=643	freq[52]=643	freq[53]=643	freq[54]=643	freq[55]=643	
+freq[56]=643	freq[57]=643	freq[58]=643	freq[59]=643	freq[60]=643	freq[61]=643	freq[62]=643	
+
+total valid nonce number:57456
+total send work number:57456
+require valid nonce number:57456
+repeated_nonce_num:0
+err_nonce_num:26229
+last_nonce_num:35765
+get nonces on chain[6]
+require nonce number:912
+require validnonce number:57456
+asic[00]=912	asic[01]=912	asic[02]=912	asic[03]=912	asic[04]=912	asic[05]=912	asic[06]=912	asic[07]=912	
+asic[08]=912	asic[09]=912	asic[10]=912	asic[11]=912	asic[12]=910	asic[13]=912	asic[14]=912	asic[15]=912	
+asic[16]=912	asic[17]=912	asic[18]=912	asic[19]=912	asic[20]=912	asic[21]=912	asic[22]=912	asic[23]=912	
+asic[24]=912	asic[25]=912	asic[26]=912	asic[27]=912	asic[28]=912	asic[29]=912	asic[30]=912	asic[31]=912	
+asic[32]=912	asic[33]=912	asic[34]=912	asic[35]=912	asic[36]=912	asic[37]=912	asic[38]=912	asic[39]=912	
+asic[40]=912	asic[41]=912	asic[42]=912	asic[43]=912	asic[44]=912	asic[45]=912	asic[46]=912	asic[47]=912	
+asic[48]=912	asic[49]=912	asic[50]=912	asic[51]=912	asic[52]=912	asic[53]=912	asic[54]=912	asic[55]=912	
+asic[56]=912	asic[57]=912	asic[58]=912	asic[59]=912	asic[60]=911	asic[61]=912	asic[62]=912	
+
+
+Below ASIC's core didn't receive all the nonce, they should receive 8 nonce each!
+
+asic[12]=910
+core[097]=6	
+
+asic[60]=911
+core[062]=7	
+
+
+
+freq[00]=650	freq[01]=650	freq[02]=650	freq[03]=650	freq[04]=650	freq[05]=650	freq[06]=650	freq[07]=650	
+freq[08]=650	freq[09]=650	freq[10]=650	freq[11]=650	freq[12]=650	freq[13]=650	freq[14]=650	freq[15]=650	
+freq[16]=650	freq[17]=650	freq[18]=650	freq[19]=650	freq[20]=650	freq[21]=650	freq[22]=650	freq[23]=650	
+freq[24]=650	freq[25]=650	freq[26]=650	freq[27]=650	freq[28]=650	freq[29]=650	freq[30]=650	freq[31]=650	
+freq[32]=650	freq[33]=650	freq[34]=650	freq[35]=650	freq[36]=650	freq[37]=650	freq[38]=650	freq[39]=650	
+freq[40]=650	freq[41]=650	freq[42]=650	freq[43]=650	freq[44]=650	freq[45]=650	freq[46]=650	freq[47]=650	
+freq[48]=650	freq[49]=650	freq[50]=650	freq[51]=650	freq[52]=650	freq[53]=650	freq[54]=650	freq[55]=650	
+freq[56]=650	freq[57]=650	freq[58]=650	freq[59]=650	freq[60]=650	freq[61]=650	freq[62]=650	
+
+total valid nonce number:57453
+total send work number:57456
+require valid nonce number:57456
+repeated_nonce_num:0
+err_nonce_num:26297
+last_nonce_num:28633
+get nonces on chain[7]
+require nonce number:912
+require validnonce number:57456
+asic[00]=912	asic[01]=912	asic[02]=912	asic[03]=912	asic[04]=912	asic[05]=912	asic[06]=912	asic[07]=912	
+asic[08]=912	asic[09]=912	asic[10]=912	asic[11]=912	asic[12]=912	asic[13]=912	asic[14]=912	asic[15]=912	
+asic[16]=912	asic[17]=912	asic[18]=912	asic[19]=912	asic[20]=912	asic[21]=912	asic[22]=912	asic[23]=912	
+asic[24]=912	asic[25]=912	asic[26]=912	asic[27]=912	asic[28]=912	asic[29]=912	asic[30]=912	asic[31]=912	
+asic[32]=912	asic[33]=912	asic[34]=912	asic[35]=912	asic[36]=912	asic[37]=912	asic[38]=912	asic[39]=912	
+asic[40]=912	asic[41]=912	asic[42]=912	asic[43]=912	asic[44]=912	asic[45]=912	asic[46]=912	asic[47]=912	
+asic[48]=912	asic[49]=912	asic[50]=912	asic[51]=912	asic[52]=912	asic[53]=912	asic[54]=912	asic[55]=912	
+asic[56]=912	asic[57]=912	asic[58]=912	asic[59]=912	asic[60]=912	asic[61]=912	asic[62]=912	
+
+
+Below ASIC's core didn't receive all the nonce, they should receive 8 nonce each!
+
+
+
+freq[00]=631	freq[01]=631	freq[02]=631	freq[03]=631	freq[04]=631	freq[05]=631	freq[06]=631	freq[07]=631	
+freq[08]=631	freq[09]=631	freq[10]=631	freq[11]=631	freq[12]=631	freq[13]=631	freq[14]=631	freq[15]=631	
+freq[16]=631	freq[17]=631	freq[18]=631	freq[19]=631	freq[20]=631	freq[21]=631	freq[22]=631	freq[23]=631	
+freq[24]=631	freq[25]=631	freq[26]=631	freq[27]=631	freq[28]=631	freq[29]=631	freq[30]=631	freq[31]=631	
+freq[32]=631	freq[33]=631	freq[34]=631	freq[35]=631	freq[36]=631	freq[37]=631	freq[38]=631	freq[39]=631	
+freq[40]=631	freq[41]=631	freq[42]=631	freq[43]=631	freq[44]=631	freq[45]=631	freq[46]=631	freq[47]=631	
+freq[48]=631	freq[49]=631	freq[50]=631	freq[51]=631	freq[52]=631	freq[53]=631	freq[54]=631	freq[55]=631	
+freq[56]=631	freq[57]=631	freq[58]=631	freq[59]=631	freq[60]=631	freq[61]=631	freq[62]=631	
+
+total valid nonce number:57456
+total send work number:57456
+require valid nonce number:57456
+repeated_nonce_num:0
+err_nonce_num:25851
+last_nonce_num:35761
+chain[5]: All chip cores are opened OK!
+Test Patten on chain[5]: OK!
+chain[6]: All chip cores are opened OK!
+Test Patten on chain[6]: FAILED!
+chain[7]: All chip cores are opened OK!
+Test Patten on chain[7]: OK!
+do heat board 8xPatten for 2 times
+start send works on chain[5]
+start send works on chain[6]
+start send works on chain[7]
+get send work num :57456 on Chain[5]
+get send work num :57456 on Chain[6]
+get send work num :57456 on Chain[7]
+wait recv nonce on chain[5]
+wait recv nonce on chain[6]
+wait recv nonce on chain[7]
+get nonces on chain[5]
+require nonce number:912
+require validnonce number:57456
+asic[00]=912	asic[01]=912	asic[02]=912	asic[03]=912	asic[04]=912	asic[05]=912	asic[06]=912	asic[07]=912	
+asic[08]=912	asic[09]=912	asic[10]=912	asic[11]=912	asic[12]=912	asic[13]=912	asic[14]=912	asic[15]=912	
+asic[16]=912	asic[17]=912	asic[18]=912	asic[19]=912	asic[20]=912	asic[21]=912	asic[22]=912	asic[23]=912	
+asic[24]=912	asic[25]=912	asic[26]=912	asic[27]=912	asic[28]=912	asic[29]=912	asic[30]=912	asic[31]=912	
+asic[32]=912	asic[33]=912	asic[34]=912	asic[35]=912	asic[36]=912	asic[37]=912	asic[38]=912	asic[39]=912	
+asic[40]=912	asic[41]=912	asic[42]=912	asic[43]=912	asic[44]=912	asic[45]=912	asic[46]=912	asic[47]=912	
+asic[48]=912	asic[49]=912	asic[50]=912	asic[51]=912	asic[52]=912	asic[53]=912	asic[54]=912	asic[55]=912	
+asic[56]=912	asic[57]=912	asic[58]=912	asic[59]=912	asic[60]=912	asic[61]=912	asic[62]=912	
+
+
+Below ASIC's core didn't receive all the nonce, they should receive 8 nonce each!
+
+
+
+freq[00]=637	freq[01]=637	freq[02]=637	freq[03]=637	freq[04]=637	freq[05]=637	freq[06]=637	freq[07]=637	
+freq[08]=637	freq[09]=637	freq[10]=637	freq[11]=637	freq[12]=637	freq[13]=637	freq[14]=637	freq[15]=637	
+freq[16]=637	freq[17]=637	freq[18]=637	freq[19]=637	freq[20]=637	freq[21]=637	freq[22]=637	freq[23]=637	
+freq[24]=637	freq[25]=637	freq[26]=637	freq[27]=637	freq[28]=637	freq[29]=637	freq[30]=637	freq[31]=643	
+freq[32]=643	freq[33]=643	freq[34]=643	freq[35]=643	freq[36]=643	freq[37]=643	freq[38]=643	freq[39]=643	
+freq[40]=643	freq[41]=643	freq[42]=643	freq[43]=643	freq[44]=643	freq[45]=643	freq[46]=643	freq[47]=643	
+freq[48]=643	freq[49]=643	freq[50]=643	freq[51]=643	freq[52]=643	freq[53]=643	freq[54]=643	freq[55]=643	
+freq[56]=643	freq[57]=643	freq[58]=643	freq[59]=643	freq[60]=643	freq[61]=643	freq[62]=643	
+
+total valid nonce number:57456
+total send work number:57456
+require valid nonce number:57456
+repeated_nonce_num:0
+err_nonce_num:26276
+last_nonce_num:23138
+get nonces on chain[6]
+require nonce number:912
+require validnonce number:57456
+asic[00]=912	asic[01]=912	asic[02]=912	asic[03]=912	asic[04]=912	asic[05]=912	asic[06]=912	asic[07]=912	
+asic[08]=912	asic[09]=912	asic[10]=912	asic[11]=912	asic[12]=912	asic[13]=912	asic[14]=912	asic[15]=912	
+asic[16]=912	asic[17]=912	asic[18]=912	asic[19]=912	asic[20]=912	asic[21]=912	asic[22]=912	asic[23]=912	
+asic[24]=912	asic[25]=912	asic[26]=912	asic[27]=912	asic[28]=912	asic[29]=912	asic[30]=912	asic[31]=912	
+asic[32]=912	asic[33]=912	asic[34]=912	asic[35]=912	asic[36]=912	asic[37]=912	asic[38]=912	asic[39]=912	
+asic[40]=912	asic[41]=912	asic[42]=912	asic[43]=912	asic[44]=912	asic[45]=912	asic[46]=912	asic[47]=912	
+asic[48]=912	asic[49]=912	asic[50]=912	asic[51]=912	asic[52]=912	asic[53]=912	asic[54]=912	asic[55]=912	
+asic[56]=912	asic[57]=912	asic[58]=912	asic[59]=912	asic[60]=912	asic[61]=912	asic[62]=912	
+
+
+Below ASIC's core didn't receive all the nonce, they should receive 8 nonce each!
+
+
+
+freq[00]=650	freq[01]=650	freq[02]=650	freq[03]=650	freq[04]=650	freq[05]=650	freq[06]=650	freq[07]=650	
+freq[08]=650	freq[09]=650	freq[10]=650	freq[11]=650	freq[12]=650	freq[13]=650	freq[14]=650	freq[15]=650	
+freq[16]=650	freq[17]=650	freq[18]=650	freq[19]=650	freq[20]=650	freq[21]=650	freq[22]=650	freq[23]=650	
+freq[24]=650	freq[25]=650	freq[26]=650	freq[27]=650	freq[28]=650	freq[29]=650	freq[30]=650	freq[31]=650	
+freq[32]=650	freq[33]=650	freq[34]=650	freq[35]=650	freq[36]=650	freq[37]=650	freq[38]=650	freq[39]=650	
+freq[40]=650	freq[41]=650	freq[42]=650	freq[43]=650	freq[44]=650	freq[45]=650	freq[46]=650	freq[47]=650	
+freq[48]=650	freq[49]=650	freq[50]=650	freq[51]=650	freq[52]=650	freq[53]=650	freq[54]=650	freq[55]=650	
+freq[56]=650	freq[57]=650	freq[58]=650	freq[59]=650	freq[60]=650	freq[61]=650	freq[62]=650	
+
+total valid nonce number:57456
+total send work number:57456
+require valid nonce number:57456
+repeated_nonce_num:0
+err_nonce_num:26374
+last_nonce_num:37932
+get nonces on chain[7]
+require nonce number:912
+require validnonce number:57456
+asic[00]=912	asic[01]=912	asic[02]=912	asic[03]=912	asic[04]=912	asic[05]=912	asic[06]=912	asic[07]=912	
+asic[08]=912	asic[09]=912	asic[10]=912	asic[11]=912	asic[12]=912	asic[13]=912	asic[14]=912	asic[15]=912	
+asic[16]=912	asic[17]=912	asic[18]=912	asic[19]=912	asic[20]=912	asic[21]=912	asic[22]=912	asic[23]=912	
+asic[24]=912	asic[25]=912	asic[26]=912	asic[27]=912	asic[28]=912	asic[29]=912	asic[30]=912	asic[31]=912	
+asic[32]=912	asic[33]=912	asic[34]=912	asic[35]=912	asic[36]=912	asic[37]=912	asic[38]=912	asic[39]=912	
+asic[40]=912	asic[41]=912	asic[42]=912	asic[43]=912	asic[44]=912	asic[45]=912	asic[46]=912	asic[47]=912	
+asic[48]=912	asic[49]=912	asic[50]=912	asic[51]=912	asic[52]=912	asic[53]=912	asic[54]=912	asic[55]=912	
+asic[56]=912	asic[57]=912	asic[58]=912	asic[59]=912	asic[60]=912	asic[61]=912	asic[62]=912	
+
+
+Below ASIC's core didn't receive all the nonce, they should receive 8 nonce each!
+
+
+
+freq[00]=631	freq[01]=631	freq[02]=631	freq[03]=631	freq[04]=631	freq[05]=631	freq[06]=631	freq[07]=631	
+freq[08]=631	freq[09]=631	freq[10]=631	freq[11]=631	freq[12]=631	freq[13]=631	freq[14]=631	freq[15]=631	
+freq[16]=631	freq[17]=631	freq[18]=631	freq[19]=631	freq[20]=631	freq[21]=631	freq[22]=631	freq[23]=631	
+freq[24]=631	freq[25]=631	freq[26]=631	freq[27]=631	freq[28]=631	freq[29]=631	freq[30]=631	freq[31]=631	
+freq[32]=631	freq[33]=631	freq[34]=631	freq[35]=631	freq[36]=631	freq[37]=631	freq[38]=631	freq[39]=631	
+freq[40]=631	freq[41]=631	freq[42]=631	freq[43]=631	freq[44]=631	freq[45]=631	freq[46]=631	freq[47]=631	
+freq[48]=631	freq[49]=631	freq[50]=631	freq[51]=631	freq[52]=631	freq[53]=631	freq[54]=631	freq[55]=631	
+freq[56]=631	freq[57]=631	freq[58]=631	freq[59]=631	freq[60]=631	freq[61]=631	freq[62]=631	
+
+total valid nonce number:57456
+total send work number:57456
+require valid nonce number:57456
+repeated_nonce_num:0
+err_nonce_num:25895
+last_nonce_num:23127
+chain[5]: All chip cores are opened OK!
+Test Patten on chain[5]: OK!
+chain[6]: All chip cores are opened OK!
+Test Patten on chain[6]: OK!
+chain[7]: All chip cores are opened OK!
+Test Patten on chain[7]: OK!
+setStartTimePoint total_tv_start_sys=376 total_tv_end_sys=377
+restartNum = 2 , auto-reinit enabled...
+do read_temp_func once...
+do check_asic_reg 0x08
+
+get RT hashrate from Chain[5]: (asic index start from 1-63)
+Asic[01]=73.8530 Asic[02]=74.1880 Asic[03]=77.5100 Asic[04]=73.9200 Asic[05]=74.0370 Asic[06]=73.5840 Asic[07]=70.1110 Asic[08]=69.4910 
+Asic[09]=71.8230 Asic[10]=73.7690 Asic[11]=68.5010 Asic[12]=66.7560 Asic[13]=75.3120 Asic[14]=69.2220 Asic[15]=71.4370 Asic[16]=67.2430 
+Asic[17]=69.7590 Asic[18]=79.0030 Asic[19]=71.1520 Asic[20]=72.7960 Asic[21]=67.7120 Asic[22]=72.4270 Asic[23]=77.4260 Asic[24]=74.0710 
+Asic[25]=70.9000 Asic[26]=73.5510 Asic[27]=65.8840 Asic[28]=73.0140 Asic[29]=71.8900 Asic[30]=74.9940 Asic[31]=67.7960 Asic[32]=71.3030 
+Asic[33]=72.1920 Asic[34]=73.9030 Asic[35]=74.2720 Asic[36]=70.4130 Asic[37]=70.2960 Asic[38]=72.2420 Asic[39]=69.3730 Asic[40]=76.5040 
+Asic[41]=74.6080 Asic[42]=74.8590 Asic[43]=71.0170 Asic[44]=71.1180 Asic[45]=71.8560 Asic[46]=75.3800 Asic[47]=69.6420 Asic[48]=76.6550 
+Asic[49]=75.6820 Asic[50]=74.2890 Asic[51]=72.4270 Asic[52]=72.4940 Asic[53]=72.1580 Asic[54]=70.5140 Asic[55]=73.7190 Asic[56]=79.0870 
+Asic[57]=76.9400 Asic[58]=76.4030 Asic[59]=67.3940 Asic[60]=74.7420 Asic[61]=69.7930 Asic[62]=79.5570 Asic[63]=74.0370 
+
+get RT hashrate from Chain[6]: (asic index start from 1-63)
+Asic[01]=73.0810 Asic[02]=74.3900 Asic[03]=73.9030 Asic[04]=69.4570 Asic[05]=79.2380 Asic[06]=73.6350 Asic[07]=76.9730 Asic[08]=71.3700 
+Asic[09]=69.3230 Asic[10]=43.3350 Asic[11]=71.7050 Asic[12]=75.5810 Asic[13]=71.9740 Asic[14]=67.9980 Asic[15]=74.0710 Asic[16]=77.4770 
+Asic[17]=72.6280 Asic[18]=73.6180 Asic[19]=75.3960 Asic[20]=74.6580 Asic[21]=71.8730 Asic[22]=74.2220 Asic[23]=78.8190 Asic[24]=76.2860 
+Asic[25]=74.9940 Asic[26]=71.2860 Asic[27]=70.2960 Asic[28]=76.0340 Asic[29]=73.7350 Asic[30]=74.1040 Asic[31]=74.8590 Asic[32]=73.3490 
+Asic[33]=77.6440 Asic[34]=74.8930 Asic[35]=69.3400 Asic[36]=76.4360 Asic[37]=74.2890 Asic[38]=74.6580 Asic[39]=76.7050 Asic[40]=73.9200 
+Asic[41]=73.8360 Asic[42]=75.2120 Asic[43]=67.2590 Asic[44]=68.5180 Asic[45]=79.8590 Asic[46]=75.5470 Asic[47]=72.9640 Asic[48]=70.7660 
+Asic[49]=44.8620 Asic[50]=75.8830 Asic[51]=73.9200 Asic[52]=74.2550 Asic[53]=72.9130 Asic[54]=73.8190 Asic[55]=77.8960 Asic[56]=73.7190 
+Asic[57]=72.9970 Asic[58]=71.1010 Asic[59]=70.1450 Asic[60]=71.4700 Asic[61]=69.1380 Asic[62]=71.9070 Asic[63]=75.1110 
+
+get RT hashrate from Chain[7]: (asic index start from 1-63)
+Asic[01]=76.6880 Asic[02]=71.0850 Asic[03]=66.8900 Asic[04]=70.2790 Asic[05]=74.1210 Asic[06]=67.3940 Asic[07]=71.5380 Asic[08]=73.6850 
+Asic[09]=75.3630 Asic[10]=66.8060 Asic[11]=72.3260 Asic[12]=77.9800 Asic[13]=72.4100 Asic[14]=75.1950 Asic[15]=78.1140 Asic[16]=70.3630 
+Asic[17]=74.7920 Asic[18]=66.1020 Asic[19]=64.0720 Asic[20]=70.2460 Asic[21]=74.3560 Asic[22]=73.4330 Asic[23]=74.0040 Asic[24]=71.7390 
+Asic[25]=74.1880 Asic[26]=72.3430 Asic[27]=76.8890 Asic[28]=68.6180 Asic[29]=70.3800 Asic[30]=65.5650 Asic[31]=65.1960 Asic[32]=66.6220 
+Asic[33]=66.1020 Asic[34]=64.8600 Asic[35]=66.6390 Asic[36]=72.4940 Asic[37]=77.2920 Asic[38]=73.4670 Asic[39]=73.4670 Asic[40]=71.3190 
+Asic[41]=71.3190 Asic[42]=74.7920 Asic[43]=69.8260 Asic[44]=70.5810 Asic[45]=76.9060 Asic[46]=72.0910 Asic[47]=71.1850 Asic[48]=68.7020 
+Asic[49]=75.5640 Asic[50]=73.1820 Asic[51]=72.4600 Asic[52]=70.2120 Asic[53]=72.9300 Asic[54]=70.2290 Asic[55]=78.2990 Asic[56]=71.8560 
+Asic[57]=72.0910 Asic[58]=74.5410 Asic[59]=68.5850 Asic[60]=68.1820 Asic[61]=72.7790 Asic[62]=76.2690 Asic[63]=71.3360 
+Check Chain[J6] ASIC RT error: (asic index start from 1-63)
+Check Chain[J7] ASIC RT error: (asic index start from 1-63)
+Check Chain[J8] ASIC RT error: (asic index start from 1-63)
+Done check_asic_reg
+do read temp on Chain[5]
+Chain[5] Chip[62] TempTypeID=55 middle offset=28
+Chain[5] Chip[62] local Temp=53
+Chain[5] Chip[62] middle Temp=62
+Special fix Chain[5] Chip[62] middle Temp = 68
+Done read temp on Chain[5]
+do read temp on Chain[6]
+Chain[6] Chip[62] TempTypeID=55 middle offset=29
+Chain[6] Chip[62] local Temp=56
+Chain[6] Chip[62] middle Temp=68
+Special fix Chain[6] Chip[62] middle Temp = 71
+Done read temp on Chain[6]
+do read temp on Chain[7]
+Chain[7] Chip[62] TempTypeID=1a middle offset=27
+Chain[7] Chip[62] local Temp=52
+Chain[7] Chip[62] middle Temp=146
+Special fix Chain[7] Chip[62] middle Temp = 67
+Done read temp on Chain[7]
+set FAN speed according to: temp_highest=56 temp_top1[PWM_T]=56 temp_top1[TEMP_POS_LOCAL]=56 temp_change=0 fix_fan_steps=0
+FAN PWM: 62
+read_temp_func Done!
+CRC error counter=0
+
+==== Miner Status
+
+Miner Status
+Summary
+Elapsed	GH/S(RT)	GH/S(avg)	FoundBlocks	LocalWork	Utility	WU	BestShare
+10m52s
+13,691.06
+13,520.11
+0
+32,916
+4.69
+153,788.47
+759170
+Pools
+Pool	URL	User	Status	Diff	GetWorks	Priority	Accepted	Diff1#	DiffA#	DiffR#	DiffS#	Rejected	Discarded	Stale	LSDiff	LSTime
+0
+stratum+tcp://ss.antpool.com:3333
+cat9bit.2021.07
+Alive
+32.8K
+25
+0
+51
+0
+1,671,168
+0
+0
+0
+349
+0
+32,768
+0:00:06
+1
+stratum+tcp://ss.antpool.com:3333
+cat9bit.2021.07
+Alive
+2
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Never
+2
+stratum+tcp://ss.antpool.com:3333
+cat9bit.2021.07
+Alive
+2
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Never
+total
+29
+51
+0
+1,671,168
+0
+0
+0
+349
+0
+HW
+30
+0
+0.0018%
+AntMiner
+Chain#	ASIC#	Frequency(avg)	GH/S(ideal)	GH/S(RT)	HW	Temp(Chip1)	Temp(Chip2)	ASIC status
+6
+63
+628.14
+4,499.97
+4,581.82
+0
+-
+69
+oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo ooooooo
+7
+63
+639.39
+4,500.94
+4,590.33
+30
+-
+72
+oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo ooooooo
+8
+63
+626.71
+4,500.43
+4,518.91
+0
+-
+67
+oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo ooooooo
+Total
+189
+631.41
+13,501.35
+13,691.06
+Fan#	Fan1	Fan2	Fan3	Fan4	Fan5	Fan6	Fan7	Fan8
+Speed (r/min)	0	0	4,200	0	0	4,320	0	0
