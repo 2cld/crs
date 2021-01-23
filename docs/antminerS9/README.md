@@ -2,6 +2,7 @@
 
 
 - [crs S9 Test Repair spreadsheet](https://docs.google.com/spreadsheets/d/1OY2vIPBp0MtdGgWja4nCJwE-r7zml7iQ-lLumCsUtlI/edit#gid=1822583908) - ask chris
+- [Copy Excel to Markdown](https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/)
 
 ### Rework Status 01.23.2021
 | Status                                                               | location | Log on crs.2cld | ASICS |
