@@ -1,5 +1,7 @@
 # Antminer S9
 
+- [crs S9 Test Repair spreadsheet](https://www.youtube.com/watch?v=Z353pKN0fm0) - ask chris
+
 ## S9 Setup
 - [AntMiner S9 Setup Guide Part I by CryptoCrane](https://www.youtube.com/watch?v=sz-XZL77qqs)
 - [AntMiner S9 Setup Guide Part II by CryptoCrane](https://www.youtube.com/watch?v=tUQcE6I7jzk)
