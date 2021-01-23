@@ -1,0 +1,532 @@
+System
+Miner Type	Antminer S9
+Hostname	crs-s9-w3-444F194DDC07
+Model	GNU/Linux
+Hardware Version	
+Kernel Version	Linux 3.14.0-xilinx-g16220c3 #83 SMP PREEMPT Thu Jul 12 11:42:53 CST 2018
+File System Version	Wed Jul 31 16:18:27 CST 2019
+Logic Version	V1.3.58
+BMminer Version	
+Uptime	18
+Load Average	0.00, 0.01, 0.00
+Memory
+Total Available	
+34356 kB / 495592 kB (7%)
+Free	
+461236 kB / 495592 kB (93%)
+Cached	
+0 kB / 495592 kB (0%)
+Buffered	
+0 kB / 495592 kB (0%)
+Network
+IP Status	
+
+eth0	Type: DHCP
+Address: 192.168.2.52
+Netmask: 255.255.255.0
+
+==== Monitor
+
+Mem: 34308K used, 461284K free, 0K shrd, 837656K buff, 837704K cached
+CPU:  0.0% usr  5.0% sys  0.0% nic 95.0% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 0.11 0.04 0.02 1/57 3506
+PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+3505  3504 root     R     2836  0.5   1  5.0 top -b -n 1
+1499     1 root     S    64272 12.9   1  0.0 single-board-test
+1834     1 root     S    35056  7.0   1  0.0 /usr/bin/bmminer --version-file /usr/bin/compile_time --api-listen --default-config /config/bmminer.conf
+1795     1 root     S     3084  0.6   1  0.0 /usr/bin/ntpd -p /var/run/ntp.pid -g
+1514     1 root     S     2840  0.5   1  0.0 /sbin/getty 115200 ttyPS0
+1515     1 root     S     2840  0.5   1  0.0 /sbin/getty 38400 tty1
+1516     1 root     S     2836  0.5   1  0.0 {monitorcg} /bin/sh /sbin/monitorcg
+3255     1 root     S     2836  0.5   0  0.0 udhcpc -b -t 10 -A 10 -x hostname crs-s9-w3-444F194DDC07 -i eth0
+3504  1475 root     S     2836  0.5   0  0.0 /bin/sh /www/pages/cgi-bin/monitor.cgi
+3506  3504 root     S     2836  0.5   0  0.0 /bin/sh /www/pages/cgi-bin/monitor.cgi
+1475     1 root     S     2776  0.5   0  0.0 /usr/sbin/lighttpd -f /etc/lighttpd.conf
+1850  1516 root     S     2704  0.5   1  0.0 sleep 20m
+3265     1 avahi    S     2612  0.5   1  0.0 avahi-daemon: running [crs-s9-w3-444F194DDC07.local]
+3266  3265 avahi    S     2612  0.5   1  0.0 avahi-daemon: chroot helper
+1     0 root     S     1688  0.3   1  0.0 init [5]
+1114     1 root     S     1676  0.3   0  0.0 /usr/bin/monitor-ipsig
+1503     1 root     S     1672  0.3   0  0.0 /usr/bin/monitor-recobtn /usr/bin/factory_config_reset.sh
+346     2 root     SW       0  0.0   0  0.0 [kworker/0:1]
+7     2 root     SW       0  0.0   1  0.0 [rcu_preempt]
+1526     2 root     SW       0  0.0   1  0.0 [kworker/1:2]
+6     2 root     SW       0  0.0   0  0.0 [kworker/u4:0]
+1084     2 root     SW       0  0.0   0  0.0 [ubi_bgt0d]
+3     2 root     SW       0  0.0   0  0.0 [ksoftirqd/0]
+14     2 root     SW       0  0.0   1  0.0 [ksoftirqd/1]
+18     2 root     SW       0  0.0   1  0.0 [kdevtmpfs]
+1086     2 root     SW       0  0.0   0  0.0 [ubifs_bgt0_0]
+2     0 root     SW       0  0.0   1  0.0 [kthreadd]
+5     2 root     SW<      0  0.0   0  0.0 [kworker/0:0H]
+8     2 root     SW       0  0.0   0  0.0 [rcu_sched]
+9     2 root     SW       0  0.0   0  0.0 [rcu_bh]
+10     2 root     SW       0  0.0   0  0.0 [migration/0]
+11     2 root     SW       0  0.0   0  0.0 [watchdog/0]
+12     2 root     SW       0  0.0   1  0.0 [watchdog/1]
+13     2 root     SW       0  0.0   1  0.0 [migration/1]
+15     2 root     SW       0  0.0   1  0.0 [kworker/1:0]
+16     2 root     SW<      0  0.0   1  0.0 [kworker/1:0H]
+17     2 root     SW<      0  0.0   1  0.0 [khelper]
+218     2 root     SW<      0  0.0   0  0.0 [writeback]
+220     2 root     SW<      0  0.0   1  0.0 [bioset]
+222     2 root     SW<      0  0.0   1  0.0 [kblockd]
+238     2 root     SW       0  0.0   0  0.0 [khubd]
+253     2 root     SW<      0  0.0   0  0.0 [edac-poller]
+345     2 root     SW<      0  0.0   0  0.0 [rpciod]
+356     2 root     SW       0  0.0   1  0.0 [khungtaskd]
+361     2 root     SW       0  0.0   0  0.0 [kswapd0]
+362     2 root     SW       0  0.0   0  0.0 [fsnotify_mark]
+363     2 root     SW<      0  0.0   1  0.0 [nfsiod]
+1005     2 root     SW<      0  0.0   1  0.0 [xemacps]
+1020     2 root     SW<      0  0.0   1  0.0 [kpsmoused]
+1067     2 root     SW       0  0.0   0  0.0 [irq/39-f8007100]
+1079     2 root     SW<      0  0.0   1  0.0 [deferwq]
+1428     2 root     SW       0  0.0   0  0.0 [kworker/0:2]
+1788     2 root     SW       0  0.0   0  0.0 [kworker/u4:2]
+2994     2 root     SW       0  0.0   1  0.0 [kworker/u4:1]
+3231     2 root     SW       0  0.0   0  0.0 [kworker/0:0]
+
+==== Kernel Log
+
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 3.14.0-xilinx-g16220c3 (lzq@armdev2) (gcc version 4.8.3 20140320 (prerelease) (Sourcery CodeBench Lite 2014.05-23) ) #83 SMP PREEMPT Thu Jul 12 11:42:53 CST 2018
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=18c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine model: Xilinx Zynq
+[    0.000000] cma: CMA: reserved 128 MiB at 16800000
+[    0.000000] Memory policy: Data cache writealloc
+[    0.000000] On node 0 totalpages: 126976
+[    0.000000] free_area_init_node: node 0, pgdat c074ac00, node_mem_map debd8000
+[    0.000000]   Normal zone: 992 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 126976 pages, LIFO batch:31
+[    0.000000] PERCPU: Embedded 8 pages/cpu @debc1000 s9088 r8192 d15488 u32768
+[    0.000000] pcpu-alloc: s9088 r8192 d15488 u32768 alloc=8*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 125984
+[    0.000000] Kernel command line: noinitrd mem=496M console=ttyPS0,115200 root=ubi0:rootfs ubi.mtd=1 rootfstype=ubifs rw rootwait
+[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 364316K/507904K available (5057K kernel code, 284K rwdata, 1928K rodata, 204K init, 258K bss, 143588K reserved, 0K highmem)
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     vmalloc : 0xdf800000 - 0xff000000   ( 504 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xdf000000   ( 496 MB)
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc06da8ac   (6987 kB)
+[    0.000000]       .init : 0xc06db000 - 0xc070e380   ( 205 kB)
+[    0.000000]       .data : 0xc0710000 - 0xc0757138   ( 285 kB)
+[    0.000000]        .bss : 0xc0757144 - 0xc0797bfc   ( 259 kB)
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000] 	Dump stacks of tasks blocking RCU-preempt GP.
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=2.
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] ps7-slcr mapped to df802000
+[    0.000000] zynq_clock_init: clkc starts at df802100
+[    0.000000] Zynq clock init
+[    0.000014] sched_clock: 64 bits at 333MHz, resolution 3ns, wraps every 3298534883328ns
+[    0.000294] ps7-ttc #0 at df804000, irq=43
+[    0.000591] Console: colour dummy device 80x30
+[    0.000621] Calibrating delay loop... 1325.46 BogoMIPS (lpj=6627328)
+[    0.040197] pid_max: default: 32768 minimum: 301
+[    0.040406] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.040425] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.042581] CPU: Testing write buffer coherency: ok
+[    0.042890] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.042947] Setting up static identity map for 0x4cb118 - 0x4cb170
+[    0.043168] L310 cache controller enabled
+[    0.043187] l2x0: 8 ways, CACHE_ID 0x410000c8, AUX_CTRL 0x72760000, Cache size: 512 kB
+[    0.120988] CPU1: Booted secondary processor
+[    0.210220] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.210349] Brought up 2 CPUs
+[    0.210367] SMP: Total of 2 processors activated.
+[    0.210375] CPU: All CPU(s) started in SVC mode.
+[    0.211033] devtmpfs: initialized
+[    0.213464] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+[    0.214654] regulator-dummy: no parameters
+[    0.221991] NET: Registered protocol family 16
+[    0.224206] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.226468] cpuidle: using governor ladder
+[    0.226482] cpuidle: using governor menu
+[    0.233811] syscon f8000000.ps7-slcr: regmap [mem 0xf8000000-0xf8000fff] registered
+[    0.235325] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.
+[    0.235339] hw-breakpoint: maximum watchpoint size is 4 bytes.
+[    0.235448] zynq-ocm f800c000.ps7-ocmc: ZYNQ OCM pool: 256 KiB @ 0xdf880000
+[    0.257170] bio: create slab <bio-0> at 0
+[    0.258548] vgaarb: loaded
+[    0.259263] SCSI subsystem initialized
+[    0.260127] usbcore: registered new interface driver usbfs
+[    0.260427] usbcore: registered new interface driver hub
+[    0.260667] usbcore: registered new device driver usb
+[    0.261214] media: Linux media interface: v0.10
+[    0.261370] Linux video capture interface: v2.00
+[    0.261607] pps_core: LinuxPPS API ver. 1 registered
+[    0.261619] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.261742] PTP clock support registered
+[    0.262098] EDAC MC: Ver: 3.0.0
+[    0.263295] Advanced Linux Sound Architecture Driver Initialized.
+[    0.266031] DMA-API: preallocated 4096 debug entries
+[    0.266044] DMA-API: debugging enabled by kernel config
+[    0.266120] Switched to clocksource arm_global_timer
+[    0.286736] NET: Registered protocol family 2
+[    0.287365] TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.287422] TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.287507] TCP: Hash tables configured (established 4096 bind 4096)
+[    0.287561] TCP: reno registered
+[    0.287578] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    0.287606] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    0.287847] NET: Registered protocol family 1
+[    0.288141] RPC: Registered named UNIX socket transport module.
+[    0.288154] RPC: Registered udp transport module.
+[    0.288162] RPC: Registered tcp transport module.
+[    0.288170] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.288182] PCI: CLS 0 bytes, default 64
+[    0.288602] hw perfevents: enabled with ARMv7 Cortex-A9 PMU driver, 7 counters available
+[    0.290582] futex hash table entries: 512 (order: 3, 32768 bytes)
+[    0.292631] jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+[    0.292814] msgmni has been set to 967
+[    0.293561] io scheduler noop registered
+[    0.293574] io scheduler deadline registered
+[    0.293611] io scheduler cfq registered (default)
+[    0.304915] dma-pl330 f8003000.ps7-dma: Loaded driver for PL330 DMAC-2364208
+[    0.304935] dma-pl330 f8003000.ps7-dma: 	DBUFF-128x8bytes Num_Chans-8 Num_Peri-4 Num_Events-16
+[    0.426677] e0001000.serial: ttyPS0 at MMIO 0xe0001000 (irq = 82, base_baud = 3124999) is a xuartps
+[    0.993411] console [ttyPS0] enabled
+[    0.997680] xdevcfg f8007000.ps7-dev-cfg: ioremap 0xf8007000 to df866000
+[    1.005273] [drm] Initialized drm 1.1.0 20060810
+[    1.022338] brd: module loaded
+[    1.031755] loop: module loaded
+[    1.041147] e1000e: Intel(R) PRO/1000 Network Driver - 2.3.2-k
+[    1.047171] e1000e: Copyright(c) 1999 - 2013 Intel Corporation.
+[    1.054899] libphy: XEMACPS mii bus: probed
+[    1.059526] ------------- phy_id = 0x3625e62
+[    1.064254] xemacps e000b000.ps7-ethernet: pdev->id -1, baseaddr 0xe000b000, irq 54
+[    1.073078] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.079776] ehci-pci: EHCI PCI platform driver
+[    1.087002] zynq-dr e0002000.ps7-usb: Unable to init USB phy, missing?
+[    1.093788] usbcore: registered new interface driver usb-storage
+[    1.100653] mousedev: PS/2 mouse device common for all mice
+[    1.106771] i2c /dev entries driver
+[    1.113647] zynq-edac f8006000.ps7-ddrc: ecc not enabled
+[    1.119151] cpufreq_cpu0: failed to get cpu0 regulator: -19
+[    1.125020] Xilinx Zynq CpuIdle Driver started
+[    1.129904] sdhci: Secure Digital Host Controller Interface driver
+[    1.135998] sdhci: Copyright(c) Pierre Ossman
+[    1.140428] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.147170] mmc0: no vqmmc regulator found
+[    1.151183] mmc0: no vmmc regulator found
+[    1.196140] mmc0: SDHCI controller on e0100000.ps7-sdio [e0100000.ps7-sdio] using ADMA
+[    1.204823] usbcore: registered new interface driver usbhid
+[    1.210328] usbhid: USB HID core driver
+[    1.215030] nand: device found, Manufacturer ID: 0x2c, Chip ID: 0xda
+[    1.221324] nand: Micron MT29F2G08ABAEAWP
+[    1.225293] nand: 256MiB, SLC, page size: 2048, OOB size: 64
+[    1.231232] Bad block table found at page 131008, version 0x01
+[    1.237457] Bad block table found at page 130944, version 0x01
+[    1.243509] 3 ofpart partitions found on MTD device pl353-nand
+[    1.249290] Creating 3 MTD partitions on "pl353-nand":
+[    1.254383] 0x000000000000-0x000002000000 : "BOOT.bin-env-dts-kernel"
+[    1.262426] 0x000002000000-0x00000b000000 : "angstram-rootfs"
+[    1.269736] 0x00000b000000-0x000010000000 : "upgrade-rootfs"
+[    1.280463] TCP: cubic registered
+[    1.283701] NET: Registered protocol family 17
+[    1.288406] Registering SWP/SWPB emulation handler
+[    1.294280] regulator-dummy: disabling
+[    1.298611] UBI: attaching mtd1 to ubi0
+[    1.822441] UBI: scanning is finished
+[    1.834029] UBI: attached mtd1 (name "angstram-rootfs", size 144 MiB) to ubi0
+[    1.841103] UBI: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[    1.847867] UBI: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+[    1.854531] UBI: VID header offset: 2048 (aligned 2048), data offset: 4096
+[    1.861409] UBI: good PEBs: 1152, bad PEBs: 0, corrupted PEBs: 0
+[    1.867389] UBI: user volume: 1, internal volumes: 1, max. volumes count: 128
+[    1.874496] UBI: max/mean erase counter: 2/0, WL threshold: 4096, image sequence number: 1113221046
+[    1.883540] UBI: available PEBs: 0, total reserved PEBs: 1152, PEBs reserved for bad PEB handling: 40
+[    1.892755] UBI: background thread "ubi_bgt0d" started, PID 1084
+[    1.892761] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+[    1.896706] ALSA device list:
+[    1.896710]   No soundcards found.
+[    1.913042] UBIFS: background thread "ubifs_bgt0_0" started, PID 1086
+[    1.941994] UBIFS: recovery needed
+[    2.099529] UBIFS: recovery completed
+[    2.103192] UBIFS: mounted UBI device 0, volume 0, name "rootfs"
+[    2.109141] UBIFS: LEB size: 126976 bytes (124 KiB), min./max. I/O unit sizes: 2048 bytes/2048 bytes
+[    2.118247] UBIFS: FS size: 128626688 bytes (122 MiB, 1013 LEBs), journal size 9023488 bytes (8 MiB, 72 LEBs)
+[    2.128136] UBIFS: reserved for root: 0 bytes (0 KiB)
+[    2.133165] UBIFS: media format: w4/r0 (latest is w4/r0), UUID E8A4479F-B15D-4C7A-964D-0F246E2BB6ED, small LPT model
+[    2.144455] VFS: Mounted root (ubifs filesystem) on device 0:11.
+[    2.151637] devtmpfs: mounted
+[    2.154741] Freeing unused kernel memory: 204K (c06db000 - c070e000)
+[    2.989631] random: dd urandom read with 1 bits of entropy available
+[    3.376163] 
+[    3.376163] bcm54xx_config_init
+[    4.446158] 
+[    4.446158] bcm54xx_config_init
+[    8.446985] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[    8.453089] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+[   26.237429] In axi fpga driver!
+[   26.240493] request_mem_region OK!
+[   26.243882] AXI fpga dev virtual address is 0xdf9fe000
+[   26.249016] *base_vir_addr = 0xc51e
+[   26.263702] In fpga mem driver!
+[   26.267087] request_mem_region OK!
+[   26.270591] fpga mem virtual address is 0xe2000000
+[   27.056158] 
+[   27.056158] bcm54xx_config_init
+[   28.146171] 
+[   28.146171] bcm54xx_config_init
+[   32.146985] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[   32.153087] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+[  817.752351] random: nonblocking pool is initialized
+[  999.682315] 
+[  999.682315] bcm54xx_config_init
+[ 1003.683170] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[ 1003.689272] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+main.c:13992: log_level = 4
+main.c:14019: This is XILINX board. Totalram:       507486208
+main.c:14031: Detect 512MB control board of XILINX
+driver-bitmain.c:1776: mmap axi_fpga_addr = 0xb6f42000
+driver-bitmain.c:1781: axi_fpga_addr data = 0xc51e
+driver-bitmain.c:1797: mmap fpga_mem_addr = 0xb5d3b000
+driver-bitmain.c:994: forceFreq=-1 forceFlag=0
+driver-bitmain.c:1696: min work minertest[0]:912
+
+
+main.c:8570: DETECT HW version=0000c51e
+main.c:14064: miner ID : 8032f5c46880881c
+main.c:14089: Miner Type = S9
+main.c:14101: AsicType = 1387
+main.c:14104: real AsicNum = 63
+main.c:14197: use critical mode to search freq...
+driver-bitmain.c:1876: get PLUG ON=0x000000e0
+driver-bitmain.c:1946: Find hashboard on Chain[5]
+driver-bitmain.c:1946: Find hashboard on Chain[6]
+driver-bitmain.c:1946: Find hashboard on Chain[7]
+main.c:2282: Check chain[5] PIC fw version=0x03
+main.c:2282: Check chain[6] PIC fw version=0x03
+main.c:2282: Check chain[7] PIC fw version=0x03
+main.c:8940: read pic freq and badcore num...
+main.c:8961: chain[5]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+main.c:9003: has freq in PIC, will disable freq setting.
+main.c:9099: chain[5] has freq in PIC and will jump over...
+main.c:9103: Chain[5] has core num in PIC
+main.c:9113: Chain[5] ASIC[0] has core num=1
+main.c:9113: Chain[5] ASIC[1] has core num=1
+main.c:9113: Chain[5] ASIC[2] has core num=1
+main.c:9113: Chain[5] ASIC[4] has core num=1
+main.c:9113: Chain[5] ASIC[5] has core num=1
+main.c:9113: Chain[5] ASIC[6] has core num=1
+main.c:9113: Chain[5] ASIC[7] has core num=2
+main.c:9113: Chain[5] ASIC[8] has core num=1
+main.c:9113: Chain[5] ASIC[9] has core num=1
+main.c:9113: Chain[5] ASIC[10] has core num=1
+main.c:9113: Chain[5] ASIC[11] has core num=1
+main.c:9113: Chain[5] ASIC[12] has core num=1
+main.c:9113: Chain[5] ASIC[14] has core num=3
+main.c:9113: Chain[5] ASIC[15] has core num=1
+main.c:9113: Chain[5] ASIC[16] has core num=1
+main.c:9113: Chain[5] ASIC[17] has core num=1
+main.c:9113: Chain[5] ASIC[18] has core num=2
+main.c:9113: Chain[5] ASIC[19] has core num=1
+main.c:9113: Chain[5] ASIC[20] has core num=1
+main.c:9113: Chain[5] ASIC[21] has core num=2
+main.c:9113: Chain[5] ASIC[22] has core num=1
+main.c:9113: Chain[5] ASIC[23] has core num=1
+main.c:9113: Chain[5] ASIC[24] has core num=1
+main.c:9113: Chain[5] ASIC[25] has core num=1
+main.c:9113: Chain[5] ASIC[26] has core num=2
+main.c:9113: Chain[5] ASIC[27] has core num=1
+main.c:9113: Chain[5] ASIC[28] has core num=3
+main.c:9113: Chain[5] ASIC[29] has core num=1
+main.c:9113: Chain[5] ASIC[31] has core num=5
+main.c:9113: Chain[5] ASIC[33] has core num=1
+main.c:9113: Chain[5] ASIC[34] has core num=2
+main.c:9113: Chain[5] ASIC[35] has core num=1
+main.c:9113: Chain[5] ASIC[36] has core num=1
+main.c:9113: Chain[5] ASIC[37] has core num=1
+main.c:9113: Chain[5] ASIC[38] has core num=1
+main.c:9113: Chain[5] ASIC[39] has core num=1
+main.c:9113: Chain[5] ASIC[40] has core num=9
+main.c:9113: Chain[5] ASIC[41] has core num=1
+main.c:9113: Chain[5] ASIC[42] has core num=2
+main.c:9113: Chain[5] ASIC[44] has core num=1
+main.c:9113: Chain[5] ASIC[45] has core num=1
+main.c:9113: Chain[5] ASIC[46] has core num=2
+main.c:9113: Chain[5] ASIC[47] has core num=2
+main.c:9113: Chain[5] ASIC[48] has core num=1
+main.c:9113: Chain[5] ASIC[49] has core num=5
+main.c:9113: Chain[5] ASIC[50] has core num=1
+main.c:9113: Chain[5] ASIC[51] has core num=1
+main.c:9113: Chain[5] ASIC[52] has core num=1
+main.c:9113: Chain[5] ASIC[53] has core num=1
+main.c:9113: Chain[5] ASIC[54] has core num=1
+main.c:9113: Chain[5] ASIC[55] has core num=1
+main.c:9113: Chain[5] ASIC[56] has core num=2
+main.c:9113: Chain[5] ASIC[57] has core num=1
+main.c:9113: Chain[5] ASIC[58] has core num=1
+main.c:9113: Chain[5] ASIC[60] has core num=1
+main.c:9113: Chain[5] ASIC[61] has core num=1
+main.c:9113: Chain[5] ASIC[62] has core num=1
+main.c:2282: Check chain[5] PIC fw version=0x03
+main.c:8940: read pic freq and badcore num...
+main.c:8961: chain[6]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+main.c:9003: has freq in PIC, will disable freq setting.
+main.c:9099: chain[6] has freq in PIC and will jump over...
+main.c:9103: Chain[6] has core num in PIC
+main.c:2282: Check chain[6] PIC fw version=0x03
+main.c:8940: read pic freq and badcore num...
+main.c:8961: chain[7]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+main.c:9003: has freq in PIC, will disable freq setting.
+main.c:9099: chain[7] has freq in PIC and will jump over...
+main.c:9103: Chain[7] has core num in PIC
+main.c:9113: Chain[7] ASIC[0] has core num=1
+main.c:9113: Chain[7] ASIC[2] has core num=1
+main.c:9113: Chain[7] ASIC[4] has core num=1
+main.c:2282: Check chain[7] PIC fw version=0x03
+main.c:9183: get PIC voltage=142 on chain[5], value=860
+main.c:9183: get PIC voltage=142 on chain[6], value=860
+main.c:9183: get PIC voltage=142 on chain[7], value=860
+main.c:9349: chain[5] temp offset record: 62,-3,0,0,0,0,33,0
+main.c:9366: chain[5] temp chip I2C addr=0x98
+main.c:9349: chain[6] temp offset record: 62,-4,0,0,0,0,33,0
+main.c:9366: chain[6] temp chip I2C addr=0x98
+main.c:9349: chain[7] temp offset record: 62,0,0,0,0,0,38,28
+main.c:9366: chain[7] temp chip I2C addr=0x9a
+main.c:9372: chain[7] has no middle temp, use special fix mode.
+main.c:13956: total_exist_chain_num = 3
+main.c:9562: CRC error counter=0
+main.c:9577: set command mode to VIL
+main.c:9649: 
+--- check asic number
+main.c:9745: After Get ASIC NUM CRC error counter=0
+main.c:9768: set_baud=0
+main.c:10693: The min freq=700
+main.c:10695: set real timeout 52, need sleep=379392
+main.c:12825: After TEST CRC error counter=0
+main.c:14236: search freq for 1 times, completed chain = 3, total chain num = 3 
+board_frq_tuning.c:628: single_board_frq_tuning enter
+board_frq_tuning.c:629: min_rate, des_rate, fix_volt:13800, 14000, 880
+board_frq_tuning.c:254: force_freq not set, don't need tuning
+main.c:14645: restart Miner chance num=2
+main.c:14685: waiting for receive_func to exit!
+main.c:14699: waiting for pic heart to exit!
+main.c:13927: bmminer not found= 1830 root       0:00 grep bmminer
+
+main.c:14758: bmminer not found, restart bmminer ...
+driver-btm-c5.c:12243:bitmain_c5_init: This is user mode for mining
+driver-btm-c5.c:12292:bitmain_c5_init: Detect 512MB control board of XILINX
+driver-btm-c5.c:12313:bitmain_c5_init: Miner Type = S9
+driver-btm-c5.c:12324:bitmain_c5_init: Miner compile time: Wed Jul 31 16:18:27 CST 2019 type: Antminer S9
+driver-btm-c5.c:12414:bitmain_c5_init: miner ID : 8032f5c46880881c
+driver-btm-c5.c:12571:bitmain_c5_init: Checking fans...
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2280
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2280
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2280
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2280
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=600
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=600
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=600
+driver-btm-c5.c:3023:check_fan_beforeInit: waiting fans become stable...
+driver-btm-c5.c:3023:check_fan_beforeInit: waiting fans become stable...
+driver-btm-c5.c:3023:check_fan_beforeInit: waiting fans become stable...
+driver-btm-c5.c:3023:check_fan_beforeInit: waiting fans become stable...
+driver-btm-c5.c:3023:check_fan_beforeInit: waiting fans become stable...
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=600
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=600
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=480
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=480
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=480
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=480
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=480
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2280
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2280
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2280
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2280
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2280
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2280
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2280
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2280
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2280
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2280
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=6000
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=5880
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=2400
+driver-btm-c5.c:3010:check_fan_beforeInit: Fatal Error: some Fan lost or Fan speed low!
