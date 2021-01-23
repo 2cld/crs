@@ -30,3 +30,7 @@
 - [Louis Rossmann - The tools I use and why I bought them](https://www.youtube.com/watch?v=bVoBZqlvCKo)
 - [store.rossmanngroup.com](https://store.rossmanngroup.com/)
   - [Flux](https://store.rossmanngroup.com/index.php/amtech-nc-559-v2-30-cc-16160.html)
+  
+### Crypto Mining Repair Hash Boards
+- [How to Find Solder Balls on Bitcoin Hash Boards](https://www.youtube.com/watch?v=Z353pKN0fm0)
+- [Bitcoin Farm - Finally Got Miners from USPS, Time To Repair 3 Boards](https://www.youtube.com/watch?v=slWSavYCYU8)
