@@ -1,0 +1,102 @@
+## csr-s9-w9
+
+==== System Overview
+
+System
+Miner Type	Antminer S9
+Hostname	crs-s9-w9-00:6F:89:DA:AC:3B
+Model	GNU/Linux
+Hardware Version	
+Kernel Version	Linux 3.14.0-xilinx-ge8a2f71-dirty #82 SMP PREEMPT Tue May 16 19:49:53 CST 2017
+File System Version	Fri Nov 17 17:37:49 CST 2017
+Logic Version	S9_V2.54
+BMminer Version	
+Uptime	5
+Load Average	0.00, 0.01, 0.00
+Memory
+Total Available	
+37632 kB / 495632 kB (8%)
+Free	
+458000 kB / 495632 kB (92%)
+Cached	
+0 kB / 495632 kB (0%)
+Buffered	
+0 kB / 495632 kB (0%)
+Network
+IP Status	
+
+eth0	Type: DHCP
+Address: 192.168.128.235
+Netmask: 255.255.255.0
+
+
+==== Monitor
+
+Mem: 39516K used, 456116K free, 0K shrd, 837656K buff, 837704K cached
+CPU:  0.0% usr  0.0% sys  0.0% nic  100% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 0.00 0.01 0.01 1/57 2305
+PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+2304  2303 root     R     2836  0.5   1  0.0 top -b -n 1
+1680     1 root     S    62184 12.5   0  0.0 single-board-test
+1812     1 root     S    34596  6.9   0  0.0 /usr/bin/bmminer --version-file /usr/bin/compile_time --api-listen --default-config /config/bmminer.conf
+1279     1 root     S     4052  0.8   1  0.0 /usr/bin/monitor-recobtn /usr/bin/factory_config_reset.sh
+1342     1 root     S     3084  0.6   1  0.0 /usr/bin/ntpd -p /var/run/ntp.pid -g
+1290     1 root     S     2840  0.5   0  0.0 /sbin/getty 115200 ttyPS0
+1291     1 root     S     2840  0.5   0  0.0 /sbin/getty 38400 tty1
+1984  1974 root     S     2840  0.5   0  0.0 -sh
+1292     1 root     S     2836  0.5   0  0.0 {monitorcg} /bin/sh /sbin/monitorcg
+1863     1 root     S     2836  0.5   1  0.0 udhcpc -b -t 10 -A 10 -x hostname crs-s9-w9-00:6F:89:DA:AC:3B -i eth0
+2303  1251 root     S     2836  0.5   0  0.0 /bin/sh /www/pages/cgi-bin/monitor.cgi
+2305  2303 root     S     2836  0.5   0  0.0 /bin/sh /www/pages/cgi-bin/monitor.cgi
+1251     1 root     S     2776  0.5   0  0.0 /usr/sbin/lighttpd -f /etc/lighttpd.conf
+1406  1292 root     S     2704  0.5   0  0.0 sleep 20m
+1873     1 avahi    S     2612  0.5   0  0.0 avahi-daemon: running [crs-s9-w9-006F89DAAC3B.local]
+1874  1873 avahi    S     2612  0.5   1  0.0 avahi-daemon: chroot helper
+1974  1234 root     S     2552  0.5   1  0.0 /usr/sbin/dropbear -r /config/dropbear_rsa_host_key -p 22
+1234     1 root     S     2092  0.4   1  0.0 /usr/sbin/dropbear -r /config/dropbear_rsa_host_key -p 22
+1     0 root     S     1688  0.3   1  0.0 init [5]
+1110     1 root     S     1676  0.3   1  0.0 /usr/bin/monitor-ipsig
+1000     2 root     SW       0  0.0   0  0.0 [kworker/0:1]
+7     2 root     SW       0  0.0   1  0.0 [rcu_preempt]
+1198     2 root     SW       0  0.0   1  0.0 [kworker/1:2]
+1080     2 root     SW       0  0.0   0  0.0 [ubi_bgt0d]
+18     2 root     SW       0  0.0   1  0.0 [kdevtmpfs]
+3     2 root     SW       0  0.0   0  0.0 [ksoftirqd/0]
+14     2 root     SW       0  0.0   1  0.0 [ksoftirqd/1]
+1082     2 root     SW       0  0.0   0  0.0 [ubifs_bgt0_0]
+1218     2 root     SW       0  0.0   1  0.0 [kworker/u4:2]
+2     0 root     SW       0  0.0   0  0.0 [kthreadd]
+5     2 root     SW<      0  0.0   0  0.0 [kworker/0:0H]
+8     2 root     SW       0  0.0   0  0.0 [rcu_sched]
+9     2 root     SW       0  0.0   0  0.0 [rcu_bh]
+10     2 root     SW       0  0.0   0  0.0 [migration/0]
+11     2 root     SW       0  0.0   0  0.0 [watchdog/0]
+12     2 root     SW       0  0.0   1  0.0 [watchdog/1]
+13     2 root     SW       0  0.0   1  0.0 [migration/1]
+16     2 root     SW<      0  0.0   1  0.0 [kworker/1:0H]
+17     2 root     SW<      0  0.0   1  0.0 [khelper]
+19     2 root     SW       0  0.0   1  0.0 [kworker/u4:1]
+218     2 root     SW<      0  0.0   0  0.0 [writeback]
+220     2 root     SW<      0  0.0   1  0.0 [bioset]
+222     2 root     SW<      0  0.0   1  0.0 [kblockd]
+238     2 root     SW       0  0.0   0  0.0 [khubd]
+253     2 root     SW<      0  0.0   0  0.0 [edac-poller]
+344     2 root     SW<      0  0.0   0  0.0 [rpciod]
+345     2 root     SW       0  0.0   1  0.0 [kworker/1:1]
+355     2 root     SW       0  0.0   1  0.0 [khungtaskd]
+360     2 root     SW       0  0.0   0  0.0 [kswapd0]
+361     2 root     SW       0  0.0   1  0.0 [fsnotify_mark]
+362     2 root     SW<      0  0.0   1  0.0 [nfsiod]
+1004     2 root     SW<      0  0.0   0  0.0 [xemacps]
+1019     2 root     SW<      0  0.0   0  0.0 [kpsmoused]
+1075     2 root     SW<      0  0.0   0  0.0 [deferwq]
+1302     2 root     SW       0  0.0   0  0.0 [kworker/0:2]
+
+
+==== Kernel Log
+
+tbd nothing in log because fans would not spin ?
+
+==== Miner Status
+
+tbd nothing
