@@ -16,7 +16,7 @@
 | no chain 6 (7 and 8 are fine)                                        | Joey     | crs-s9-w6.log   | 126   |
 | all OK                                                               | Joey     | crs-s9-w7.log   | 189   |
 | bad fan ?                                                            | Chris    | crs-s9-w8.log   |       |
-| DOA                                                                  | Chris    | crs-s9-w9 - na  |       |
+| bad fan ?                                                            | Chris    | crs-s9-w9.log   |       |
 | no chain 6 (7 and 8 are fine)                                        | Chris    | crs-s9-w10.log  | 126   |
 | all OK - ssh                                                         | Chris    | crs-s9-w11.log  | 189   |
 | not tested                                                           | Joey     | crs-s9-w12 - na |       |
