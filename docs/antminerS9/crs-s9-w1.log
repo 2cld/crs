@@ -1,3 +1,969 @@
+System
+Miner Type	Antminer S9
+Hostname	crs-s9-w1
+Model	GNU/Linux
+Hardware Version	30.0.1.3
+Kernel Version	Linux 3.14.0-xilinx-g16220c3 #83 SMP PREEMPT Thu Jul 12 11:42:53 CST 2018
+File System Version	Wed Jul 31 16:18:27 CST 2019
+Logic Version	V1.3.58
+BMminer Version	2.0.0
+Uptime	1:42
+Load Average	0.15, 0.18, 0.21
+Memory
+Total Available	
+35776 kB / 495592 kB (7%)
+Free	
+459816 kB / 495592 kB (93%)
+Cached	
+0 kB / 495592 kB (0%)
+Buffered	
+0 kB / 495592 kB (0%)
+Network
+IP Status	
+
+eth0	Type: DHCP
+Address: 192.168.2.92
+Netmask: 255.255.255.0
+
+==== Monitor
+
+Mem: 35680K used, 459912K free, 0K shrd, 837712K buff, 837760K cached
+CPU:  0.0% usr 14.2% sys  0.0% nic 85.7% idle  0.0% io  0.0% irq  0.0% sirq
+Load average: 0.27 0.21 0.22 1/71 14557
+PID  PPID USER     STAT   VSZ %VSZ CPU %CPU COMMAND
+29632     1 root     S <   149m 30.8   0  4.7 /usr/bin/bmminer --version-file /usr/bin/compile_time --api-listen --default-config /config/bmminer.conf
+14460 14455 root     R     2836  0.5   0  4.7 top -b -n 1
+1505     1 root     S    64272 12.9   0  0.0 single-board-test
+1799     1 root     S     3084  0.6   0  0.0 /usr/bin/ntpd -p /var/run/ntp.pid -g
+1520     1 root     S     2840  0.5   1  0.0 /sbin/getty 115200 ttyPS0
+1521     1 root     S     2840  0.5   0  0.0 /sbin/getty 38400 tty1
+1522     1 root     S     2836  0.5   0  0.0 {monitorcg} /bin/sh /sbin/monitorcg
+1239     1 root     S     2836  0.5   1  0.0 udhcpc -b -t 10 -A 10 -x hostname crs-s9-w1 -i eth0
+14455  1481 root     S     2836  0.5   0  0.0 /bin/sh /www/pages/cgi-bin/monitor.cgi
+14462 14455 root     S     2836  0.5   1  0.0 /bin/sh /www/pages/cgi-bin/monitor.cgi
+1481     1 root     S     2776  0.5   0  0.0 /usr/sbin/lighttpd -f /etc/lighttpd.conf
+2993  1522 root     S     2704  0.5   1  0.0 sleep 20m
+2143     1 avahi    S     2612  0.5   0  0.0 avahi-daemon: running [crs-s9-w1.local]
+2149  2143 avahi    S     2612  0.5   1  0.0 avahi-daemon: chroot helper
+1     0 root     S     1688  0.3   1  0.0 init [5]
+1114     1 root     S     1676  0.3   1  0.0 /usr/bin/monitor-ipsig
+1509     1 root     S     1672  0.3   1  0.0 /usr/bin/monitor-recobtn /usr/bin/factory_config_reset.sh
+7     2 root     SW       0  0.0   0  0.0 [rcu_preempt]
+3     2 root     SW       0  0.0   0  0.0 [ksoftirqd/0]
+14     2 root     SW       0  0.0   1  0.0 [ksoftirqd/1]
+346     2 root     SW       0  0.0   1  0.0 [kworker/1:1]
+994     2 root     SW       0  0.0   0  0.0 [kworker/0:1]
+1086     2 root     SW       0  0.0   0  0.0 [ubifs_bgt0_0]
+24451     2 root     SW       0  0.0   1  0.0 [kworker/1:0]
+19     2 root     SW       0  0.0   1  0.0 [kworker/u4:1]
+10     2 root     SW       0  0.0   0  0.0 [migration/0]
+13     2 root     SW       0  0.0   1  0.0 [migration/1]
+1084     2 root     SW       0  0.0   1  0.0 [ubi_bgt0d]
+11     2 root     SW       0  0.0   0  0.0 [watchdog/0]
+12     2 root     SW       0  0.0   1  0.0 [watchdog/1]
+18     2 root     SW       0  0.0   1  0.0 [kdevtmpfs]
+2     0 root     SW       0  0.0   1  0.0 [kthreadd]
+4     2 root     SW       0  0.0   0  0.0 [kworker/0:0]
+5     2 root     SW<      0  0.0   0  0.0 [kworker/0:0H]
+8     2 root     SW       0  0.0   0  0.0 [rcu_sched]
+9     2 root     SW       0  0.0   0  0.0 [rcu_bh]
+16     2 root     SW<      0  0.0   1  0.0 [kworker/1:0H]
+17     2 root     SW<      0  0.0   1  0.0 [khelper]
+218     2 root     SW<      0  0.0   0  0.0 [writeback]
+220     2 root     SW<      0  0.0   1  0.0 [bioset]
+222     2 root     SW<      0  0.0   1  0.0 [kblockd]
+238     2 root     SW       0  0.0   0  0.0 [khubd]
+253     2 root     SW<      0  0.0   0  0.0 [edac-poller]
+345     2 root     SW<      0  0.0   0  0.0 [rpciod]
+356     2 root     SW       0  0.0   1  0.0 [khungtaskd]
+361     2 root     SW       0  0.0   0  0.0 [kswapd0]
+362     2 root     SW       0  0.0   1  0.0 [fsnotify_mark]
+363     2 root     SW<      0  0.0   1  0.0 [nfsiod]
+1005     2 root     SW<      0  0.0   0  0.0 [xemacps]
+1020     2 root     SW<      0  0.0   0  0.0 [kpsmoused]
+1067     2 root     SW       0  0.0   0  0.0 [irq/39-f8007100]
+1079     2 root     SW<      0  0.0   1  0.0 [deferwq]
+1139     2 root     SW       0  0.0   1  0.0 [kworker/u4:2]
+1431     2 root     SW       0  0.0   1  0.0 [kworker/1:2]
+27786     2 root     SW       0  0.0   0  0.0 [kworker/0:2]
+30055     2 root     SW       0  0.0   1  0.0 [kworker/u4:0]
+
+==== Kernel Log
+
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 3.14.0-xilinx-g16220c3 (lzq@armdev2) (gcc version 4.8.3 20140320 (prerelease) (Sourcery CodeBench Lite 2014.05-23) ) #83 SMP PREEMPT Thu Jul 12 11:42:53 CST 2018
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=18c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine model: Xilinx Zynq
+[    0.000000] cma: CMA: reserved 128 MiB at 16800000
+[    0.000000] Memory policy: Data cache writealloc
+[    0.000000] On node 0 totalpages: 126976
+[    0.000000] free_area_init_node: node 0, pgdat c074ac00, node_mem_map debd8000
+[    0.000000]   Normal zone: 992 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 126976 pages, LIFO batch:31
+[    0.000000] PERCPU: Embedded 8 pages/cpu @debc1000 s9088 r8192 d15488 u32768
+[    0.000000] pcpu-alloc: s9088 r8192 d15488 u32768 alloc=8*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 125984
+[    0.000000] Kernel command line: noinitrd mem=496M console=ttyPS0,115200 root=ubi0:rootfs ubi.mtd=1 rootfstype=ubifs rw rootwait
+[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 364316K/507904K available (5057K kernel code, 284K rwdata, 1928K rodata, 204K init, 258K bss, 143588K reserved, 0K highmem)
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     vmalloc : 0xdf800000 - 0xff000000   ( 504 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xdf000000   ( 496 MB)
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc06da8ac   (6987 kB)
+[    0.000000]       .init : 0xc06db000 - 0xc070e380   ( 205 kB)
+[    0.000000]       .data : 0xc0710000 - 0xc0757138   ( 285 kB)
+[    0.000000]        .bss : 0xc0757144 - 0xc0797bfc   ( 259 kB)
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000] 	Dump stacks of tasks blocking RCU-preempt GP.
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=2.
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] ps7-slcr mapped to df802000
+[    0.000000] zynq_clock_init: clkc starts at df802100
+[    0.000000] Zynq clock init
+[    0.000014] sched_clock: 64 bits at 333MHz, resolution 3ns, wraps every 3298534883328ns
+[    0.000289] ps7-ttc #0 at df804000, irq=43
+[    0.000592] Console: colour dummy device 80x30
+[    0.000621] Calibrating delay loop... 1325.46 BogoMIPS (lpj=6627328)
+[    0.040197] pid_max: default: 32768 minimum: 301
+[    0.040405] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.040425] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.042580] CPU: Testing write buffer coherency: ok
+[    0.042888] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.042946] Setting up static identity map for 0x4cb118 - 0x4cb170
+[    0.043166] L310 cache controller enabled
+[    0.043186] l2x0: 8 ways, CACHE_ID 0x410000c8, AUX_CTRL 0x72760000, Cache size: 512 kB
+[    0.120986] CPU1: Booted secondary processor
+[    0.210217] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.210345] Brought up 2 CPUs
+[    0.210364] SMP: Total of 2 processors activated.
+[    0.210373] CPU: All CPU(s) started in SVC mode.
+[    0.211031] devtmpfs: initialized
+[    0.213461] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+[    0.214648] regulator-dummy: no parameters
+[    0.221990] NET: Registered protocol family 16
+[    0.224253] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.226522] cpuidle: using governor ladder
+[    0.226536] cpuidle: using governor menu
+[    0.233875] syscon f8000000.ps7-slcr: regmap [mem 0xf8000000-0xf8000fff] registered
+[    0.235387] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.
+[    0.235400] hw-breakpoint: maximum watchpoint size is 4 bytes.
+[    0.235511] zynq-ocm f800c000.ps7-ocmc: ZYNQ OCM pool: 256 KiB @ 0xdf880000
+[    0.257164] bio: create slab <bio-0> at 0
+[    0.258539] vgaarb: loaded
+[    0.259239] SCSI subsystem initialized
+[    0.260120] usbcore: registered new interface driver usbfs
+[    0.260421] usbcore: registered new interface driver hub
+[    0.260643] usbcore: registered new device driver usb
+[    0.261179] media: Linux media interface: v0.10
+[    0.261343] Linux video capture interface: v2.00
+[    0.261580] pps_core: LinuxPPS API ver. 1 registered
+[    0.261591] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.261713] PTP clock support registered
+[    0.262075] EDAC MC: Ver: 3.0.0
+[    0.263274] Advanced Linux Sound Architecture Driver Initialized.
+[    0.265983] DMA-API: preallocated 4096 debug entries
+[    0.265996] DMA-API: debugging enabled by kernel config
+[    0.266064] Switched to clocksource arm_global_timer
+[    0.286301] NET: Registered protocol family 2
+[    0.287155] TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.287212] TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.287297] TCP: Hash tables configured (established 4096 bind 4096)
+[    0.287341] TCP: reno registered
+[    0.287357] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    0.287388] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    0.287615] NET: Registered protocol family 1
+[    0.287954] RPC: Registered named UNIX socket transport module.
+[    0.287967] RPC: Registered udp transport module.
+[    0.287976] RPC: Registered tcp transport module.
+[    0.287984] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.287996] PCI: CLS 0 bytes, default 64
+[    0.288420] hw perfevents: enabled with ARMv7 Cortex-A9 PMU driver, 7 counters available
+[    0.290414] futex hash table entries: 512 (order: 3, 32768 bytes)
+[    0.292484] jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+[    0.292681] msgmni has been set to 967
+[    0.293433] io scheduler noop registered
+[    0.293446] io scheduler deadline registered
+[    0.293486] io scheduler cfq registered (default)
+[    0.305997] dma-pl330 f8003000.ps7-dma: Loaded driver for PL330 DMAC-2364208
+[    0.306018] dma-pl330 f8003000.ps7-dma: 	DBUFF-128x8bytes Num_Chans-8 Num_Peri-4 Num_Events-16
+[    0.429310] e0001000.serial: ttyPS0 at MMIO 0xe0001000 (irq = 82, base_baud = 3124999) is a xuartps
+[    0.996451] console [ttyPS0] enabled
+[    1.000700] xdevcfg f8007000.ps7-dev-cfg: ioremap 0xf8007000 to df866000
+[    1.008346] [drm] Initialized drm 1.1.0 20060810
+[    1.025348] brd: module loaded
+[    1.034702] loop: module loaded
+[    1.044108] e1000e: Intel(R) PRO/1000 Network Driver - 2.3.2-k
+[    1.050093] e1000e: Copyright(c) 1999 - 2013 Intel Corporation.
+[    1.057839] libphy: XEMACPS mii bus: probed
+[    1.062204] ------------- phy_id = 0x3625e62
+[    1.067120] xemacps e000b000.ps7-ethernet: pdev->id -1, baseaddr 0xe000b000, irq 54
+[    1.075690] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.082338] ehci-pci: EHCI PCI platform driver
+[    1.089718] zynq-dr e0002000.ps7-usb: Unable to init USB phy, missing?
+[    1.096539] usbcore: registered new interface driver usb-storage
+[    1.103378] mousedev: PS/2 mouse device common for all mice
+[    1.109559] i2c /dev entries driver
+[    1.116469] zynq-edac f8006000.ps7-ddrc: ecc not enabled
+[    1.121948] cpufreq_cpu0: failed to get cpu0 regulator: -19
+[    1.127871] Xilinx Zynq CpuIdle Driver started
+[    1.132717] sdhci: Secure Digital Host Controller Interface driver
+[    1.138908] sdhci: Copyright(c) Pierre Ossman
+[    1.143179] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.149005] mmc0: no vqmmc regulator found
+[    1.153017] mmc0: no vmmc regulator found
+[    1.196082] mmc0: SDHCI controller on e0100000.ps7-sdio [e0100000.ps7-sdio] using ADMA
+[    1.204770] usbcore: registered new interface driver usbhid
+[    1.210286] usbhid: USB HID core driver
+[    1.214992] nand: device found, Manufacturer ID: 0x2c, Chip ID: 0xda
+[    1.221286] nand: Micron MT29F2G08ABAEAWP
+[    1.225252] nand: 256MiB, SLC, page size: 2048, OOB size: 64
+[    1.231184] Bad block table found at page 131008, version 0x01
+[    1.237410] Bad block table found at page 130944, version 0x01
+[    1.243460] 3 ofpart partitions found on MTD device pl353-nand
+[    1.249242] Creating 3 MTD partitions on "pl353-nand":
+[    1.254333] 0x000000000000-0x000002000000 : "BOOT.bin-env-dts-kernel"
+[    1.262373] 0x000002000000-0x00000b000000 : "angstram-rootfs"
+[    1.269700] 0x00000b000000-0x000010000000 : "upgrade-rootfs"
+[    1.280395] TCP: cubic registered
+[    1.283634] NET: Registered protocol family 17
+[    1.288337] Registering SWP/SWPB emulation handler
+[    1.294232] regulator-dummy: disabling
+[    1.298577] UBI: attaching mtd1 to ubi0
+[    1.823356] UBI: scanning is finished
+[    1.834928] UBI: attached mtd1 (name "angstram-rootfs", size 144 MiB) to ubi0
+[    1.842009] UBI: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[    1.848771] UBI: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+[    1.855436] UBI: VID header offset: 2048 (aligned 2048), data offset: 4096
+[    1.862314] UBI: good PEBs: 1152, bad PEBs: 0, corrupted PEBs: 0
+[    1.868295] UBI: user volume: 1, internal volumes: 1, max. volumes count: 128
+[    1.875401] UBI: max/mean erase counter: 2/1, WL threshold: 4096, image sequence number: 1113221046
+[    1.884444] UBI: available PEBs: 0, total reserved PEBs: 1152, PEBs reserved for bad PEB handling: 40
+[    1.893660] UBI: background thread "ubi_bgt0d" started, PID 1084
+[    1.893666] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+[    1.897603] ALSA device list:
+[    1.897607]   No soundcards found.
+[    1.913940] UBIFS: background thread "ubifs_bgt0_0" started, PID 1086
+[    1.942839] UBIFS: recovery needed
+[    2.032210] UBIFS: recovery completed
+[    2.035880] UBIFS: mounted UBI device 0, volume 0, name "rootfs"
+[    2.041826] UBIFS: LEB size: 126976 bytes (124 KiB), min./max. I/O unit sizes: 2048 bytes/2048 bytes
+[    2.050932] UBIFS: FS size: 128626688 bytes (122 MiB, 1013 LEBs), journal size 9023488 bytes (8 MiB, 72 LEBs)
+[    2.060821] UBIFS: reserved for root: 0 bytes (0 KiB)
+[    2.065850] UBIFS: media format: w4/r0 (latest is w4/r0), UUID E8A4479F-B15D-4C7A-964D-0F246E2BB6ED, small LPT model
+[    2.077367] VFS: Mounted root (ubifs filesystem) on device 0:11.
+[    2.084537] devtmpfs: mounted
+[    2.087673] Freeing unused kernel memory: 204K (c06db000 - c070e000)
+[    2.922244] random: dd urandom read with 1 bits of entropy available
+[    3.306107] 
+[    3.306107] bcm54xx_config_init
+[    4.376122] 
+[    4.376122] bcm54xx_config_init
+[    8.376936] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[    8.383041] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+[   25.893016] In axi fpga driver!
+[   25.896125] request_mem_region OK!
+[   25.899478] AXI fpga dev virtual address is 0xdf9fe000
+[   25.904585] *base_vir_addr = 0xc51e
+[   25.919091] In fpga mem driver!
+[   25.922382] request_mem_region OK!
+[   25.925971] fpga mem virtual address is 0xe2000000
+[   26.715490] 
+[   26.715490] bcm54xx_config_init
+[   27.805376] 
+[   27.805376] bcm54xx_config_init
+[   31.805790] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[   31.811895] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+[  736.309032] random: nonblocking pool is initialized
+[ 5959.130381] 
+[ 5959.130381] bcm54xx_config_init
+[ 5963.130814] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[ 5963.136919] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+[ 6001.266113] 
+[ 6001.266113] bcm54xx_config_init
+[ 6005.266521] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[ 6005.272624] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+main.c:13992: log_level = 4
+main.c:14019: This is XILINX board. Totalram:       507486208
+main.c:14031: Detect 512MB control board of XILINX
+driver-bitmain.c:1776: mmap axi_fpga_addr = 0xb6fe8000
+driver-bitmain.c:1781: axi_fpga_addr data = 0xc51e
+driver-bitmain.c:1797: mmap fpga_mem_addr = 0xb5de1000
+driver-bitmain.c:994: forceFreq=-1 forceFlag=0
+driver-bitmain.c:1696: min work minertest[0]:912
+
+
+main.c:8570: DETECT HW version=0000c51e
+main.c:14064: miner ID : 8058150c6880881c
+main.c:14089: Miner Type = S9
+main.c:14101: AsicType = 1387
+main.c:14104: real AsicNum = 63
+main.c:14197: use critical mode to search freq...
+driver-bitmain.c:1876: get PLUG ON=0x000000e0
+driver-bitmain.c:1946: Find hashboard on Chain[5]
+driver-bitmain.c:1946: Find hashboard on Chain[6]
+driver-bitmain.c:1946: Find hashboard on Chain[7]
+main.c:2282: Check chain[5] PIC fw version=0x03
+main.c:2282: Check chain[6] PIC fw version=0x03
+main.c:2282: Check chain[7] PIC fw version=0x03
+main.c:8940: read pic freq and badcore num...
+main.c:8961: chain[5]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+main.c:9003: has freq in PIC, will disable freq setting.
+main.c:9099: chain[5] has freq in PIC and will jump over...
+main.c:9103: Chain[5] has core num in PIC
+main.c:9113: Chain[5] ASIC[60] has core num=2
+main.c:2282: Check chain[5] PIC fw version=0x03
+main.c:8940: read pic freq and badcore num...
+main.c:8961: chain[6]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+main.c:9003: has freq in PIC, will disable freq setting.
+main.c:9099: chain[6] has freq in PIC and will jump over...
+main.c:9103: Chain[6] has core num in PIC
+main.c:9113: Chain[6] ASIC[23] has core num=4
+main.c:9113: Chain[6] ASIC[26] has core num=15
+main.c:9113: Chain[6] ASIC[29] has core num=2
+main.c:9113: Chain[6] ASIC[32] has core num=15
+main.c:9113: Chain[6] ASIC[37] has core num=2
+main.c:9113: Chain[6] ASIC[43] has core num=15
+main.c:9113: Chain[6] ASIC[48] has core num=1
+main.c:9113: Chain[6] ASIC[49] has core num=1
+main.c:9113: Chain[6] ASIC[50] has core num=6
+main.c:2282: Check chain[6] PIC fw version=0x03
+main.c:8940: read pic freq and badcore num...
+main.c:8961: chain[7]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+main.c:9003: has freq in PIC, will disable freq setting.
+main.c:9099: chain[7] has freq in PIC and will jump over...
+main.c:9103: Chain[7] has core num in PIC
+main.c:9113: Chain[7] ASIC[8] has core num=1
+main.c:9113: Chain[7] ASIC[59] has core num=1
+main.c:2282: Check chain[7] PIC fw version=0x03
+main.c:9183: get PIC voltage=6 on chain[5], value=940
+main.c:9183: get PIC voltage=6 on chain[6], value=940
+main.c:9183: get PIC voltage=6 on chain[7], value=940
+main.c:9349: chain[5] temp offset record: 62,-3,0,0,0,0,33,0
+main.c:9366: chain[5] temp chip I2C addr=0x98
+main.c:9349: chain[6] temp offset record: 62,-3,0,0,0,0,33,0
+main.c:9366: chain[6] temp chip I2C addr=0x98
+main.c:9349: chain[7] temp offset record: 62,-4,0,0,0,0,33,0
+main.c:9366: chain[7] temp chip I2C addr=0x98
+main.c:13956: total_exist_chain_num = 3
+main.c:9562: CRC error counter=0
+main.c:9577: set command mode to VIL
+main.c:9649: 
+--- check asic number
+main.c:9745: After Get ASIC NUM CRC error counter=0
+main.c:9768: set_baud=0
+main.c:10693: The min freq=700
+main.c:10695: set real timeout 52, need sleep=379392
+main.c:12825: After TEST CRC error counter=0
+main.c:14236: search freq for 1 times, completed chain = 3, total chain num = 3 
+board_frq_tuning.c:628: single_board_frq_tuning enter
+board_frq_tuning.c:629: min_rate, des_rate, fix_volt:13800, 14000, 880
+board_frq_tuning.c:254: force_freq not set, don't need tuning
+main.c:14645: restart Miner chance num=2
+main.c:14685: waiting for receive_func to exit!
+main.c:14699: waiting for pic heart to exit!
+main.c:13927: bmminer not found= 1834 root       0:00 grep bmminer
+
+main.c:14758: bmminer not found, restart bmminer ...
+main.c:13927: bmminer not found=29628 root       0:00 grep bmminer
+
+main.c:14758: bmminer not found, restart bmminer ...
+driver-btm-c5.c:12243:bitmain_c5_init: This is user mode for mining
+driver-btm-c5.c:12292:bitmain_c5_init: Detect 512MB control board of XILINX
+driver-btm-c5.c:12313:bitmain_c5_init: Miner Type = S9
+driver-btm-c5.c:12324:bitmain_c5_init: Miner compile time: Wed Jul 31 16:18:27 CST 2019 type: Antminer S9
+driver-btm-c5.c:12414:bitmain_c5_init: miner ID : 8058150c6880881c
+driver-btm-c5.c:12571:bitmain_c5_init: Checking fans...
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=4440
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=5520
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=4440
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=5520
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[4] speed=4440
+driver-btm-c5.c:3006:check_fan_beforeInit: get fan[5] speed=5520
+driver-btm-c5.c:13108:bitmain_c5_init: chain[5]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+driver-btm-c5.c:13122:bitmain_c5_init: last_freq: 0x00 0x7d 0x0f 0x47 0x0d 0x47 0x04 0x47 0x07 0x47 0x00 0x47 0x03 0x47 0x03 0x47 0x03 0x47 0x03 0x47 0x03 0x47 0x03 0x47 0x01 0x47 0x01 0x47 0x0f 0x47 0x0f 0x47 0x0f 0x47 0x0f 0x47 0x05 0x47 0x09 0x47 0x23 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 0x00 0x47 
+driver-btm-c5.c:13149:bitmain_c5_init: Detect: use voltage limit rules on single board!
+driver-btm-c5.c:13155:bitmain_c5_init: Detect: S9_63 use voltage level=1 : 1
+driver-btm-c5.c:13171:bitmain_c5_init: Chain[J6] has backup chain_voltage=890
+driver-btm-c5.c:13188:bitmain_c5_init: No scan based on domain
+driver-btm-c5.c:1899:jump_to_app_CheckAndRestorePIC: Check chain[5] PIC fw version=0x03
+driver-btm-c5.c:13108:bitmain_c5_init: chain[6]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+driver-btm-c5.c:13122:bitmain_c5_init: last_freq: 0x00 0x7d 0x0f 0x4c 0x0d 0x4c 0x04 0x4c 0x0c 0x4c 0x00 0x4c 0x03 0x4c 0x03 0x4c 0x03 0x4c 0x03 0x4c 0x03 0x4c 0x03 0x4c 0x01 0x4c 0x01 0x4c 0x0f 0x4c 0x0f 0x4c 0x0f 0x4c 0x0f 0x4c 0x05 0x4c 0x09 0x4c 0x23 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 0x00 0x4c 
+driver-btm-c5.c:13149:bitmain_c5_init: Detect: use voltage limit rules on single board!
+driver-btm-c5.c:13155:bitmain_c5_init: Detect: S9_63 use voltage level=1 : 1
+driver-btm-c5.c:13171:bitmain_c5_init: Chain[J7] has backup chain_voltage=890
+driver-btm-c5.c:13188:bitmain_c5_init: No scan based on domain
+driver-btm-c5.c:1899:jump_to_app_CheckAndRestorePIC: Check chain[6] PIC fw version=0x03
+driver-btm-c5.c:13108:bitmain_c5_init: chain[7]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+driver-btm-c5.c:13122:bitmain_c5_init: last_freq: 0x00 0x7d 0x0f 0x4b 0x0c 0x4b 0x04 0x4b 0x0b 0x4b 0x00 0x4b 0x03 0x4b 0x03 0x4b 0x03 0x4b 0x03 0x4b 0x03 0x4b 0x03 0x4b 0x01 0x4b 0x01 0x4b 0x0f 0x4b 0x0f 0x4b 0x0f 0x4b 0x0f 0x4b 0x05 0x4b 0x07 0x4b 0x23 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 0x00 0x4b 
+driver-btm-c5.c:13149:bitmain_c5_init: Detect: use voltage limit rules on single board!
+driver-btm-c5.c:13155:bitmain_c5_init: Detect: S9_63 use voltage level=1 : 1
+driver-btm-c5.c:13171:bitmain_c5_init: Chain[J8] has backup chain_voltage=870
+driver-btm-c5.c:13188:bitmain_c5_init: No scan based on domain
+driver-btm-c5.c:1899:jump_to_app_CheckAndRestorePIC: Check chain[7] PIC fw version=0x03
+driver-btm-c5.c:12195:init_exist_chain_table: total_exist_chain_num = 3
+driver-btm-c5.c:13303:bitmain_c5_init: Chain[J6] orignal chain_voltage_pic=6 value=940
+driver-btm-c5.c:13320:bitmain_c5_init: Chain[J6] will use backup chain_voltage_pic=890 [91]
+driver-btm-c5.c:13330:bitmain_c5_init: Chain[J6] get working chain_voltage_pic=91
+driver-btm-c5.c:13303:bitmain_c5_init: Chain[J7] orignal chain_voltage_pic=23 value=930
+driver-btm-c5.c:13320:bitmain_c5_init: Chain[J7] will use backup chain_voltage_pic=890 [91]
+driver-btm-c5.c:13330:bitmain_c5_init: Chain[J7] get working chain_voltage_pic=91
+driver-btm-c5.c:13303:bitmain_c5_init: Chain[J8] orignal chain_voltage_pic=6 value=940
+driver-btm-c5.c:13320:bitmain_c5_init: Chain[J8] will use backup chain_voltage_pic=870 [125]
+driver-btm-c5.c:13330:bitmain_c5_init: Chain[J8] get working chain_voltage_pic=125
+driver-btm-c5.c:13421:bitmain_c5_init: Chain[J6] has 0 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J6] has 0 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J6] has 0 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J6] has 0 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J6] has 0 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J6] has 0 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J6] has 0 asic
+driver-btm-c5.c:13421:bitmain_c5_init: Chain[J7] has 60 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J7] has 60 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J7] has 60 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J7] has 60 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J7] has 60 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J7] has 60 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J7] has 60 asic
+driver-btm-c5.c:13421:bitmain_c5_init: Chain[J8] has 62 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J8] has 0 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J8] has 0 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J8] has 62 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J8] has 62 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J8] has 0 asic
+driver-btm-c5.c:13449:bitmain_c5_init: retry Chain[J8] has 62 asic
+driver-btm-c5.c:4531:set_frequency: Chain[J7] has core num in PIC
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[23] has core num=4
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[26] has core num=15
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[29] has core num=2
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[32] has core num=15
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[37] has core num=2
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[43] has core num=15
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[48] has core num=1
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[49] has core num=1
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[50] has core num=6
+driver-btm-c5.c:4531:set_frequency: Chain[J8] has core num in PIC
+driver-btm-c5.c:4541:set_frequency: Chain[J8] ASIC[8] has core num=1
+driver-btm-c5.c:4541:set_frequency: Chain[J8] ASIC[59] has core num=1
+driver-btm-c5.c:4571:set_frequency: miner total rate=9227GH/s ideal_total_hash_rate = 9000GH/s
+driver-btm-c5.c:4596:set_frequency: read PIC voltage=940 on chain[6]
+driver-btm-c5.c:4598:set_frequency: Chain:6 chipnum=60
+driver-btm-c5.c:4618:set_frequency: Chain[J7] voltage added=0.0V
+driver-btm-c5.c:4768:set_frequency: Chain:6 temp offset=-3
+driver-btm-c5.c:4773:set_frequency: Chain:6 base freq=662
+Asic[ 0]:662 Asic[ 1]:662 Asic[ 2]:662 Asic[ 3]:662 Asic[ 4]:662 Asic[ 5]:662 Asic[ 6]:662 Asic[ 7]:662 
+Asic[ 8]:662 Asic[ 9]:662 Asic[10]:662 Asic[11]:662 Asic[12]:662 Asic[13]:662 Asic[14]:662 Asic[15]:662 
+Asic[16]:662 Asic[17]:662 Asic[18]:662 Asic[19]:662 Asic[20]:662 Asic[21]:662 Asic[22]:662 Asic[23]:662 
+Asic[24]:662 Asic[25]:662 Asic[26]:662 Asic[27]:662 Asic[28]:662 Asic[29]:662 Asic[30]:662 Asic[31]:662 
+Asic[32]:662 Asic[33]:662 Asic[34]:662 Asic[35]:662 Asic[36]:662 Asic[37]:662 Asic[38]:662 Asic[39]:662 
+Asic[40]:662 Asic[41]:662 Asic[42]:662 Asic[43]:662 Asic[44]:662 Asic[45]:662 Asic[46]:662 Asic[47]:662 
+Asic[48]:662 Asic[49]:662 Asic[50]:662 Asic[51]:662 Asic[52]:662 Asic[53]:662 Asic[54]:662 Asic[55]:662 
+Asic[56]:662 Asic[57]:662 Asic[58]:662 Asic[59]:662 
+driver-btm-c5.c:4809:set_frequency: Chain:6 max freq=662
+driver-btm-c5.c:4810:set_frequency: Chain:6 min freq=662
+
+driver-btm-c5.c:4596:set_frequency: read PIC voltage=940 on chain[7]
+driver-btm-c5.c:4598:set_frequency: Chain:7 chipnum=62
+driver-btm-c5.c:4618:set_frequency: Chain[J8] voltage added=0.0V
+driver-btm-c5.c:4768:set_frequency: Chain:7 temp offset=-4
+driver-btm-c5.c:4773:set_frequency: Chain:7 base freq=656
+Asic[ 0]:656 Asic[ 1]:656 Asic[ 2]:656 Asic[ 3]:656 Asic[ 4]:656 Asic[ 5]:656 Asic[ 6]:656 Asic[ 7]:656 
+Asic[ 8]:656 Asic[ 9]:656 Asic[10]:656 Asic[11]:656 Asic[12]:656 Asic[13]:656 Asic[14]:656 Asic[15]:656 
+Asic[16]:656 Asic[17]:656 Asic[18]:656 Asic[19]:656 Asic[20]:656 Asic[21]:656 Asic[22]:656 Asic[23]:656 
+Asic[24]:656 Asic[25]:656 Asic[26]:656 Asic[27]:656 Asic[28]:656 Asic[29]:656 Asic[30]:656 Asic[31]:656 
+Asic[32]:656 Asic[33]:656 Asic[34]:656 Asic[35]:656 Asic[36]:656 Asic[37]:656 Asic[38]:656 Asic[39]:656 
+Asic[40]:656 Asic[41]:656 Asic[42]:656 Asic[43]:656 Asic[44]:656 Asic[45]:656 Asic[46]:656 Asic[47]:656 
+Asic[48]:656 Asic[49]:656 Asic[50]:656 Asic[51]:656 Asic[52]:656 Asic[53]:656 Asic[54]:656 Asic[55]:656 
+Asic[56]:656 Asic[57]:656 Asic[58]:656 Asic[59]:656 Asic[60]:656 Asic[61]:656 
+driver-btm-c5.c:4809:set_frequency: Chain:7 max freq=656
+driver-btm-c5.c:4810:set_frequency: Chain:7 min freq=656
+
+
+driver-btm-c5.c:4819:set_frequency: Miner fix freq ...
+driver-btm-c5.c:4854:set_frequency: read PIC voltage=940 on chain[6]
+driver-btm-c5.c:4855:set_frequency: Chain:6 chipnum=60
+driver-btm-c5.c:4874:set_frequency: Chain[J7] voltage added=0.0V
+driver-btm-c5.c:5058:set_frequency: Chain:6 temp offset=-3
+driver-btm-c5.c:5063:set_frequency: Chain:6 base freq=662
+Asic[ 0]:662 Asic[ 1]:662 Asic[ 2]:662 Asic[ 3]:662 Asic[ 4]:662 Asic[ 5]:662 Asic[ 6]:662 Asic[ 7]:662 
+Asic[ 8]:662 Asic[ 9]:662 Asic[10]:662 Asic[11]:662 Asic[12]:662 Asic[13]:662 Asic[14]:662 Asic[15]:662 
+Asic[16]:662 Asic[17]:662 Asic[18]:662 Asic[19]:662 Asic[20]:662 Asic[21]:662 Asic[22]:662 Asic[23]:662 
+Asic[24]:662 Asic[25]:662 Asic[26]:662 Asic[27]:662 Asic[28]:662 Asic[29]:662 Asic[30]:662 Asic[31]:662 
+Asic[32]:662 Asic[33]:662 Asic[34]:662 Asic[35]:662 Asic[36]:662 Asic[37]:662 Asic[38]:662 Asic[39]:662 
+Asic[40]:662 Asic[41]:662 Asic[42]:662 Asic[43]:662 Asic[44]:662 Asic[45]:662 Asic[46]:662 Asic[47]:662 
+Asic[48]:662 Asic[49]:662 Asic[50]:662 Asic[51]:662 Asic[52]:662 Asic[53]:662 Asic[54]:662 Asic[55]:662 
+Asic[56]:662 Asic[57]:662 Asic[58]:662 Asic[59]:662 
+driver-btm-c5.c:5110:set_frequency: Chain:6 max freq=662
+driver-btm-c5.c:5111:set_frequency: Chain:6 min freq=662
+
+driver-btm-c5.c:4854:set_frequency: read PIC voltage=940 on chain[7]
+driver-btm-c5.c:4855:set_frequency: Chain:7 chipnum=62
+driver-btm-c5.c:4874:set_frequency: Chain[J8] voltage added=0.0V
+driver-btm-c5.c:5058:set_frequency: Chain:7 temp offset=-4
+driver-btm-c5.c:5063:set_frequency: Chain:7 base freq=656
+Asic[ 0]:656 Asic[ 1]:656 Asic[ 2]:656 Asic[ 3]:656 Asic[ 4]:656 Asic[ 5]:656 Asic[ 6]:656 Asic[ 7]:656 
+Asic[ 8]:656 Asic[ 9]:656 Asic[10]:656 Asic[11]:656 Asic[12]:656 Asic[13]:656 Asic[14]:656 Asic[15]:656 
+Asic[16]:656 Asic[17]:656 Asic[18]:656 Asic[19]:656 Asic[20]:656 Asic[21]:656 Asic[22]:656 Asic[23]:656 
+Asic[24]:656 Asic[25]:656 Asic[26]:656 Asic[27]:656 Asic[28]:656 Asic[29]:656 Asic[30]:656 Asic[31]:656 
+Asic[32]:656 Asic[33]:656 Asic[34]:656 Asic[35]:656 Asic[36]:656 Asic[37]:656 Asic[38]:656 Asic[39]:656 
+Asic[40]:656 Asic[41]:656 Asic[42]:656 Asic[43]:656 Asic[44]:656 Asic[45]:656 Asic[46]:656 Asic[47]:656 
+Asic[48]:656 Asic[49]:656 Asic[50]:656 Asic[51]:656 Asic[52]:656 Asic[53]:656 Asic[54]:656 Asic[55]:656 
+Asic[56]:656 Asic[57]:656 Asic[58]:656 Asic[59]:656 Asic[60]:656 Asic[61]:656 
+driver-btm-c5.c:5110:set_frequency: Chain:7 max freq=656
+driver-btm-c5.c:5111:set_frequency: Chain:7 min freq=656
+
+driver-btm-c5.c:5119:set_frequency: max freq = 662
+driver-btm-c5.c:4162:ProcessFixFreq: totalRate = 9227, fixed_totalRate = 9000
+driver-btm-c5.c:9604:init_uart_baud: set baud=1
+driver-btm-c5.c:12103:set_working_voltage: setting to working voltage...
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[6] set voltage to 930
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 930
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[6] set voltage to 920
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 920
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[6] set voltage to 910
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 910
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[6] set voltage to 900
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 900
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[6] set voltage to 890
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 890
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 880
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 870
+driver-btm-c5.c:13954:bitmain_c5_init: start thread for read temp
+setStartTimePoint total_tv_start_sys=813 total_tv_end_sys=814
+driver-btm-c5.c:10320:check_system_work: restartNum = 2 , auto-reinit enabled...
+driver-btm-c5.c:8727:read_temp_func: bring_up_pcb_temp = -100
+driver-btm-c5.c:9887:if_avg_hash_ok: avg hash rate = 8053.920267, ideal hash rate = 9000
+driver-btm-c5.c:10387:check_system_work: hash rate is low...
+driver-btm-c5.c:15630:re_open_core: re_open_core enter
+driver-btm-c5.c:15791:re_open_core: Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 0, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 1, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 2, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 3, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 4, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 5, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 6, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 7, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 8, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 9, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 10, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 11, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 12, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 13, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 14, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 15, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 16, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 17, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 18, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 19, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15791:re_open_core: Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 0, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 1, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 2, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 3, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 4, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 5, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 6, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 7, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 8, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 9, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 10, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 11, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 12, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 13, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 14, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 15, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 16, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 17, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 18, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 19, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15791:re_open_core: Chain[J8] has 63 asic
+driver-btm-c5.c:4531:set_frequency: Chain[J7] has core num in PIC
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[23] has core num=4
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[26] has core num=15
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[29] has core num=2
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[32] has core num=15
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[37] has core num=2
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[43] has core num=15
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[48] has core num=1
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[49] has core num=1
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[50] has core num=6
+driver-btm-c5.c:4531:set_frequency: Chain[J8] has core num in PIC
+driver-btm-c5.c:4541:set_frequency: Chain[J8] ASIC[8] has core num=1
+driver-btm-c5.c:4541:set_frequency: Chain[J8] ASIC[59] has core num=1
+driver-btm-c5.c:4571:set_frequency: miner total rate=9227GH/s ideal_total_hash_rate = 9000GH/s
+driver-btm-c5.c:4596:set_frequency: read PIC voltage=940 on chain[6]
+driver-btm-c5.c:4598:set_frequency: Chain:6 chipnum=60
+driver-btm-c5.c:4618:set_frequency: Chain[J7] voltage added=0.0V
+driver-btm-c5.c:4768:set_frequency: Chain:6 temp offset=-3
+driver-btm-c5.c:4773:set_frequency: Chain:6 base freq=662
+Asic[ 0]:662 Asic[ 1]:662 Asic[ 2]:662 Asic[ 3]:662 Asic[ 4]:662 Asic[ 5]:662 Asic[ 6]:662 Asic[ 7]:662 
+Asic[ 8]:662 Asic[ 9]:662 Asic[10]:662 Asic[11]:662 Asic[12]:662 Asic[13]:662 Asic[14]:662 Asic[15]:662 
+Asic[16]:662 Asic[17]:662 Asic[18]:662 Asic[19]:662 Asic[20]:662 Asic[21]:662 Asic[22]:662 Asic[23]:662 
+Asic[24]:662 Asic[25]:662 Asic[26]:662 Asic[27]:662 Asic[28]:662 Asic[29]:662 Asic[30]:662 Asic[31]:662 
+Asic[32]:662 Asic[33]:662 Asic[34]:662 Asic[35]:662 Asic[36]:662 Asic[37]:662 Asic[38]:662 Asic[39]:662 
+Asic[40]:662 Asic[41]:662 Asic[42]:662 Asic[43]:662 Asic[44]:662 Asic[45]:662 Asic[46]:662 Asic[47]:662 
+Asic[48]:662 Asic[49]:662 Asic[50]:662 Asic[51]:662 Asic[52]:662 Asic[53]:662 Asic[54]:662 Asic[55]:662 
+Asic[56]:662 Asic[57]:662 Asic[58]:662 Asic[59]:662 
+driver-btm-c5.c:4809:set_frequency: Chain:6 max freq=662
+driver-btm-c5.c:4810:set_frequency: Chain:6 min freq=662
+
+driver-btm-c5.c:4596:set_frequency: read PIC voltage=940 on chain[7]
+driver-btm-c5.c:4598:set_frequency: Chain:7 chipnum=63
+driver-btm-c5.c:4618:set_frequency: Chain[J8] voltage added=0.0V
+driver-btm-c5.c:4768:set_frequency: Chain:7 temp offset=-4
+driver-btm-c5.c:4773:set_frequency: Chain:7 base freq=656
+Asic[ 0]:656 Asic[ 1]:656 Asic[ 2]:656 Asic[ 3]:656 Asic[ 4]:656 Asic[ 5]:656 Asic[ 6]:656 Asic[ 7]:656 
+Asic[ 8]:656 Asic[ 9]:656 Asic[10]:656 Asic[11]:656 Asic[12]:656 Asic[13]:656 Asic[14]:656 Asic[15]:656 
+Asic[16]:656 Asic[17]:656 Asic[18]:656 Asic[19]:656 Asic[20]:656 Asic[21]:656 Asic[22]:656 Asic[23]:656 
+Asic[24]:656 Asic[25]:656 Asic[26]:656 Asic[27]:656 Asic[28]:656 Asic[29]:656 Asic[30]:656 Asic[31]:656 
+Asic[32]:656 Asic[33]:656 Asic[34]:656 Asic[35]:656 Asic[36]:656 Asic[37]:656 Asic[38]:656 Asic[39]:656 
+Asic[40]:656 Asic[41]:656 Asic[42]:656 Asic[43]:656 Asic[44]:656 Asic[45]:656 Asic[46]:656 Asic[47]:656 
+Asic[48]:656 Asic[49]:656 Asic[50]:656 Asic[51]:656 Asic[52]:656 Asic[53]:656 Asic[54]:656 Asic[55]:656 
+Asic[56]:656 Asic[57]:656 Asic[58]:656 Asic[59]:656 Asic[60]:656 Asic[61]:656 Asic[62]:656 
+driver-btm-c5.c:4809:set_frequency: Chain:7 max freq=656
+driver-btm-c5.c:4810:set_frequency: Chain:7 min freq=656
+
+
+driver-btm-c5.c:4819:set_frequency: Miner fix freq ...
+driver-btm-c5.c:4854:set_frequency: read PIC voltage=940 on chain[6]
+driver-btm-c5.c:4855:set_frequency: Chain:6 chipnum=60
+driver-btm-c5.c:4874:set_frequency: Chain[J7] voltage added=0.0V
+driver-btm-c5.c:5058:set_frequency: Chain:6 temp offset=-3
+driver-btm-c5.c:5063:set_frequency: Chain:6 base freq=662
+Asic[ 0]:662 Asic[ 1]:662 Asic[ 2]:662 Asic[ 3]:662 Asic[ 4]:662 Asic[ 5]:662 Asic[ 6]:662 Asic[ 7]:662 
+Asic[ 8]:662 Asic[ 9]:662 Asic[10]:662 Asic[11]:662 Asic[12]:662 Asic[13]:662 Asic[14]:662 Asic[15]:662 
+Asic[16]:662 Asic[17]:662 Asic[18]:662 Asic[19]:662 Asic[20]:662 Asic[21]:662 Asic[22]:662 Asic[23]:662 
+Asic[24]:662 Asic[25]:662 Asic[26]:662 Asic[27]:662 Asic[28]:662 Asic[29]:662 Asic[30]:662 Asic[31]:662 
+Asic[32]:662 Asic[33]:662 Asic[34]:662 Asic[35]:662 Asic[36]:662 Asic[37]:662 Asic[38]:662 Asic[39]:662 
+Asic[40]:662 Asic[41]:662 Asic[42]:662 Asic[43]:662 Asic[44]:662 Asic[45]:662 Asic[46]:662 Asic[47]:662 
+Asic[48]:662 Asic[49]:662 Asic[50]:662 Asic[51]:662 Asic[52]:662 Asic[53]:662 Asic[54]:662 Asic[55]:662 
+Asic[56]:662 Asic[57]:662 Asic[58]:662 Asic[59]:662 
+driver-btm-c5.c:5110:set_frequency: Chain:6 max freq=662
+driver-btm-c5.c:5111:set_frequency: Chain:6 min freq=662
+
+driver-btm-c5.c:4854:set_frequency: read PIC voltage=940 on chain[7]
+driver-btm-c5.c:4855:set_frequency: Chain:7 chipnum=63
+driver-btm-c5.c:4874:set_frequency: Chain[J8] voltage added=0.0V
+driver-btm-c5.c:5058:set_frequency: Chain:7 temp offset=-4
+driver-btm-c5.c:5063:set_frequency: Chain:7 base freq=656
+Asic[ 0]:656 Asic[ 1]:656 Asic[ 2]:656 Asic[ 3]:656 Asic[ 4]:656 Asic[ 5]:656 Asic[ 6]:656 Asic[ 7]:656 
+Asic[ 8]:656 Asic[ 9]:656 Asic[10]:656 Asic[11]:656 Asic[12]:656 Asic[13]:656 Asic[14]:656 Asic[15]:656 
+Asic[16]:656 Asic[17]:656 Asic[18]:656 Asic[19]:656 Asic[20]:656 Asic[21]:656 Asic[22]:656 Asic[23]:656 
+Asic[24]:656 Asic[25]:656 Asic[26]:656 Asic[27]:656 Asic[28]:656 Asic[29]:656 Asic[30]:656 Asic[31]:656 
+Asic[32]:656 Asic[33]:656 Asic[34]:656 Asic[35]:656 Asic[36]:656 Asic[37]:656 Asic[38]:656 Asic[39]:656 
+Asic[40]:656 Asic[41]:656 Asic[42]:656 Asic[43]:656 Asic[44]:656 Asic[45]:656 Asic[46]:656 Asic[47]:656 
+Asic[48]:656 Asic[49]:656 Asic[50]:656 Asic[51]:656 Asic[52]:656 Asic[53]:656 Asic[54]:656 Asic[55]:656 
+Asic[56]:656 Asic[57]:656 Asic[58]:656 Asic[59]:656 Asic[60]:656 Asic[61]:656 Asic[62]:656 
+driver-btm-c5.c:5110:set_frequency: Chain:7 max freq=656
+driver-btm-c5.c:5111:set_frequency: Chain:7 min freq=656
+
+driver-btm-c5.c:5119:set_frequency: max freq = 662
+driver-btm-c5.c:4162:ProcessFixFreq: totalRate = 9227, fixed_totalRate = 9000
+driver-btm-c5.c:9604:init_uart_baud: set baud=1
+driver-btm-c5.c:6593:calibration_sensor_offset: Chain[J8] PIC temp offset: 62,-4,0,0,0,0,33,0,0,0,0,0,0,0,0,0,0,0,
+driver-btm-c5.c:6627:calibration_sensor_offset: chain[8] temp chip I2C addr=0x98
+driver-btm-c5.c:6660:calibration_sensor_offset: Chain[J8] chip[244] use PIC middle temp offset=-4 typeID=55
+driver-btm-c5.c:6384:do_calibration_sensor_offset: New offset Chain[8] chip[244] local:17 remote:20 offset:26 
+driver-btm-c5.c:6753:calibration_sensor_offset: Chain[J8] chip[244] get middle temp offset=26 typeID=55
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[6] set voltage to 930
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 930
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[6] set voltage to 920
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 920
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[6] set voltage to 910
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 910
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[6] set voltage to 900
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 900
+driver-btm-c5.c:16082:re_open_core: reopen core end
+driver-btm-c5.c:10400:check_system_work: re-open core 1 times
+driver-btm-c5.c:10427:check_system_work: checking hash again
+driver-btm-c5.c:9887:if_avg_hash_ok: avg hash rate = 8714.979033, ideal hash rate = 9000
+driver-btm-c5.c:9887:if_avg_hash_ok: avg hash rate = 8712.794227, ideal hash rate = 9000
+driver-btm-c5.c:10387:check_system_work: hash rate is low...
+driver-btm-c5.c:15630:re_open_core: re_open_core enter
+driver-btm-c5.c:15791:re_open_core: Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 0, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 1, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 2, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 3, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 4, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 5, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 6, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 7, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 8, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 9, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 10, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 11, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 12, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 13, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 14, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 15, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 16, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 17, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 18, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15795:re_open_core: i = 5, retry_count = 19, dev->chain_asic_num[i] = 0
+driver-btm-c5.c:15818:re_open_core: retry Chain[J6] has 0 asic
+driver-btm-c5.c:15791:re_open_core: Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 0, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 1, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 2, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 3, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 4, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 5, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 6, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 7, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 8, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 9, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 10, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 11, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 12, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 13, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 14, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 15, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 16, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 17, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 18, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15795:re_open_core: i = 6, retry_count = 19, dev->chain_asic_num[i] = 60
+driver-btm-c5.c:15818:re_open_core: retry Chain[J7] has 60 asic
+driver-btm-c5.c:15791:re_open_core: Chain[J8] has 63 asic
+driver-btm-c5.c:4531:set_frequency: Chain[J7] has core num in PIC
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[23] has core num=4
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[26] has core num=15
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[29] has core num=2
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[32] has core num=15
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[37] has core num=2
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[43] has core num=15
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[48] has core num=1
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[49] has core num=1
+driver-btm-c5.c:4541:set_frequency: Chain[J7] ASIC[50] has core num=6
+driver-btm-c5.c:4531:set_frequency: Chain[J8] has core num in PIC
+driver-btm-c5.c:4541:set_frequency: Chain[J8] ASIC[8] has core num=1
+driver-btm-c5.c:4541:set_frequency: Chain[J8] ASIC[59] has core num=1
+driver-btm-c5.c:4571:set_frequency: miner total rate=9227GH/s ideal_total_hash_rate = 9000GH/s
+driver-btm-c5.c:4596:set_frequency: read PIC voltage=940 on chain[6]
+driver-btm-c5.c:4598:set_frequency: Chain:6 chipnum=60
+driver-btm-c5.c:4618:set_frequency: Chain[J7] voltage added=0.0V
+driver-btm-c5.c:4768:set_frequency: Chain:6 temp offset=-3
+driver-btm-c5.c:4773:set_frequency: Chain:6 base freq=662
+Asic[ 0]:662 Asic[ 1]:662 Asic[ 2]:662 Asic[ 3]:662 Asic[ 4]:662 Asic[ 5]:662 Asic[ 6]:662 Asic[ 7]:662 
+Asic[ 8]:662 Asic[ 9]:662 Asic[10]:662 Asic[11]:662 Asic[12]:662 Asic[13]:662 Asic[14]:662 Asic[15]:662 
+Asic[16]:662 Asic[17]:662 Asic[18]:662 Asic[19]:662 Asic[20]:662 Asic[21]:662 Asic[22]:662 Asic[23]:662 
+Asic[24]:662 Asic[25]:662 Asic[26]:662 Asic[27]:662 Asic[28]:662 Asic[29]:662 Asic[30]:662 Asic[31]:662 
+Asic[32]:662 Asic[33]:662 Asic[34]:662 Asic[35]:662 Asic[36]:662 Asic[37]:662 Asic[38]:662 Asic[39]:662 
+Asic[40]:662 Asic[41]:662 Asic[42]:662 Asic[43]:662 Asic[44]:662 Asic[45]:662 Asic[46]:662 Asic[47]:662 
+Asic[48]:662 Asic[49]:662 Asic[50]:662 Asic[51]:662 Asic[52]:662 Asic[53]:662 Asic[54]:662 Asic[55]:662 
+Asic[56]:662 Asic[57]:662 Asic[58]:662 Asic[59]:662 
+driver-btm-c5.c:4809:set_frequency: Chain:6 max freq=662
+driver-btm-c5.c:4810:set_frequency: Chain:6 min freq=662
+
+driver-btm-c5.c:4596:set_frequency: read PIC voltage=940 on chain[7]
+driver-btm-c5.c:4598:set_frequency: Chain:7 chipnum=63
+driver-btm-c5.c:4618:set_frequency: Chain[J8] voltage added=0.0V
+driver-btm-c5.c:4768:set_frequency: Chain:7 temp offset=-4
+driver-btm-c5.c:4773:set_frequency: Chain:7 base freq=656
+Asic[ 0]:656 Asic[ 1]:656 Asic[ 2]:656 Asic[ 3]:656 Asic[ 4]:656 Asic[ 5]:656 Asic[ 6]:656 Asic[ 7]:656 
+Asic[ 8]:656 Asic[ 9]:656 Asic[10]:656 Asic[11]:656 Asic[12]:656 Asic[13]:656 Asic[14]:656 Asic[15]:656 
+Asic[16]:656 Asic[17]:656 Asic[18]:656 Asic[19]:656 Asic[20]:656 Asic[21]:656 Asic[22]:656 Asic[23]:656 
+Asic[24]:656 Asic[25]:656 Asic[26]:656 Asic[27]:656 Asic[28]:656 Asic[29]:656 Asic[30]:656 Asic[31]:656 
+Asic[32]:656 Asic[33]:656 Asic[34]:656 Asic[35]:656 Asic[36]:656 Asic[37]:656 Asic[38]:656 Asic[39]:656 
+Asic[40]:656 Asic[41]:656 Asic[42]:656 Asic[43]:656 Asic[44]:656 Asic[45]:656 Asic[46]:656 Asic[47]:656 
+Asic[48]:656 Asic[49]:656 Asic[50]:656 Asic[51]:656 Asic[52]:656 Asic[53]:656 Asic[54]:656 Asic[55]:656 
+Asic[56]:656 Asic[57]:656 Asic[58]:656 Asic[59]:656 Asic[60]:656 Asic[61]:656 Asic[62]:656 
+driver-btm-c5.c:4809:set_frequency: Chain:7 max freq=656
+driver-btm-c5.c:4810:set_frequency: Chain:7 min freq=656
+
+
+driver-btm-c5.c:4819:set_frequency: Miner fix freq ...
+driver-btm-c5.c:4854:set_frequency: read PIC voltage=940 on chain[6]
+driver-btm-c5.c:4855:set_frequency: Chain:6 chipnum=60
+driver-btm-c5.c:4874:set_frequency: Chain[J7] voltage added=0.0V
+driver-btm-c5.c:5058:set_frequency: Chain:6 temp offset=-3
+driver-btm-c5.c:5063:set_frequency: Chain:6 base freq=662
+Asic[ 0]:662 Asic[ 1]:662 Asic[ 2]:662 Asic[ 3]:662 Asic[ 4]:662 Asic[ 5]:662 Asic[ 6]:662 Asic[ 7]:662 
+Asic[ 8]:662 Asic[ 9]:662 Asic[10]:662 Asic[11]:662 Asic[12]:662 Asic[13]:662 Asic[14]:662 Asic[15]:662 
+Asic[16]:662 Asic[17]:662 Asic[18]:662 Asic[19]:662 Asic[20]:662 Asic[21]:662 Asic[22]:662 Asic[23]:662 
+Asic[24]:662 Asic[25]:662 Asic[26]:662 Asic[27]:662 Asic[28]:662 Asic[29]:662 Asic[30]:662 Asic[31]:662 
+Asic[32]:662 Asic[33]:662 Asic[34]:662 Asic[35]:662 Asic[36]:662 Asic[37]:662 Asic[38]:662 Asic[39]:662 
+Asic[40]:662 Asic[41]:662 Asic[42]:662 Asic[43]:662 Asic[44]:662 Asic[45]:662 Asic[46]:662 Asic[47]:662 
+Asic[48]:662 Asic[49]:662 Asic[50]:662 Asic[51]:662 Asic[52]:662 Asic[53]:662 Asic[54]:662 Asic[55]:662 
+Asic[56]:662 Asic[57]:662 Asic[58]:662 Asic[59]:662 
+driver-btm-c5.c:5110:set_frequency: Chain:6 max freq=662
+driver-btm-c5.c:5111:set_frequency: Chain:6 min freq=662
+
+driver-btm-c5.c:4854:set_frequency: read PIC voltage=940 on chain[7]
+driver-btm-c5.c:4855:set_frequency: Chain:7 chipnum=63
+driver-btm-c5.c:4874:set_frequency: Chain[J8] voltage added=0.0V
+driver-btm-c5.c:5058:set_frequency: Chain:7 temp offset=-4
+driver-btm-c5.c:5063:set_frequency: Chain:7 base freq=656
+Asic[ 0]:656 Asic[ 1]:656 Asic[ 2]:656 Asic[ 3]:656 Asic[ 4]:656 Asic[ 5]:656 Asic[ 6]:656 Asic[ 7]:656 
+Asic[ 8]:656 Asic[ 9]:656 Asic[10]:656 Asic[11]:656 Asic[12]:656 Asic[13]:656 Asic[14]:656 Asic[15]:656 
+Asic[16]:656 Asic[17]:656 Asic[18]:656 Asic[19]:656 Asic[20]:656 Asic[21]:656 Asic[22]:656 Asic[23]:656 
+Asic[24]:656 Asic[25]:656 Asic[26]:656 Asic[27]:656 Asic[28]:656 Asic[29]:656 Asic[30]:656 Asic[31]:656 
+Asic[32]:656 Asic[33]:656 Asic[34]:656 Asic[35]:656 Asic[36]:656 Asic[37]:656 Asic[38]:656 Asic[39]:656 
+Asic[40]:656 Asic[41]:656 Asic[42]:656 Asic[43]:656 Asic[44]:656 Asic[45]:656 Asic[46]:656 Asic[47]:656 
+Asic[48]:656 Asic[49]:656 Asic[50]:656 Asic[51]:656 Asic[52]:656 Asic[53]:656 Asic[54]:656 Asic[55]:656 
+Asic[56]:656 Asic[57]:656 Asic[58]:656 Asic[59]:656 Asic[60]:656 Asic[61]:656 Asic[62]:656 
+driver-btm-c5.c:5110:set_frequency: Chain:7 max freq=656
+driver-btm-c5.c:5111:set_frequency: Chain:7 min freq=656
+
+driver-btm-c5.c:5119:set_frequency: max freq = 662
+driver-btm-c5.c:4162:ProcessFixFreq: totalRate = 9227, fixed_totalRate = 9000
+driver-btm-c5.c:9604:init_uart_baud: set baud=1
+driver-btm-c5.c:6593:calibration_sensor_offset: Chain[J8] PIC temp offset: 62,-4,0,0,0,0,33,0,0,0,0,0,0,0,0,0,0,0,
+driver-btm-c5.c:6627:calibration_sensor_offset: chain[8] temp chip I2C addr=0x98
+driver-btm-c5.c:6660:calibration_sensor_offset: Chain[J8] chip[244] use PIC middle temp offset=-4 typeID=55
+driver-btm-c5.c:6384:do_calibration_sensor_offset: New offset Chain[8] chip[244] local:19 remote:22 offset:26 
+driver-btm-c5.c:6753:calibration_sensor_offset: Chain[J8] chip[244] get middle temp offset=26 typeID=55
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[6] set voltage to 930
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 930
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[6] set voltage to 920
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 920
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[6] set voltage to 910
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 910
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[6] set voltage to 900
+driver-btm-c5.c:12083:slowly_downgrade_voltage_all_chain: chain[7] set voltage to 900
+driver-btm-c5.c:16082:re_open_core: reopen core end
+driver-btm-c5.c:10400:check_system_work: re-open core 2 times
+driver-btm-c5.c:10427:check_system_work: checking hash again
+driver-btm-c5.c:9887:if_avg_hash_ok: avg hash rate = 8108.895826, ideal hash rate = 9000
+driver-btm-c5.c:10200:check_avg_rate: avg_rate = 8471, ideal_total_hash_rate = 9000
+driver-btm-c5.c:10200:check_avg_rate: avg_rate = 8551, ideal_total_hash_rate = 9000
+driver-btm-c5.c:10200:check_avg_rate: avg_rate = 8574, ideal_total_hash_rate = 9000
+driver-btm-c5.c:10200:check_avg_rate: avg_rate = 8555, ideal_total_hash_rate = 9000
+do read_temp_func once...
+
+get RT hashrate from Chain[6]: (asic index start from 1-63)
+Asic[01]=76.4360 Asic[02]=77.4430 Asic[03]=72.1920 Asic[04]=77.0570 Asic[05]=77.2920 Asic[06]=75.5980 Asic[07]=73.9370 Asic[08]=73.4500 
+Asic[09]=38.8220 Asic[10]=75.5640 Asic[11]=75.5310 Asic[12]=78.6340 Asic[13]=71.5380 Asic[14]=71.4200 Asic[15]=72.1580 Asic[16]=79.8590 
+Asic[17]=73.4840 Asic[18]=73.4170 Asic[19]=77.6780 Asic[20]=44.0060 Asic[21]=72.4100 Asic[22]=69.1380 Asic[23]=78.0300 Asic[24]=34.6280 
+Asic[25]=74.1550 Asic[26]=73.5340 Asic[27]=34.0070 Asic[28]=69.2560 Asic[29]=73.8020 Asic[30]=0.00000 Asic[31]=69.0380 Asic[32]=70.2620 
+Asic[33]=43.4860 Asic[34]=8.67300 Asic[35]=74.6580 Asic[36]=74.9100 Asic[37]=82.4930 Asic[38]=15.3510 Asic[39]=77.0070 Asic[40]=79.1380 
+Asic[41]=73.7020 Asic[42]=4.63000 Asic[43]=68.5180 Asic[44]=1.74400 Asic[45]=74.5740 Asic[46]=66.7220 Asic[47]=6.47600 Asic[48]=71.0170 
+Asic[49]=77.5610 Asic[50]=74.3560 Asic[51]=5.88800 Asic[52]=73.7690 Asic[53]=79.1210 Asic[54]=74.0210 Asic[55]=74.8260 Asic[56]=73.1650 
+Asic[57]=75.8660 Asic[58]=77.7280 Asic[59]=73.0140 Asic[60]=76.2520 
+get RT hashrate from Chain[7]: (asic index start from 1-63)
+Asic[01]=70.0610 Asic[02]=72.9640 Asic[03]=81.5370 Asic[04]=74.7250 Asic[05]=69.7590 Asic[06]=75.4130 Asic[07]=79.1880 Asic[08]=71.1680 
+Asic[09]=78.6510 Asic[10]=76.0170 Asic[11]=71.6720 Asic[12]=72.5270 Asic[13]=69.7760 Asic[14]=75.2620 Asic[15]=74.4570 Asic[16]=76.4030 
+Asic[17]=74.3060 Asic[18]=69.4740 Asic[19]=74.8590 Asic[20]=65.3470 Asic[21]=75.1110 Asic[22]=78.9030 Asic[23]=79.0370 Asic[24]=69.0710 
+Asic[25]=72.0070 Asic[26]=71.1180 Asic[27]=76.9570 Asic[28]=79.5910 Asic[29]=67.1750 Asic[30]=71.9910 Asic[31]=69.6420 Asic[32]=73.8020 
+Asic[33]=76.8220 Asic[34]=75.8660 Asic[35]=69.8260 Asic[36]=73.6850 Asic[37]=74.9770 Asic[38]=72.4940 Asic[39]=74.4740 Asic[40]=71.4540 
+Asic[41]=74.5070 Asic[42]=69.6750 Asic[43]=75.0610 Asic[44]=71.8060 Asic[45]=72.3090 Asic[46]=68.6180 Asic[47]=74.7760 Asic[48]=80.9830 
+Asic[49]=71.9910 Asic[50]=75.6480 Asic[51]=73.1150 Asic[52]=75.2120 Asic[53]=72.7120 Asic[54]=76.6550 Asic[55]=71.1680 Asic[56]=75.7320 
+Asic[57]=69.8930 Asic[58]=77.0740 Asic[59]=72.6950 Asic[60]=76.7720 Asic[61]=76.3530 Asic[62]=76.8390 Asic[63]=75.0610 
+Check Chain[J7] ASIC RT error: (asic index start from 1-63)
+Check Chain[J8] ASIC RT error: (asic index start from 1-63)
+Done check_asic_reg
+Done read temp on Chain[6]
+read failed on Chain[7] Chip[62] middle Temp old value:50
+Done read temp on Chain[7]
+Max pcb temp : 40
+Read temp failed, set fixed full fan speed
+FAN PWM: 100
+read_temp_func Done!
+CRC error counter=4934
+
+
+
+
+
+
+
+
+
+
+
+
+=====================
+Below is orignal log but it was another unit which I misslabled
+=====================
+
 Miner Type	Antminer S9
 Hostname	crs-s9-w1-5C:B1:5B:46:71:79
 Model	GNU/Linux
