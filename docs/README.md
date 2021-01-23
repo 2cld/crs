@@ -15,11 +15,12 @@
 ### Braiins OS
 - [Braiins OS - Site](https://braiins.com/os/open-source)
 - [Braiins OS - Developing BOSminer: An Open-Source Replacement for CGminer](https://medium.com/braiins/developing-bosminer-an-open-source-replacement-for-cgminer-fdf85bc9fc66)
+- [Braiins OS - Setup](https://docs.braiins.com/os/open-source-en/Setup/2_advanced.html#bosbox-unlock)
 
 ### Data Center Service Model [TERIX](https://terix.com/)
 - [TERIX - Extend the life of my Hardwaare Assets](https://terix.com/i-want-to/extend-the-life-of-my-hardware-assets/)
 
-### Basics and parts
+## Basics and parts
 ### Jessa Jones
 - [Introduction to Microsoldering with Jessa Jones](https://www.youtube.com/watch?v=A0OiT9e_JXk)
 - [iPad Rehab - Jessa Jones - Youtube Channel](https://www.youtube.com/c/Mendonipadrehab/videos)
