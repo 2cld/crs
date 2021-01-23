@@ -1,0 +1,345 @@
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 3.14.0-xilinx-ge8a2f71-dirty (lzq@armdev2) (gcc version 4.8.3 20140320 (prerelease) (Sourcery CodeBench Lite 2014.05-23) ) #82 SMP PREEMPT Tue May 16 19:49:53 CST 2017
+[    0.000000] CPU: ARMv7 Processor [413fc090] revision 0 (ARMv7), cr=18c5387d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine model: Xilinx Zynq
+[    0.000000] cma: CMA: reserved 128 MiB at 16800000
+[    0.000000] Memory policy: Data cache writealloc
+[    0.000000] On node 0 totalpages: 126976
+[    0.000000] free_area_init_node: node 0, pgdat c0740a40, node_mem_map debd8000
+[    0.000000]   Normal zone: 992 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 126976 pages, LIFO batch:31
+[    0.000000] PERCPU: Embedded 8 pages/cpu @debc1000 s9088 r8192 d15488 u32768
+[    0.000000] pcpu-alloc: s9088 r8192 d15488 u32768 alloc=8*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 125984
+[    0.000000] Kernel command line: noinitrd mem=496M console=ttyPS0,115200 root=ubi0:rootfs ubi.mtd=1 rootfstype=ubifs rw rootwait
+[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Memory: 364356K/507904K available (5032K kernel code, 283K rwdata, 1916K rodata, 204K init, 258K bss, 143548K reserved, 0K highmem)
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     vmalloc : 0xdf800000 - 0xff000000   ( 504 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xdf000000   ( 496 MB)
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc06d1374   (6949 kB)
+[    0.000000]       .init : 0xc06d2000 - 0xc0705380   ( 205 kB)
+[    0.000000]       .data : 0xc0706000 - 0xc074cf78   ( 284 kB)
+[    0.000000]        .bss : 0xc074cf84 - 0xc078d9fc   ( 259 kB)
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000] 	Dump stacks of tasks blocking RCU-preempt GP.
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=4 to nr_cpu_ids=2.
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] ps7-slcr mapped to df802000
+[    0.000000] zynq_clock_init: clkc starts at df802100
+[    0.000000] Zynq clock init
+[    0.000015] sched_clock: 64 bits at 333MHz, resolution 3ns, wraps every 3298534883328ns
+[    0.000309] ps7-ttc #0 at df804000, irq=43
+[    0.000620] Console: colour dummy device 80x30
+[    0.000651] Calibrating delay loop... 1325.46 BogoMIPS (lpj=6627328)
+[    0.040208] pid_max: default: 32768 minimum: 301
+[    0.040426] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.040446] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.042582] CPU: Testing write buffer coherency: ok
+[    0.042915] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.042975] Setting up static identity map for 0x4c4b00 - 0x4c4b58
+[    0.043201] L310 cache controller enabled
+[    0.043221] l2x0: 8 ways, CACHE_ID 0x410000c8, AUX_CTRL 0x72760000, Cache size: 512 kB
+[    0.121038] CPU1: Booted secondary processor
+[    0.210231] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.210363] Brought up 2 CPUs
+[    0.210382] SMP: Total of 2 processors activated.
+[    0.210390] CPU: All CPU(s) started in SVC mode.
+[    0.211054] devtmpfs: initialized
+[    0.213473] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+[    0.214687] regulator-dummy: no parameters
+[    0.222359] NET: Registered protocol family 16
+[    0.224652] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.226956] cpuidle: using governor ladder
+[    0.226969] cpuidle: using governor menu
+[    0.234412] syscon f8000000.ps7-slcr: regmap [mem 0xf8000000-0xf8000fff] registered
+[    0.235939] hw-breakpoint: found 5 (+1 reserved) breakpoint and 1 watchpoint registers.
+[    0.235953] hw-breakpoint: maximum watchpoint size is 4 bytes.
+[    0.236068] zynq-ocm f800c000.ps7-ocmc: ZYNQ OCM pool: 256 KiB @ 0xdf880000
+[    0.257939] bio: create slab <bio-0> at 0
+[    0.259346] vgaarb: loaded
+[    0.260073] SCSI subsystem initialized
+[    0.262029] usbcore: registered new interface driver usbfs
+[    0.262217] usbcore: registered new interface driver hub
+[    0.262452] usbcore: registered new device driver usb
+[    0.262977] media: Linux media interface: v0.10
+[    0.263136] Linux video capture interface: v2.00
+[    0.263376] pps_core: LinuxPPS API ver. 1 registered
+[    0.263388] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.263510] PTP clock support registered
+[    0.263882] EDAC MC: Ver: 3.0.0
+[    0.264921] Advanced Linux Sound Architecture Driver Initialized.
+[    0.267754] DMA-API: preallocated 4096 debug entries
+[    0.267768] DMA-API: debugging enabled by kernel config
+[    0.267842] Switched to clocksource arm_global_timer
+[    0.287651] NET: Registered protocol family 2
+[    0.288379] TCP established hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.288436] TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.288521] TCP: Hash tables configured (established 4096 bind 4096)
+[    0.288565] TCP: reno registered
+[    0.288582] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    0.288614] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    0.288869] NET: Registered protocol family 1
+[    0.289173] RPC: Registered named UNIX socket transport module.
+[    0.289186] RPC: Registered udp transport module.
+[    0.289195] RPC: Registered tcp transport module.
+[    0.289203] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.289216] PCI: CLS 0 bytes, default 64
+[    0.289644] hw perfevents: enabled with ARMv7 Cortex-A9 PMU driver, 7 counters available
+[    0.291653] futex hash table entries: 512 (order: 3, 32768 bytes)
+[    0.293777] jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+[    0.293971] msgmni has been set to 967
+[    0.294744] io scheduler noop registered
+[    0.294757] io scheduler deadline registered
+[    0.294799] io scheduler cfq registered (default)
+[    0.306963] dma-pl330 f8003000.ps7-dma: Loaded driver for PL330 DMAC-2364208
+[    0.306983] dma-pl330 f8003000.ps7-dma: 	DBUFF-128x8bytes Num_Chans-8 Num_Peri-4 Num_Events-16
+[    0.430025] e0001000.serial: ttyPS0 at MMIO 0xe0001000 (irq = 82, base_baud = 3124999) is a xuartps
+[    0.997872] console [ttyPS0] enabled
+[    1.002126] xdevcfg f8007000.ps7-dev-cfg: ioremap 0xf8007000 to df866000
+[    1.009781] [drm] Initialized drm 1.1.0 20060810
+[    1.026884] brd: module loaded
+[    1.036250] loop: module loaded
+[    1.045700] e1000e: Intel(R) PRO/1000 Network Driver - 2.3.2-k
+[    1.051691] e1000e: Copyright(c) 1999 - 2013 Intel Corporation.
+[    1.059743] libphy: XEMACPS mii bus: probed
+[    1.064110] ------------- phy_id = 0x3625e62
+[    1.068871] xemacps e000b000.ps7-ethernet: pdev->id -1, baseaddr 0xe000b000, irq 54
+[    1.077449] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.084101] ehci-pci: EHCI PCI platform driver
+[    1.091333] zynq-dr e0002000.ps7-usb: Unable to init USB phy, missing?
+[    1.098164] usbcore: registered new interface driver usb-storage
+[    1.105004] mousedev: PS/2 mouse device common for all mice
+[    1.111210] i2c /dev entries driver
+[    1.118181] zynq-edac f8006000.ps7-ddrc: ecc not enabled
+[    1.123669] cpufreq_cpu0: failed to get cpu0 regulator: -19
+[    1.129584] Xilinx Zynq CpuIdle Driver started
+[    1.134422] sdhci: Secure Digital Host Controller Interface driver
+[    1.140543] sdhci: Copyright(c) Pierre Ossman
+[    1.144859] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.151740] mmc0: no vqmmc regulator found
+[    1.155756] mmc0: no vmmc regulator found
+[    1.197870] mmc0: SDHCI controller on e0100000.ps7-sdio [e0100000.ps7-sdio] using ADMA
+[    1.206556] usbcore: registered new interface driver usbhid
+[    1.212067] usbhid: USB HID core driver
+[    1.216803] nand: device found, Manufacturer ID: 0x2c, Chip ID: 0xda
+[    1.223102] nand: Micron MT29F2G08ABAEAWP
+[    1.227070] nand: 256MiB, SLC, page size: 2048, OOB size: 64
+[    1.233008] Bad block table found at page 131008, version 0x01
+[    1.239227] Bad block table found at page 130944, version 0x01
+[    1.245280] 3 ofpart partitions found on MTD device pl353-nand
+[    1.251059] Creating 3 MTD partitions on "pl353-nand":
+[    1.256152] 0x000000000000-0x000002000000 : "BOOT.bin-env-dts-kernel"
+[    1.264200] 0x000002000000-0x00000b000000 : "angstram-rootfs"
+[    1.271506] 0x00000b000000-0x000010000000 : "upgrade-rootfs"
+[    1.280442] TCP: cubic registered
+[    1.283673] NET: Registered protocol family 17
+[    1.288394] Registering SWP/SWPB emulation handler
+[    1.294273] regulator-dummy: disabling
+[    1.298615] UBI: attaching mtd1 to ubi0
+[    1.825338] UBI: scanning is finished
+[    1.836998] UBI: attached mtd1 (name "angstram-rootfs", size 144 MiB) to ubi0
+[    1.844078] UBI: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[    1.850842] UBI: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+[    1.857506] UBI: VID header offset: 2048 (aligned 2048), data offset: 4096
+[    1.864384] UBI: good PEBs: 1152, bad PEBs: 0, corrupted PEBs: 0
+[    1.870364] UBI: user volume: 1, internal volumes: 1, max. volumes count: 128
+[    1.877472] UBI: max/mean erase counter: 2/0, WL threshold: 4096, image sequence number: 1283732989
+[    1.886514] UBI: available PEBs: 0, total reserved PEBs: 1152, PEBs reserved for bad PEB handling: 40
+[    1.895731] UBI: background thread "ubi_bgt0d" started, PID 1080
+[    1.895736] drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+[    1.899686] ALSA device list:
+[    1.899689]   No soundcards found.
+[    1.916075] UBIFS: background thread "ubifs_bgt0_0" started, PID 1082
+[    1.945078] UBIFS: recovery needed
+[    2.022727] UBIFS: recovery completed
+[    2.026393] UBIFS: mounted UBI device 0, volume 0, name "rootfs"
+[    2.032338] UBIFS: LEB size: 126976 bytes (124 KiB), min./max. I/O unit sizes: 2048 bytes/2048 bytes
+[    2.041443] UBIFS: FS size: 128626688 bytes (122 MiB, 1013 LEBs), journal size 9023488 bytes (8 MiB, 72 LEBs)
+[    2.051332] UBIFS: reserved for root: 0 bytes (0 KiB)
+[    2.056362] UBIFS: media format: w4/r0 (latest is w4/r0), UUID C72F8006-6DFF-46BA-BBE9-380960A89F92, small LPT model
+[    2.067658] VFS: Mounted root (ubifs filesystem) on device 0:11.
+[    2.075076] devtmpfs: mounted
+[    2.078202] Freeing unused kernel memory: 204K (c06d2000 - c0705000)
+[    2.914133] random: dd urandom read with 0 bits of entropy available
+[    3.297895] 
+[    3.297895] bcm54xx_config_init
+[    3.907890] 
+[    3.907890] bcm54xx_config_init
+[    7.908708] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[    7.914812] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+[   25.484785] In axi fpga driver!
+[   25.487883] request_mem_region OK!
+[   25.491246] AXI fpga dev virtual address is 0xdf9fc000
+[   25.496352] *base_vir_addr = 0x8c510
+[   25.512085] In fpga mem driver!
+[   25.515154] request_mem_region OK!
+[   25.518764] fpga mem virtual address is 0xe2000000
+[   26.327313] 
+[   26.327313] bcm54xx_config_init
+[   26.957214] 
+[   26.957214] bcm54xx_config_init
+[   31.957589] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[   31.963691] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+[  250.445291] 
+[  250.445291] bcm54xx_config_init
+[  254.445765] xemacps e000b000.ps7-ethernet: Set clk to 124999998 Hz
+[  254.451873] xemacps e000b000.ps7-ethernet: link up (1000/FULL)
+This is XILINX board. Totalram:       507527168
+Detect 512MB control board of XILINX
+Find Force Freq=600 will search Freq again!
+DETECT HW version=0008c510
+miner ID : 807cc50c68808814
+config file found, will disable freq setting.
+Miner Type = S9
+AsicType = 1387
+real AsicNum = 63
+Find /tmp/searcherror: F:1  The last log is below:
+This is XILINX board. Totalram:       507527168
+Detect 512MB control board of XILINX
+Find Force Freq=600 will search Freq again!
+DETECT HW version=0008c510
+miner ID : 807cc50c68808814
+config file found, will disable freq setting.
+Miner Type = S9
+AsicType = 1387
+real AsicNum = 63
+use critical mode to search freq...
+get PLUG ON=0x000000e0
+Find hashboard on Chain[5]
+Find hashboard on Chain[6]
+Find hashboard on Chain[7]
+set_reset_allhashboard = 0x0000ffff
+Check chain[5] PIC fw version=0x03
+Check chain[6] PIC fw version=0x03
+Check chain[7] PIC fw version=0x03
+chain[5]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+Start search freq on chain[5]...
+Check chain[5] PIC fw version=0x03
+chain[6]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+Start search freq on chain[6]...
+Check chain[6] PIC fw version=0x03
+chain[7]: [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255] [63:255]
+Start search freq on chain[7]...
+Check chain[7] PIC fw version=0x03
+get PIC voltage=91 on chain[5], value=890
+get PIC voltage=6 on chain[6], value=940
+get PIC voltage=6 on chain[7], value=940
+set voltage=870 search freq on chain[5]
+now set pic voltage=125 on chain[5]
+set voltage=870 search freq on chain[6]
+now set pic voltage=125 on chain[6]
+set voltage=870 search freq on chain[7]
+now set pic voltage=125 on chain[7]
+enable_pic_dac on chain[5]
+enable_pic_dac on chain[6]
+enable_pic_dac on chain[7]
+set_reset_allhashboard = 0x00000000
+chain[5] temp offset record: 62,-4,0,0,0,0,33,0
+chain[5] temp chip I2C addr=0x98
+chain[6] temp offset record: 62,-5,0,0,0,0,33,0
+chain[6] temp chip I2C addr=0x98
+chain[7] temp offset record: 62,-4,0,0,0,0,33,0
+chain[7] temp chip I2C addr=0x98
+set_reset_allhashboard = 0x0000ffff
+set_reset_allhashboard = 0x00000000
+CRC error counter=0
+set command mode to VIL
+
+--- check asic number
+check chain[5]: asicNum = 63
+check chain[6]: asicNum = 63
+check chain[7]: asicNum = 63
+After Get ASIC NUM CRC error counter=0
+set_baud=0
+SEARCH_FREQ_TEST_LEVEL mode set freq=650 voltage=870 on chain[5]
+SEARCH_FREQ_TEST_LEVEL mode set freq=650 voltage=870 on chain[6]
+SEARCH_FREQ_TEST_LEVEL mode set freq=650 voltage=870 on chain[7]
+The min freq=650
+set real timeout 56, need sleep=408576
+start send works on chain[5]
+start send works on chain[6]
+start send works on chain[7]
+get send work num :57456 on Chain[5]
+get send work num :57456 on Chain[6]
+get send work num :57456 on Chain[7]
+wait recv nonce on chain[5]
+wait recv nonce on chain[6]
+wait recv nonce on chain[7]
+get nonces on chain[5]
+require nonce number:912
+require validnonce number:57456
+
+
+freq[00]=650	freq[01]=650	freq[02]=650	freq[03]=650	freq[04]=650	freq[05]=650	freq[06]=650	freq[07]=650	
+freq[08]=650	freq[09]=650	freq[10]=650	freq[11]=650	freq[12]=650	freq[13]=650	freq[14]=650	freq[15]=650	
+freq[16]=650	freq[17]=650	freq[18]=650	freq[19]=650	freq[20]=650	freq[21]=650	freq[22]=650	freq[23]=650	
+freq[24]=650	freq[25]=650	freq[26]=650	freq[27]=650	freq[28]=650	freq[29]=650	freq[30]=650	freq[31]=650	
+freq[32]=650	freq[33]=650	freq[34]=650	freq[35]=650	freq[36]=650	freq[37]=650	freq[38]=650	freq[39]=650	
+freq[40]=650	freq[41]=650	freq[42]=650	freq[43]=650	freq[44]=650	freq[45]=650	freq[46]=650	freq[47]=650	
+freq[48]=650	freq[49]=650	freq[50]=650	freq[51]=650	freq[52]=650	freq[53]=650	freq[54]=650	freq[55]=650	
+freq[56]=650	freq[57]=650	freq[58]=650	freq[59]=650	freq[60]=650	freq[61]=650	freq[62]=650	
+
+total valid nonce number:55640
+total send work number:57456
+require valid nonce number:57456
+repeated_nonce_num:0
+err_nonce_num:13583
+last_nonce_num:2909
+get nonces on chain[6]
+require nonce number:912
+require validnonce number:57456
+
+
+freq[00]=650	freq[01]=650	freq[02]=650	freq[03]=650	freq[04]=650	freq[05]=650	freq[06]=650	freq[07]=650	
+freq[08]=650	freq[09]=650	freq[10]=650	freq[11]=650	freq[12]=650	freq[13]=650	freq[14]=650	freq[15]=650	
+freq[16]=650	freq[17]=650	freq[18]=650	freq[19]=650	freq[20]=650	freq[21]=650	freq[22]=650	freq[23]=650	
+freq[24]=650	freq[25]=650	freq[26]=650	freq[27]=650	freq[28]=650	freq[29]=650	freq[30]=650	freq[31]=650	
+freq[32]=650	freq[33]=650	freq[34]=650	freq[35]=650	freq[36]=650	freq[37]=650	freq[38]=650	freq[39]=650	
+freq[40]=650	freq[41]=650	freq[42]=650	freq[43]=650	freq[44]=650	freq[45]=650	freq[46]=650	freq[47]=650	
+freq[48]=650	freq[49]=650	freq[50]=650	freq[51]=650	freq[52]=650	freq[53]=650	freq[54]=650	freq[55]=650	
+freq[56]=650	freq[57]=650	freq[58]=650	freq[59]=650	freq[60]=650	freq[61]=650	freq[62]=650	
+
+total valid nonce number:51966
+total send work number:57456
+require valid nonce number:57456
+repeated_nonce_num:0
+err_nonce_num:12776
+last_nonce_num:3063
+get nonces on chain[7]
+require nonce number:912
+require validnonce number:57456
+
+
+freq[00]=650	freq[01]=650	freq[02]=650	freq[03]=650	freq[04]=650	freq[05]=650	freq[06]=650	freq[07]=650	
+freq[08]=650	freq[09]=650	freq[10]=650	freq[11]=650	freq[12]=650	freq[13]=650	freq[14]=650	freq[15]=650	
+freq[16]=650	freq[17]=650	freq[18]=650	freq[19]=650	freq[20]=650	freq[21]=650	freq[22]=650	freq[23]=650	
+freq[24]=650	freq[25]=650	freq[26]=650	freq[27]=650	freq[28]=650	freq[29]=650	freq[30]=650	freq[31]=650	
+freq[32]=650	freq[33]=650	freq[34]=650	freq[35]=650	freq[36]=650	freq[37]=650	freq[38]=650	freq[39]=650	
+freq[40]=650	freq[41]=650	freq[42]=650	freq[43]=650	freq[44]=650	freq[45]=650	freq[46]=650	freq[47]=650	
+freq[48]=650	freq[49]=650	freq[50]=650	freq[51]=650	freq[52]=650	freq[53]=650	freq[54]=650	freq[55]=650	
+freq[56]=650	freq[57]=650	freq[58]=650	freq[59]=650	freq[60]=650	freq[61]=650	freq[62]=650	
+
+total valid nonce number:57339
+total send work number:57456
+require valid nonce number:57456
+repeated_nonce_num:0
+err_nonce_num:14005
+last_nonce_num:3001
+checkBoardState chain[5] rate=4147 bad_chip_num=7 lowest rate=4666 ret=1
+checkBoardState chain[6] rate=3679 bad_chip_num=13 lowest rate=4666 ret=1
+checkBoardState chain[7] rate=4586 bad_chip_num=1 lowest rate=4666 ret=0
+Detect Higher Rate = 4586 > 0 on chain[7] freq=650 voltage=870
+After TEST CRC error counter=0
+check FAN Speed: fan[2] speed=5880
+check FAN Speed Error: fan[4] speed=600
