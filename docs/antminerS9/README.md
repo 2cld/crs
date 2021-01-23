@@ -5,6 +5,7 @@
 - [Copy Excel to Markdown](https://thisdavej.com/copy-table-in-excel-and-paste-as-a-markdown-table/)
 
 ### Rework Status 01.23.2021
+
 | Status                                                               | location | Log on crs.2cld | ASICS |
 |----------------------------------------------------------------------|----------|-----------------|-------|
 | chain 6 and 7 last asic bad, also temp chips on both not registering | Chris    | crs-s9-w1.log   | 123   |
@@ -19,6 +20,7 @@
 | no chain 6 (7 and 8 are fine)                                        | Chris    | crs-s9-w10      | 126   |
 | all OK                                                               | Chris    | crs-s9-w11      | 189   |
 | testing                                                              | Chris    | crs-s9-w12      |       |
+
 
 ## S9 Setup
 - [AntMiner S9 Setup Guide Part I by CryptoCrane](https://www.youtube.com/watch?v=sz-XZL77qqs)
