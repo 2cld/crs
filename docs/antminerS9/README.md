@@ -8,18 +8,18 @@
 
 | Status                                                               | location | Log on crs.2cld | ASICS |
 |----------------------------------------------------------------------|----------|-----------------|-------|
-| chain 6 and 7 last asic bad, also temp chips on both not registering | Chris    | crs-s9-w1.log   | 123   |
-| chain 6 and 7 last asic bad, also temp chips on both not registering | Joey     | crs-s9-w2.log   | 187   |
+| chain 6 - 0, 7 - 60, 8 - 63                                          | Chris    | crs-s9-w1.log   | 123   |
+| chain 6 and 7 last asic bad, also temp chips on both not registering | Joey     | crs-s9-w2 - na  | 187   |
 | bad fan ?                                                            | Joey     | crs-s9-w3.log   |       |
-| all OK                                                               | Chris    | crs-s9-w4.log   | 189   |
+| all OK - ssh                                                         | Chris    | crs-s9-w4.log   | 189   |
 | all OK                                                               | Joey     | crs-s9-w5.log   | 189   |
 | no chain 6 (7 and 8 are fine)                                        | Joey     | crs-s9-w6.log   | 126   |
 | all OK                                                               | Joey     | crs-s9-w7.log   | 189   |
-| DOA                                                                  | Chris    | crs-s9-w8       |       |
-| DOA                                                                  | Chris    | crs-s9-w9       |       |
-| no chain 6 (7 and 8 are fine)                                        | Chris    | crs-s9-w10      | 126   |
-| all OK                                                               | Chris    | crs-s9-w11      | 189   |
-| testing                                                              | Chris    | crs-s9-w12      |       |
+| bad fan ?                                                            | Chris    | crs-s9-w8.log   |       |
+| DOA                                                                  | Chris    | crs-s9-w9 - na  |       |
+| no chain 6 (7 and 8 are fine)                                        | Chris    | crs-s9-w10.log  | 126   |
+| all OK - ssh                                                         | Chris    | crs-s9-w11.log  | 189   |
+| not tested                                                           | Joey     | crs-s9-w12 - na |       |
 
 
 ## S9 Setup
