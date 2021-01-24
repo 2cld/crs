@@ -6,32 +6,66 @@
 
 ### Rework Status 01.23.2021
 
-| Status                                                               | location | Log on crs.2cld | ASICS |
-|----------------------------------------------------------------------|----------|-----------------|-------|
-| chain 6 - 0, 7 - 60, 8 - 63                                          | Chris    | crs-s9-w1.log   | 123   |
-| chain 6 and 7 last asic bad, also temp chips on both not registering | Joey     | crs-s9-w2 - na  | 187   |
-| bad fan ?                                                            | Joey     | crs-s9-w3.log   |       |
-| all OK - ssh                                                         | Chris    | crs-s9-w4.log   | 189   |
-| all OK                                                               | Joey     | crs-s9-w5.log   | 189   |
-| no chain 6 (7 and 8 are fine)                                        | Joey     | crs-s9-w6.log   | 126   |
-| all OK                                                               | Joey     | crs-s9-w7.log   | 189   |
-| bad fan ?                                                            | Chris    | crs-s9-w8.log   |       |
-| bad fan ?                                                            | Chris    | crs-s9-w9.log   |       |
-| no chain 6 (7 and 8 are fine)                                        | Chris    | crs-s9-w10.log  | 126   |
-| all OK - ssh                                                         | Chris    | crs-s9-w11.log  | 189   |
-| not tested                                                           | Joey     | crs-s9-w12 - na |       |
+| Triage | Detail                       | location | Log on crs.2cld | ASICS |
+|--------|------------------------------|----------|-----------------|-------|
+| ASIC   | chain 6 - 0, 7 - 60, 8 - 63  | Chris    | crs-s9-w1.log   | 123   |
+| ASIC   | chain 6 - 62, 7 - 62, 8 - 63 | Joey     | crs-s9-w2 - na  | 187   |
+| FAN    | bad fan                      | Joey     | crs-s9-w3.log   |       |
+| AOK    | all OK - ssh                 | Chris    | crs-s9-w4.log   | 189   |
+| AOK    | all OK                       | Joey     | crs-s9-w5.log   | 189   |
+| ASIC   | chain 6 - 0, 7 - 63, 8 - 63  | Joey     | crs-s9-w6.log   | 126   |
+| AOK    | all OK                       | Joey     | crs-s9-w7.log   | 189   |
+| FAN    | bad fan                      | Chris    | crs-s9-w8.log   |       |
+| FAN    | bad fan                      | Chris    | crs-s9-w9.log   |       |
+| ASIC   | chain 6 - 0, 7 - 63, 8 - 63  | Chris    | crs-s9-w10.log  | 126   |
+| AOK    | all OK - ssh                 | Chris    | crs-s9-w11.log  | 189   |
+|        | not tested                   | Joey     | crs-s9-w12      |       |
+|        | not tested                   | John     | crs-s9-w13      |       |
+|        | not tested                   | John     | crs-s9-w14      |       |
+|        | not tested                   | John     | crs-s9-w15      |       |
+|        | not tested                   | John     | crs-s9-w16      |       |
+|        | not tested                   | John     | crs-s9-w17      |       |
+|        | not tested                   |          | crs-s9-w18      |       |
+|        | not tested                   |          | crs-s9-w19      |       |
+|        | not tested                   |          | crs-s9-w20      |       |
 
 ## S9 Triage
-Many of the units have min issues.  All need restoration work.  Set up a lab to triage units as they come in.
+Many of the units have min issues.  All units need restoration work.  Set up a lab to triage units as they come in into the following:
+
+#### S9 unit Triage Tags
+1. DOA
+    - nothing works 
+    - no lights or fans
+2. WEB
+    - unit controller lights up
+    - unit gets DHCP 
+    - browser is able to access via WEB 
+    - Unit has no HASH status
+3. FAN 
+    - unit has WEB
+    - unit FANS do not spin
+    - unit reports FAN issues
+4. ASIC
+    - unit passes WEB
+    - unit passes FAN
+    - unit has at least one RED LED on hashboards
+    - unit reports hash units but not 189 ASICS
+5. AOK 
+    - unit passes WEB
+    - unit passes FAN
+    - unit has RED LED on all hashboards
+    - unit reports all 189 ASICS and starts to hash
 
 ### Triage control station
 1. Internet router with DCHP server
 2. Computer with browser access to [http://crs.2cld.net/docs/antminerS9/](http://crs.2cld.net/docs/antminerS9/)
 3. User access to [crsBoardRefresh](https://docs.google.com/spreadsheets/d/1OY2vIPBp0MtdGgWja4nCJwE-r7zml7iQ-lLumCsUtlI/edit#gid=1822583908)
+4. 3 x S9 triage station (see below)
 
-### S9 triage unit will require:
+### S9 triage station will require:
 1. Dedicated 15 amp 120 volt power
 2. J45 Ethernet jack
+3. Known good 1300 Watt 120 volt power supply
 
 ### S9 triage proceedure
 1. Label unit and recored crs-s9-w<number> in [crsBoardRefresh](https://docs.google.com/spreadsheets/d/1OY2vIPBp0MtdGgWja4nCJwE-r7zml7iQ-lLumCsUtlI/edit#gid=1822583908).  Label inbound power supply also.
