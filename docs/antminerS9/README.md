@@ -21,7 +21,40 @@
 | all OK - ssh                                                         | Chris    | crs-s9-w11.log  | 189   |
 | not tested                                                           | Joey     | crs-s9-w12 - na |       |
 
+## S9 Triage
+Many of the units have min issues.  All need restoration work.  Set up a lab to triage units as they come in.
 
+### Triage control station
+1. Internet router with DCHP server
+2. Computer with browser access to [http://crs.2cld.net/docs/antminerS9/](http://crs.2cld.net/docs/antminerS9/)
+3. User access to [crsBoardRefresh](https://docs.google.com/spreadsheets/d/1OY2vIPBp0MtdGgWja4nCJwE-r7zml7iQ-lLumCsUtlI/edit#gid=1822583908)
+
+### S9 triage unit will require:
+1. Dedicated 15 amp 120 volt power
+2. J45 Ethernet jack
+
+### S9 triage proceedure
+1. Label unit and recored crs-s9-w<number> in [crsBoardRefresh](https://docs.google.com/spreadsheets/d/1OY2vIPBp0MtdGgWja4nCJwE-r7zml7iQ-lLumCsUtlI/edit#gid=1822583908).  Label inbound power supply also.
+2. Power up unit as is
+3. Obtain IP from DHCP server and attempt to access unit
+    - Update Miner Configuraion and worker node info
+    - Record crs-s9-w<number>.log
+4. If controller board does not come up (start to remove possible power faults)
+    - Unplug power from hashboards
+    - Unplug fans from controller board
+    - Unplug and remove inbound powersupply
+    - Mark label on Powersupply as BAD with date
+5. Use good power supply to identify good parts
+    - Plug in just controller board, set and collect data from web
+    - Plug in each fan, remove and label fan as BAD as you find them
+    - Plug in hashboards and identify and record status as you find them
+4. Identify and record unit status
+    - DOA - nothing works no lights or fans
+    - WEB - unit gets DHCP and able to access via WEB but no HASH status
+    - FAN - unit reports FAN issues
+    - ASIC - unit reports hash units but not 189 ASICS
+    - AOK - unit reports all 189 ASICS and starts to hash
+  
 ## S9 Setup
 - [AntMiner S9 Setup Guide Part I by CryptoCrane](https://www.youtube.com/watch?v=sz-XZL77qqs)
 - [AntMiner S9 Setup Guide Part II by CryptoCrane](https://www.youtube.com/watch?v=tUQcE6I7jzk)
